@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# EasyOCR model cache
+.EasyOCR/
+
+# Pytest cache
+.pytest_cache/
+.cache/
+
+# Temp scratch files
+scratch/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Streamlit runtime
+.streamlit/secrets.toml

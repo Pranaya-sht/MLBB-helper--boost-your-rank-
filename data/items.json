@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Athena's Shield",
+    "price": 2150,
+    "stats": {
+      "magic_defense": 62,
+      "hp": 900,
+      "hp_regen": 4
+    },
+    "counter_tags": ["burst", "magic"],
+    "description": "Reduces magic damage taken by 25% for 3s upon taking magic damage."
+  },
+  {
+    "name": "Sea Halberd",
+    "price": 2200,
+    "stats": {
+      "physical_attack": 80,
+      "attack_speed": 25
+    },
+    "counter_tags": ["sustain", "shield", "regen"],
+    "description": "Reduces target's healing and shield by 50% for 3s upon dealing damage."
+  },
+  {
+    "name": "Dominance Ice",
+    "price": 2010,
+    "stats": {
+      "physical_defense": 70,
+      "mana": 500,
+      "movement_speed": 4
+    },
+    "counter_tags": ["sustain", "attack_speed", "regen"],
+    "description": "Reduces nearby enemy heroes' attack speed by 30% and shield/healing by 50%."
+  },
+  {
+    "name": "Malefic Roar",
+    "price": 2060,
+    "stats": {
+      "physical_attack": 60
+    },
+    "counter_tags": ["tank", "physical_defense"],
+    "description": "Increases physical penetration by up to 40% based on the enemy's physical defense."
+  },
+  {
+    "name": "Blade of Despair",
+    "price": 3010,
+    "stats": {
+      "physical_attack": 160,
+      "movement_speed": 5
+    },
+    "counter_tags": ["burst"],
+    "description": "Increases physical attack by 25% when attacking enemies with HP below 50%."
+  }
+]

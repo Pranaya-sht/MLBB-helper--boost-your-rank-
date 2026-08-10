@@ -1,0 +1,1342 @@
+[
+  {
+    "name": "Aamon",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "assassin",
+      "chase"
+    ]
+  },
+  {
+    "name": "Akai",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "support",
+      "guard"
+    ]
+  },
+  {
+    "name": "Aldous",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "burst"
+    ]
+  },
+  {
+    "name": "Alice",
+    "role": "Exp Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "tank",
+      "charge",
+      "regen"
+    ]
+  },
+  {
+    "name": "Alpha",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "charge"
+    ]
+  },
+  {
+    "name": "Alucard",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "assassin",
+      "chase",
+      "damage"
+    ]
+  },
+  {
+    "name": "Angela",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "support",
+      "guard"
+    ]
+  },
+  {
+    "name": "Argus",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "charge"
+    ]
+  },
+  {
+    "name": "Atlas",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "support",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Aulus",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "damage"
+    ]
+  },
+  {
+    "name": "Aurora",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Badang",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "charge"
+    ]
+  },
+  {
+    "name": "Balmond",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "damage"
+    ]
+  },
+  {
+    "name": "Bane",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "mage",
+      "push",
+      "burst"
+    ]
+  },
+  {
+    "name": "Barats",
+    "role": "Exp Laner",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "fighter",
+      "damage",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Baxia",
+    "role": "Jungler",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "support"
+    ]
+  },
+  {
+    "name": "Beatrix",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Belerick",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Benedetta",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "assassin",
+      "chase",
+      "burst"
+    ]
+  },
+  {
+    "name": "Brody",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "burst"
+    ]
+  },
+  {
+    "name": "Bruno",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Carmilla",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "support",
+      "crowd_control",
+      "damage"
+    ]
+  },
+  {
+    "name": "Cecilion",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "poke"
+    ]
+  },
+  {
+    "name": "Chang'E",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "poke"
+    ]
+  },
+  {
+    "name": "Chou",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "chase"
+    ]
+  },
+  {
+    "name": "Claude",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [
+      "Esmeralda"
+    ],
+    "synergies": [
+      "Tigreal"
+    ],
+    "tags": [
+      "marksman",
+      "burst"
+    ]
+  },
+  {
+    "name": "Clint",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Cyclops",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "poke"
+    ]
+  },
+  {
+    "name": "Diggie",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "support",
+      "guard"
+    ]
+  },
+  {
+    "name": "Dyrroth",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "charge"
+    ]
+  },
+  {
+    "name": "Edith",
+    "role": "Exp Laner",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "marksman",
+      "control",
+      "burst"
+    ]
+  },
+  {
+    "name": "Esmeralda",
+    "role": "Exp Laner",
+    "damage_type": "Magic",
+    "counters": [
+      "Tigreal"
+    ],
+    "synergies": [
+      "Gusion"
+    ],
+    "tags": [
+      "mage",
+      "tank",
+      "regen",
+      "mixed_damage"
+    ]
+  },
+  {
+    "name": "Estes",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "support",
+      "regen"
+    ]
+  },
+  {
+    "name": "Eudora",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "control"
+    ]
+  },
+  {
+    "name": "Fanny",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "assassin",
+      "chase"
+    ]
+  },
+  {
+    "name": "Faramis",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "support",
+      "mage",
+      "guard",
+      "charge"
+    ]
+  },
+  {
+    "name": "Floryn",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "support",
+      "poke"
+    ]
+  },
+  {
+    "name": "Franco",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "support",
+      "initiator"
+    ]
+  },
+  {
+    "name": "Fredrinn",
+    "role": "Exp Laner",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "fighter",
+      "damage",
+      "chase"
+    ]
+  },
+  {
+    "name": "Freya",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "chase"
+    ]
+  },
+  {
+    "name": "Gatotkaca",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "fighter",
+      "crowd_control",
+      "burst"
+    ]
+  },
+  {
+    "name": "Gloo",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "regen"
+    ]
+  },
+  {
+    "name": "Gord",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "poke"
+    ]
+  },
+  {
+    "name": "Granger",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "burst"
+    ]
+  },
+  {
+    "name": "Grock",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "crowd_control",
+      "initiator"
+    ]
+  },
+  {
+    "name": "Guinevere",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "burst"
+    ]
+  },
+  {
+    "name": "Gusion",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [
+      "Layla"
+    ],
+    "synergies": [
+      "Tigreal"
+    ],
+    "tags": [
+      "assassin",
+      "burst"
+    ]
+  },
+  {
+    "name": "Hanabi",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Hanzo",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "assassin",
+      "burst"
+    ]
+  },
+  {
+    "name": "Harith",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "chase"
+    ]
+  },
+  {
+    "name": "Harley",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "assassin",
+      "burst",
+      "poke"
+    ]
+  },
+  {
+    "name": "Hayabusa",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "assassin",
+      "chase"
+    ]
+  },
+  {
+    "name": "Helcurt",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "assassin",
+      "push"
+    ]
+  },
+  {
+    "name": "Hilda",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "tank",
+      "damage",
+      "regen"
+    ]
+  },
+  {
+    "name": "Hylos",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "guard"
+    ]
+  },
+  {
+    "name": "Irithel",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Jawhead",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "charge"
+    ]
+  },
+  {
+    "name": "Johnson",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "support",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Julian",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "mage",
+      "chase",
+      "magic_damage"
+    ]
+  },
+  {
+    "name": "Kadita",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "assassin",
+      "tba"
+    ]
+  },
+  {
+    "name": "Kagura",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "poke"
+    ]
+  },
+  {
+    "name": "Kaja",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "support",
+      "control",
+      "charge"
+    ]
+  },
+  {
+    "name": "Karina",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "assassin",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Karrie",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Khaleed",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "damage"
+    ]
+  },
+  {
+    "name": "Khufra",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "support",
+      "initiator"
+    ]
+  },
+  {
+    "name": "Kimmy",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "mage",
+      "damage",
+      "magic_damage"
+    ]
+  },
+  {
+    "name": "Lancelot",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "assassin",
+      "chase"
+    ]
+  },
+  {
+    "name": "Lapu-Lapu",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "chase"
+    ]
+  },
+  {
+    "name": "Layla",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [
+      "Esmeralda"
+    ],
+    "synergies": [
+      "Tigreal"
+    ],
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Leomord",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "chase"
+    ]
+  },
+  {
+    "name": "Lesley",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "assassin",
+      "finisher",
+      "burst"
+    ]
+  },
+  {
+    "name": "Ling",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "assassin",
+      "chase"
+    ]
+  },
+  {
+    "name": "Lolita",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "support",
+      "tank",
+      "guard",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Lunox",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "burst"
+    ]
+  },
+  {
+    "name": "Luo_Yi",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage"
+    ]
+  },
+  {
+    "name": "Lylia",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "push"
+    ]
+  },
+  {
+    "name": "Martis",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Masha",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "tank",
+      "push",
+      "damage"
+    ]
+  },
+  {
+    "name": "Mathilda",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "support",
+      "assassin",
+      "initiator",
+      "guard"
+    ]
+  },
+  {
+    "name": "Melissa",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Minotaur",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "support",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Minsitthar",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "initiator"
+    ]
+  },
+  {
+    "name": "Miya",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Moskov",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Nana",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "support",
+      "poke"
+    ]
+  },
+  {
+    "name": "Natalia",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "assassin",
+      "chase"
+    ]
+  },
+  {
+    "name": "Natan",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "burst"
+    ]
+  },
+  {
+    "name": "Odette",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "burst"
+    ]
+  },
+  {
+    "name": "Paquito",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "chase",
+      "damage"
+    ]
+  },
+  {
+    "name": "Pharsa",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "tba"
+    ]
+  },
+  {
+    "name": "Phoveus",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "chase"
+    ]
+  },
+  {
+    "name": "Popol_And_Kupa",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman"
+    ]
+  },
+  {
+    "name": "Rafaela",
+    "role": "Roamer",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "support",
+      "regen"
+    ]
+  },
+  {
+    "name": "Roger",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "marksman",
+      "finisher",
+      "burst"
+    ]
+  },
+  {
+    "name": "Ruby",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "tank",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Selena",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "assassin",
+      "mage",
+      "initiator",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Silvanna",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "initiator"
+    ]
+  },
+  {
+    "name": "Terizla",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "burst"
+    ]
+  },
+  {
+    "name": "Thamuz",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "chase"
+    ]
+  },
+  {
+    "name": "Tigreal",
+    "role": "Roamer",
+    "damage_type": "Magic",
+    "counters": [
+      "Gusion"
+    ],
+    "synergies": [
+      "Layla"
+    ],
+    "tags": [
+      "tank",
+      "crowd_control",
+      "engage",
+      "sustain"
+    ]
+  },
+  {
+    "name": "Uranus",
+    "role": "Exp Laner",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "tank",
+      "regen"
+    ]
+  },
+  {
+    "name": "Vale",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "burst"
+    ]
+  },
+  {
+    "name": "Valentina",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "burst"
+    ]
+  },
+  {
+    "name": "Valir",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "damage"
+    ]
+  },
+  {
+    "name": "Vexana",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "poke"
+    ]
+  },
+  {
+    "name": "Wanwan",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "X.Borg",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "regen"
+    ]
+  },
+  {
+    "name": "Xavier",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "damage"
+    ]
+  },
+  {
+    "name": "Yi_Sun-Shin",
+    "role": "Jungler",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "assassin",
+      "marksman"
+    ]
+  },
+  {
+    "name": "Yin",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "burst",
+      "control"
+    ]
+  },
+  {
+    "name": "Yu_Zhong",
+    "role": "Exp Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter"
+    ]
+  },
+  {
+    "name": "Yve",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "burst"
+    ]
+  },
+  {
+    "name": "Zhask",
+    "role": "Mid Laner",
+    "damage_type": "Magic",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "mage",
+      "chase"
+    ]
+  },
+  {
+    "name": "Zilong",
+    "role": "Gold Laner",
+    "damage_type": "Physical",
+    "counters": [],
+    "synergies": [],
+    "tags": [
+      "fighter",
+      "assassin",
+      "chase",
+      "damage"
+    ]
+  }
+]
