@@ -1,0 +1,1115 @@
+{
+  "updated_at": "2026-08-10T23:12:40.929330+00:00",
+  "official_rank_page": "https://www.mobilelegends.com/rank",
+  "source": "local_tournament",
+  "roster_count": 124,
+  "heroes": [
+    {
+      "name": "Fanny",
+      "win_rate": 0.4825,
+      "pick_rate": 0.0934,
+      "ban_rate": 0.3269,
+      "bp_rate": 0.3898,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Valentina",
+      "win_rate": 0.4932,
+      "pick_rate": 0.2886,
+      "ban_rate": 0.2918,
+      "bp_rate": 0.4962,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Wanwan",
+      "win_rate": 0.5706,
+      "pick_rate": 0.1443,
+      "ban_rate": 0.2811,
+      "bp_rate": 0.3848,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Yve",
+      "win_rate": 0.5176,
+      "pick_rate": 0.2614,
+      "ban_rate": 0.2179,
+      "bp_rate": 0.4223,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Selena",
+      "win_rate": 0.497,
+      "pick_rate": 0.1559,
+      "ban_rate": 0.2038,
+      "bp_rate": 0.328,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Ling",
+      "win_rate": 0.482,
+      "pick_rate": 0.1893,
+      "ban_rate": 0.2035,
+      "bp_rate": 0.3543,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Joy",
+      "win_rate": 0.5321,
+      "pick_rate": 0.0595,
+      "ban_rate": 0.194,
+      "bp_rate": 0.2419,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Mathilda",
+      "win_rate": 0.5019,
+      "pick_rate": 0.19,
+      "ban_rate": 0.1854,
+      "bp_rate": 0.3401,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Claude",
+      "win_rate": 0.5047,
+      "pick_rate": 0.3247,
+      "ban_rate": 0.1808,
+      "bp_rate": 0.4468,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Kaja",
+      "win_rate": 0.5395,
+      "pick_rate": 0.205,
+      "ban_rate": 0.1758,
+      "bp_rate": 0.3448,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Paquito",
+      "win_rate": 0.5104,
+      "pick_rate": 0.2874,
+      "ban_rate": 0.1678,
+      "bp_rate": 0.4069,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Faramis",
+      "win_rate": 0.554,
+      "pick_rate": 0.1345,
+      "ban_rate": 0.1621,
+      "bp_rate": 0.2748,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Akai",
+      "win_rate": 0.5217,
+      "pick_rate": 0.2283,
+      "ban_rate": 0.1586,
+      "bp_rate": 0.3507,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Grock",
+      "win_rate": 0.469,
+      "pick_rate": 0.2896,
+      "ban_rate": 0.1498,
+      "bp_rate": 0.396,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Diggie",
+      "win_rate": 0.5109,
+      "pick_rate": 0.1027,
+      "ban_rate": 0.1479,
+      "bp_rate": 0.2353,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Angela",
+      "win_rate": 0.441,
+      "pick_rate": 0.112,
+      "ban_rate": 0.1455,
+      "bp_rate": 0.2412,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Chou",
+      "win_rate": 0.523,
+      "pick_rate": 0.4065,
+      "ban_rate": 0.1446,
+      "bp_rate": 0.4924,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Kadita",
+      "win_rate": 0.5643,
+      "pick_rate": 0.1022,
+      "ban_rate": 0.1411,
+      "bp_rate": 0.2289,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Lancelot",
+      "win_rate": 0.4942,
+      "pick_rate": 0.2043,
+      "ban_rate": 0.1392,
+      "bp_rate": 0.3151,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Esmeralda",
+      "win_rate": 0.4804,
+      "pick_rate": 0.3139,
+      "ban_rate": 0.1285,
+      "bp_rate": 0.4021,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Hayabusa",
+      "win_rate": 0.4949,
+      "pick_rate": 0.1484,
+      "ban_rate": 0.1241,
+      "bp_rate": 0.2541,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Franco",
+      "win_rate": 0.5322,
+      "pick_rate": 0.1142,
+      "ban_rate": 0.1219,
+      "bp_rate": 0.2222,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Khufra",
+      "win_rate": 0.4823,
+      "pick_rate": 0.2211,
+      "ban_rate": 0.119,
+      "bp_rate": 0.3137,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Pharsa",
+      "win_rate": 0.4921,
+      "pick_rate": 0.2741,
+      "ban_rate": 0.1166,
+      "bp_rate": 0.3587,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Yu Zhong",
+      "win_rate": 0.4908,
+      "pick_rate": 0.1796,
+      "ban_rate": 0.1153,
+      "bp_rate": 0.2742,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Baxia",
+      "win_rate": 0.4933,
+      "pick_rate": 0.1826,
+      "ban_rate": 0.1035,
+      "bp_rate": 0.2671,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Beatrix",
+      "win_rate": 0.5185,
+      "pick_rate": 0.2727,
+      "ban_rate": 0.1004,
+      "bp_rate": 0.3457,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Uranus",
+      "win_rate": 0.4964,
+      "pick_rate": 0.1792,
+      "ban_rate": 0.0986,
+      "bp_rate": 0.2601,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Phoveus",
+      "win_rate": 0.5452,
+      "pick_rate": 0.0539,
+      "ban_rate": 0.0982,
+      "bp_rate": 0.1468,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Jawhead",
+      "win_rate": 0.4958,
+      "pick_rate": 0.1339,
+      "ban_rate": 0.0972,
+      "bp_rate": 0.2181,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Gloo",
+      "win_rate": 0.5461,
+      "pick_rate": 0.0928,
+      "ban_rate": 0.0922,
+      "bp_rate": 0.1764,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Harith",
+      "win_rate": 0.5128,
+      "pick_rate": 0.1069,
+      "ban_rate": 0.0884,
+      "bp_rate": 0.1858,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Natalia",
+      "win_rate": 0.4561,
+      "pick_rate": 0.0476,
+      "ban_rate": 0.0881,
+      "bp_rate": 0.1314,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Lunox",
+      "win_rate": 0.5149,
+      "pick_rate": 0.182,
+      "ban_rate": 0.0806,
+      "bp_rate": 0.2479,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Masha",
+      "win_rate": 0.5088,
+      "pick_rate": 0.0631,
+      "ban_rate": 0.0783,
+      "bp_rate": 0.1364,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Fredrinn",
+      "win_rate": 0.5191,
+      "pick_rate": 0.196,
+      "ban_rate": 0.078,
+      "bp_rate": 0.2586,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Benedetta",
+      "win_rate": 0.4821,
+      "pick_rate": 0.1638,
+      "ban_rate": 0.0761,
+      "bp_rate": 0.2274,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Brody",
+      "win_rate": 0.4754,
+      "pick_rate": 0.1451,
+      "ban_rate": 0.0761,
+      "bp_rate": 0.2101,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Atlas",
+      "win_rate": 0.5411,
+      "pick_rate": 0.0636,
+      "ban_rate": 0.0761,
+      "bp_rate": 0.1348,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Popol And Kupa",
+      "win_rate": 0.5043,
+      "pick_rate": 0.1093,
+      "ban_rate": 0.072,
+      "bp_rate": 0.1734,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Lylia",
+      "win_rate": 0.4875,
+      "pick_rate": 0.1386,
+      "ban_rate": 0.0695,
+      "bp_rate": 0.1984,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Arlott",
+      "win_rate": 0.4739,
+      "pick_rate": 0.0723,
+      "ban_rate": 0.0677,
+      "bp_rate": 0.1351,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Karrie",
+      "win_rate": 0.4855,
+      "pick_rate": 0.1891,
+      "ban_rate": 0.0676,
+      "bp_rate": 0.2438,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Karina",
+      "win_rate": 0.516,
+      "pick_rate": 0.0831,
+      "ban_rate": 0.0639,
+      "bp_rate": 0.1417,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "X.Borg",
+      "win_rate": 0.5188,
+      "pick_rate": 0.1039,
+      "ban_rate": 0.0621,
+      "bp_rate": 0.1596,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Helcurt",
+      "win_rate": 0.4911,
+      "pick_rate": 0.0525,
+      "ban_rate": 0.0618,
+      "bp_rate": 0.1111,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Martis",
+      "win_rate": 0.4408,
+      "pick_rate": 0.1279,
+      "ban_rate": 0.0614,
+      "bp_rate": 0.1814,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Dyrroth",
+      "win_rate": 0.5409,
+      "pick_rate": 0.0782,
+      "ban_rate": 0.0608,
+      "bp_rate": 0.1342,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Terizla",
+      "win_rate": 0.5,
+      "pick_rate": 0.1267,
+      "ban_rate": 0.0566,
+      "bp_rate": 0.1761,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Bruno",
+      "win_rate": 0.5346,
+      "pick_rate": 0.1077,
+      "ban_rate": 0.056,
+      "bp_rate": 0.1577,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Edith",
+      "win_rate": 0.4939,
+      "pick_rate": 0.076,
+      "ban_rate": 0.0555,
+      "bp_rate": 0.1273,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Melissa",
+      "win_rate": 0.4789,
+      "pick_rate": 0.0697,
+      "ban_rate": 0.0525,
+      "bp_rate": 0.1186,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Hilda",
+      "win_rate": 0.4543,
+      "pick_rate": 0.0608,
+      "ban_rate": 0.051,
+      "bp_rate": 0.1087,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Barats",
+      "win_rate": 0.4917,
+      "pick_rate": 0.0744,
+      "ban_rate": 0.0507,
+      "bp_rate": 0.1213,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Alice",
+      "win_rate": 0.5007,
+      "pick_rate": 0.1115,
+      "ban_rate": 0.0498,
+      "bp_rate": 0.1558,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Cecilion",
+      "win_rate": 0.4304,
+      "pick_rate": 0.072,
+      "ban_rate": 0.0494,
+      "bp_rate": 0.1178,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Kagura",
+      "win_rate": 0.4931,
+      "pick_rate": 0.1568,
+      "ban_rate": 0.0487,
+      "bp_rate": 0.1978,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Julian",
+      "win_rate": 0.5,
+      "pick_rate": 0.0468,
+      "ban_rate": 0.0482,
+      "bp_rate": 0.0928,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Estes",
+      "win_rate": 0.5609,
+      "pick_rate": 0.048,
+      "ban_rate": 0.0476,
+      "bp_rate": 0.0933,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Ruby",
+      "win_rate": 0.4585,
+      "pick_rate": 0.1278,
+      "ban_rate": 0.0469,
+      "bp_rate": 0.1687,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Balmond",
+      "win_rate": 0.4664,
+      "pick_rate": 0.0755,
+      "ban_rate": 0.0469,
+      "bp_rate": 0.1188,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Lolita",
+      "win_rate": 0.5242,
+      "pick_rate": 0.1234,
+      "ban_rate": 0.0444,
+      "bp_rate": 0.1624,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Rafaela",
+      "win_rate": 0.5211,
+      "pick_rate": 0.1121,
+      "ban_rate": 0.0418,
+      "bp_rate": 0.1492,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Yi Sun-Shin",
+      "win_rate": 0.5585,
+      "pick_rate": 0.0978,
+      "ban_rate": 0.04,
+      "bp_rate": 0.1339,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Minotaur",
+      "win_rate": 0.4825,
+      "pick_rate": 0.074,
+      "ban_rate": 0.0394,
+      "bp_rate": 0.1105,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Novaria",
+      "win_rate": 0.5135,
+      "pick_rate": 0.0564,
+      "ban_rate": 0.0384,
+      "bp_rate": 0.0926,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Roger",
+      "win_rate": 0.4806,
+      "pick_rate": 0.0822,
+      "ban_rate": 0.0359,
+      "bp_rate": 0.1152,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Thamuz",
+      "win_rate": 0.4928,
+      "pick_rate": 0.1581,
+      "ban_rate": 0.0352,
+      "bp_rate": 0.1877,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Irithel",
+      "win_rate": 0.494,
+      "pick_rate": 0.0879,
+      "ban_rate": 0.0352,
+      "bp_rate": 0.12,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Khaleed",
+      "win_rate": 0.5293,
+      "pick_rate": 0.0623,
+      "ban_rate": 0.0349,
+      "bp_rate": 0.095,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Kimmy",
+      "win_rate": 0.5522,
+      "pick_rate": 0.0654,
+      "ban_rate": 0.0343,
+      "bp_rate": 0.0975,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Nolan",
+      "win_rate": 0.6364,
+      "pick_rate": 0.0067,
+      "ban_rate": 0.0334,
+      "bp_rate": 0.0399,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Lapu-Lapu",
+      "win_rate": 0.4728,
+      "pick_rate": 0.1306,
+      "ban_rate": 0.0297,
+      "bp_rate": 0.1565,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Clint",
+      "win_rate": 0.4701,
+      "pick_rate": 0.0757,
+      "ban_rate": 0.028,
+      "bp_rate": 0.1016,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Valir",
+      "win_rate": 0.5,
+      "pick_rate": 0.0521,
+      "ban_rate": 0.0262,
+      "bp_rate": 0.0769,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Gusion",
+      "win_rate": 0.506,
+      "pick_rate": 0.0499,
+      "ban_rate": 0.0251,
+      "bp_rate": 0.0737,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Aldous",
+      "win_rate": 0.5143,
+      "pick_rate": 0.021,
+      "ban_rate": 0.0232,
+      "bp_rate": 0.0437,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Guinevere",
+      "win_rate": 0.5,
+      "pick_rate": 0.0267,
+      "ban_rate": 0.0212,
+      "bp_rate": 0.0473,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "\"Chang'E\"",
+      "win_rate": 0.4635,
+      "pick_rate": 0.0575,
+      "ban_rate": 0.0207,
+      "bp_rate": 0.0769,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Natan",
+      "win_rate": 0.5045,
+      "pick_rate": 0.0332,
+      "ban_rate": 0.0201,
+      "bp_rate": 0.0526,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Luo Yi",
+      "win_rate": 0.5405,
+      "pick_rate": 0.0332,
+      "ban_rate": 0.0199,
+      "bp_rate": 0.0525,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Xavier",
+      "win_rate": 0.5136,
+      "pick_rate": 0.0439,
+      "ban_rate": 0.0193,
+      "bp_rate": 0.0624,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Ixia",
+      "win_rate": 0.5161,
+      "pick_rate": 0.0139,
+      "ban_rate": 0.0188,
+      "bp_rate": 0.0324,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Granger",
+      "win_rate": 0.4819,
+      "pick_rate": 0.099,
+      "ban_rate": 0.0167,
+      "bp_rate": 0.114,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Harley",
+      "win_rate": 0.4814,
+      "pick_rate": 0.056,
+      "ban_rate": 0.0157,
+      "bp_rate": 0.0708,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Hylos",
+      "win_rate": 0.4467,
+      "pick_rate": 0.0598,
+      "ban_rate": 0.013,
+      "bp_rate": 0.0721,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Aulus",
+      "win_rate": 0.5429,
+      "pick_rate": 0.0156,
+      "ban_rate": 0.0126,
+      "bp_rate": 0.028,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Johnson",
+      "win_rate": 0.4348,
+      "pick_rate": 0.0137,
+      "ban_rate": 0.0126,
+      "bp_rate": 0.0261,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Lesley",
+      "win_rate": 0.4286,
+      "pick_rate": 0.0156,
+      "ban_rate": 0.012,
+      "bp_rate": 0.0274,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Minsitthar",
+      "win_rate": 0.4762,
+      "pick_rate": 0.0156,
+      "ban_rate": 0.0117,
+      "bp_rate": 0.0271,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Eudora",
+      "win_rate": 0.5942,
+      "pick_rate": 0.0205,
+      "ban_rate": 0.0116,
+      "bp_rate": 0.0318,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Leomord",
+      "win_rate": 0.489,
+      "pick_rate": 0.0473,
+      "ban_rate": 0.0107,
+      "bp_rate": 0.0574,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Floryn",
+      "win_rate": 0.4138,
+      "pick_rate": 0.0129,
+      "ban_rate": 0.0106,
+      "bp_rate": 0.0233,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "",
+      "win_rate": 0.0,
+      "pick_rate": 0.0,
+      "ban_rate": 0.0104,
+      "bp_rate": 0.0104,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Aamon",
+      "win_rate": 0.55,
+      "pick_rate": 0.0118,
+      "ban_rate": 0.01,
+      "bp_rate": 0.0217,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Bane",
+      "win_rate": 0.4815,
+      "pick_rate": 0.0279,
+      "ban_rate": 0.0084,
+      "bp_rate": 0.036,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Hanzo",
+      "win_rate": 0.2571,
+      "pick_rate": 0.0052,
+      "ban_rate": 0.0082,
+      "bp_rate": 0.0133,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Gord",
+      "win_rate": 0.4698,
+      "pick_rate": 0.022,
+      "ban_rate": 0.0073,
+      "bp_rate": 0.0292,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Moskov",
+      "win_rate": 0.4286,
+      "pick_rate": 0.0186,
+      "ban_rate": 0.0066,
+      "bp_rate": 0.0251,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Saber",
+      "win_rate": 0.4974,
+      "pick_rate": 0.0288,
+      "ban_rate": 0.0062,
+      "bp_rate": 0.0347,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Yin",
+      "win_rate": 0.4167,
+      "pick_rate": 0.0053,
+      "ban_rate": 0.0059,
+      "bp_rate": 0.0111,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Tigreal",
+      "win_rate": 0.4837,
+      "pick_rate": 0.0225,
+      "ban_rate": 0.005,
+      "bp_rate": 0.0274,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Badang",
+      "win_rate": 0.5156,
+      "pick_rate": 0.0094,
+      "ban_rate": 0.005,
+      "bp_rate": 0.0144,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Silvanna",
+      "win_rate": 0.49,
+      "pick_rate": 0.0294,
+      "ban_rate": 0.0045,
+      "bp_rate": 0.0339,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Nana",
+      "win_rate": 0.3704,
+      "pick_rate": 0.0119,
+      "ban_rate": 0.0041,
+      "bp_rate": 0.016,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Carmilla",
+      "win_rate": 0.4615,
+      "pick_rate": 0.021,
+      "ban_rate": 0.0038,
+      "bp_rate": 0.0248,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Vale",
+      "win_rate": 0.4615,
+      "pick_rate": 0.0134,
+      "ban_rate": 0.0035,
+      "bp_rate": 0.0169,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Zhask",
+      "win_rate": 0.4737,
+      "pick_rate": 0.0112,
+      "ban_rate": 0.0034,
+      "bp_rate": 0.0145,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Alucard",
+      "win_rate": 0.5,
+      "pick_rate": 0.0062,
+      "ban_rate": 0.0032,
+      "bp_rate": 0.0094,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Belerick",
+      "win_rate": 0.442,
+      "pick_rate": 0.0203,
+      "ban_rate": 0.0031,
+      "bp_rate": 0.0233,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Sun",
+      "win_rate": 0.6,
+      "pick_rate": 0.0081,
+      "ban_rate": 0.0026,
+      "bp_rate": 0.0107,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Aurora",
+      "win_rate": 0.4884,
+      "pick_rate": 0.0126,
+      "ban_rate": 0.0012,
+      "bp_rate": 0.0138,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Cyclops",
+      "win_rate": 0.3983,
+      "pick_rate": 0.0173,
+      "ban_rate": 0.0009,
+      "bp_rate": 0.0182,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Miya",
+      "win_rate": 0.4667,
+      "pick_rate": 0.0044,
+      "ban_rate": 0.0009,
+      "bp_rate": 0.0053,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Alpha",
+      "win_rate": 0.4474,
+      "pick_rate": 0.0111,
+      "ban_rate": 0.0007,
+      "bp_rate": 0.0119,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Gatotkaca",
+      "win_rate": 0.4706,
+      "pick_rate": 0.0249,
+      "ban_rate": 0.0006,
+      "bp_rate": 0.0255,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Zilong",
+      "win_rate": 0.2812,
+      "pick_rate": 0.0047,
+      "ban_rate": 0.0006,
+      "bp_rate": 0.0053,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Hanabi",
+      "win_rate": 0.4848,
+      "pick_rate": 0.0048,
+      "ban_rate": 0.0004,
+      "bp_rate": 0.0053,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Layla",
+      "win_rate": 0.6923,
+      "pick_rate": 0.0019,
+      "ban_rate": 0.0003,
+      "bp_rate": 0.0022,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Freya",
+      "win_rate": 0.3333,
+      "pick_rate": 0.0026,
+      "ban_rate": 0.0001,
+      "bp_rate": 0.0028,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Vexana",
+      "win_rate": 0.4286,
+      "pick_rate": 0.001,
+      "ban_rate": 0.0001,
+      "bp_rate": 0.0012,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Odette",
+      "win_rate": 0.5,
+      "pick_rate": 0.0012,
+      "ban_rate": 0.0,
+      "bp_rate": 0.0012,
+      "games": 6824,
+      "source": "local_tournament"
+    },
+    {
+      "name": "Argus",
+      "win_rate": 0.2,
+      "pick_rate": 0.0007,
+      "ban_rate": 0.0,
+      "bp_rate": 0.0007,
+      "games": 6824,
+      "source": "local_tournament"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Draft Assist Overlay</string>
+    <string name="start_draft_assist">Start Draft Assist</string>
+    <string name="stop_draft_assist">Stop Draft Assist</string>
+    <string name="credits">Credits / About</string>
+    <string name="api_hint">API base URL (phone must reach your PC on Wi‑Fi)</string>
+    <string name="default_api">http://192.168.1.10:8000</string>
+    <string name="overlay_notification_title">Draft Assist running</string>
+    <string name="overlay_notification_text">Tap Stop in the overlay or notification action to exit.</string>
+    <string name="caveat">Modeled from tournament draft data — ladder meta may differ</string>
+    <string name="limited_data">limited data</string>
+</resources>

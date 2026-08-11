@@ -88,32 +88,40 @@ class ItemAnalyzer:
         for name, item in self.items_db.items():
             reasons = []
             priority = "Medium"
+            match_score = 0
 
             # 1. Anti-Heal/Sustain Counters (e.g. Dominance Ice, Sea Halberd)
-            if "sustain" in enemy_tags or "regen" in enemy_tags:
-                if "sustain" in item.counter_tags or "regen" in item.counter_tags:
+            if "sustain" in enemy_tags or "regen" in enemy_tags or "shield" in enemy_tags:
+                if "sustain" in item.counter_tags or "regen" in item.counter_tags or "shield" in item.counter_tags:
                     reasons.append("Counters enemy healing, regen, and shields (e.g. Esmeralda or lifesteal items).")
                     priority = "High"
+                    match_score += 5
 
             # 2. Magic Defense Counters (e.g. Athena's Shield)
             if "Magic" in enemy_damage_types or "burst" in enemy_tags:
-                if "magic" in item.counter_tags or "burst" in item.counter_tags:
-                    # Specific to magic defense
-                    if "magic_defense" in item.stats:
-                        reasons.append("Provides high magic defense against enemy magic/burst damage (e.g. Gusion).")
-                        priority = "High"
+                if ("magic" in item.counter_tags or "burst" in item.counter_tags) and "magic_defense" in item.stats:
+                    reasons.append("Provides high magic defense against enemy magic/burst damage (e.g. Gusion).")
+                    priority = "High"
+                    match_score += 2
 
             # 3. Penetration Counters (e.g. Malefic Roar)
-            if "physical_defense" in enemy_tags:
+            if "physical_defense" in enemy_tags or "tank" in enemy_tags:
                 if "physical_defense" in item.counter_tags or "tank" in item.counter_tags:
                     reasons.append("Bypasses high enemy physical defense (e.g. Dominance Ice or tanky heroes).")
                     priority = "High"
+                    match_score += 2
 
             # 4. Attack Speed Reduction
-            if "attack_speed" in enemy_tags or "marksman" in [self.heroes_db[h].role for h in enemy_heroes if h in self.heroes_db]:
+            marksman_present = any(
+                (h in self.heroes_db and ("marksman" in self.heroes_db[h].tags or self.heroes_db[h].role == "Gold Laner"))
+                for h in enemy_heroes
+            )
+            if "attack_speed" in enemy_tags or marksman_present:
                 if "attack_speed" in item.counter_tags:
                     reasons.append("Reduces attack speed of basic-attack reliant enemies (e.g. Claude, Layla).")
-                    priority = "Medium"
+                    if priority != "High":
+                        priority = "Medium"
+                    match_score += 1
 
             if reasons:
                 recommendations.append({
@@ -121,11 +129,20 @@ class ItemAnalyzer:
                     "reason": " ".join(reasons),
                     "priority": priority,
                     "price": item.price,
-                    "stats": item.stats
+                    "stats": item.stats,
+                    "match_score": match_score,
                 })
 
-        # Sort recommendations by priority (High first), then by price
+        # Sort by priority, then match strength, then cheaper first; keep top suggestions
         priority_map = {"High": 3, "Medium": 2, "Low": 1}
-        recommendations.sort(key=lambda x: (priority_map.get(x["priority"], 0), -x["price"]), reverse=True)
-
-        return recommendations
+        recommendations.sort(
+            key=lambda x: (
+                -priority_map.get(x["priority"], 0),
+                -x.get("match_score", 0),
+                x["price"],
+            )
+        )
+        trimmed = recommendations[:12]
+        for row in trimmed:
+            row.pop("match_score", None)
+        return trimmed

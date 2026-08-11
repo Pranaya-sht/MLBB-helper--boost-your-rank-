@@ -3,8 +3,18 @@
     "name": "Aamon",
     "role": "Jungler",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Esmeralda",
+      "Ling",
+      "Grock"
+    ],
+    "synergies": [
+      "Paquito",
+      "Valentina",
+      "Faramis",
+      "Beatrix",
+      "Grock"
+    ],
     "tags": [
       "assassin",
       "chase"
@@ -14,8 +24,26 @@
     "name": "Akai",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Bane",
+      "Jawhead",
+      "Hylos",
+      "Chang'E",
+      "Harley",
+      "Saber",
+      "Nana",
+      "Melissa"
+    ],
+    "synergies": [
+      "Estes",
+      "Phoveus",
+      "Atlas",
+      "Kimmy",
+      "Moskov",
+      "Gloo",
+      "Bruno",
+      "Chou"
+    ],
     "tags": [
       "tank",
       "support",
@@ -26,8 +54,17 @@
     "name": "Aldous",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Paquito",
+      "Yu Zhong"
+    ],
+    "synergies": [
+      "Kaja",
+      "Lunox",
+      "Mathilda",
+      "Chou",
+      "Yve"
+    ],
     "tags": [
       "fighter",
       "burst"
@@ -37,8 +74,23 @@
     "name": "Alice",
     "role": "Exp Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Gusion",
+      "Silvanna",
+      "Jawhead",
+      "Bane",
+      "Martis"
+    ],
+    "synergies": [
+      "Eudora",
+      "Estes",
+      "Bruno",
+      "Barats",
+      "Gloo",
+      "Valir",
+      "Yi Sun-Shin",
+      "Kaja"
+    ],
     "tags": [
       "mage",
       "tank",
@@ -50,8 +102,13 @@
     "name": "Alpha",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Paquito",
+      "Uranus"
+    ],
+    "synergies": [
+      "Valentina"
+    ],
     "tags": [
       "fighter",
       "charge"
@@ -74,8 +131,24 @@
     "name": "Angela",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Luo Yi",
+      "Jawhead",
+      "Karrie",
+      "Arlott",
+      "Valir",
+      "Floryn",
+      "Lapu-Lapu",
+      "Yi Sun-Shin"
+    ],
+    "synergies": [
+      "Grock",
+      "Kagura",
+      "Harith",
+      "Edith",
+      "Roger",
+      "Popol And Kupa"
+    ],
     "tags": [
       "support",
       "guard"
@@ -93,11 +166,49 @@
     ]
   },
   {
+    "name": "Arlott",
+    "role": "Mid Laner",
+    "damage_type": "Mixed",
+    "counters": [
+      "Harith",
+      "Lunox",
+      "Benedetta",
+      "Nolan",
+      "Clint"
+    ],
+    "synergies": [
+      "Bruno",
+      "Lesley",
+      "Irithel",
+      "Novaria",
+      "Fredrinn"
+    ],
+    "tags": []
+  },
+  {
     "name": "Atlas",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Lunox",
+      "Irithel",
+      "Yu Zhong",
+      "Hilda",
+      "Ruby",
+      "Estes",
+      "Valentina",
+      "Lolita"
+    ],
+    "synergies": [
+      "Yi Sun-Shin",
+      "Faramis",
+      "Wanwan",
+      "Melissa",
+      "Gloo",
+      "Cecilion",
+      "Akai",
+      "Julian"
+    ],
     "tags": [
       "tank",
       "support",
@@ -108,8 +219,19 @@
     "name": "Aulus",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Hayabusa",
+      "Mathilda",
+      "Lunox",
+      "Khufra",
+      "Chou"
+    ],
+    "synergies": [
+      "Yve",
+      "Yu Zhong",
+      "Beatrix",
+      "Chou"
+    ],
     "tags": [
       "fighter",
       "damage"
@@ -141,8 +263,19 @@
     "name": "Balmond",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Irithel",
+      "Rafaela"
+    ],
+    "synergies": [
+      "Dyrroth",
+      "Lapu-Lapu",
+      "Franco",
+      "Wanwan",
+      "Chou",
+      "Julian",
+      "Faramis"
+    ],
     "tags": [
       "fighter",
       "damage"
@@ -152,8 +285,26 @@
     "name": "Bane",
     "role": "Jungler",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Angela",
+      "Karrie",
+      "Fanny",
+      "Valentina",
+      "Yi Sun-Shin",
+      "Lapu-Lapu",
+      "Hayabusa",
+      "Esmeralda"
+    ],
+    "synergies": [
+      "Rafaela",
+      "Kaja",
+      "Franco",
+      "Gloo",
+      "Fredrinn",
+      "Grock",
+      "Yve",
+      "Claude"
+    ],
     "tags": [
       "fighter",
       "mage",
@@ -165,8 +316,22 @@
     "name": "Barats",
     "role": "Exp Laner",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Irithel",
+      "Harley",
+      "Thamuz",
+      "Grock"
+    ],
+    "synergies": [
+      "Natan",
+      "Gloo",
+      "Alice",
+      "Ling",
+      "Estes",
+      "Wanwan",
+      "Chou",
+      "Yi Sun-Shin"
+    ],
     "tags": [
       "tank",
       "fighter",
@@ -178,8 +343,26 @@
     "name": "Baxia",
     "role": "Jungler",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Silvanna",
+      "Floryn",
+      "Chang'E",
+      "Cecilion",
+      "Lesley",
+      "Roger",
+      "Lapu-Lapu",
+      "Ixia"
+    ],
+    "synergies": [
+      "Yi Sun-Shin",
+      "Lancelot",
+      "Masha",
+      "Edith",
+      "Atlas",
+      "Luo Yi",
+      "Ixia",
+      "Natalia"
+    ],
     "tags": [
       "tank",
       "support"
@@ -189,8 +372,26 @@
     "name": "Beatrix",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Saber",
+      "Aldous",
+      "Hylos",
+      "Chang'E",
+      "Yin",
+      "Granger",
+      "Floryn",
+      "Rafaela"
+    ],
+    "synergies": [
+      "Harley",
+      "Popol And Kupa",
+      "Valir",
+      "Khaleed",
+      "Aamon",
+      "Aulus",
+      "Gusion",
+      "Edith"
+    ],
     "tags": [
       "marksman",
       "finisher"
@@ -201,7 +402,9 @@
     "role": "Roamer",
     "damage_type": "Mixed",
     "counters": [],
-    "synergies": [],
+    "synergies": [
+      "Claude"
+    ],
     "tags": [
       "tank",
       "crowd_control"
@@ -211,8 +414,26 @@
     "name": "Benedetta",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Minotaur",
+      "Terizla",
+      "Natalia",
+      "Khaleed",
+      "Bane",
+      "Natan",
+      "Chang'E",
+      "Eudora"
+    ],
+    "synergies": [
+      "Harley",
+      "Luo Yi",
+      "Wanwan",
+      "Hilda",
+      "Paquito",
+      "Eudora",
+      "Kadita",
+      "Atlas"
+    ],
     "tags": [
       "assassin",
       "chase",
@@ -223,8 +444,23 @@
     "name": "Brody",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Chang'E",
+      "Floryn",
+      "Xavier",
+      "Granger",
+      "Minsitthar"
+    ],
+    "synergies": [
+      "Luo Yi",
+      "Natalia",
+      "Franco",
+      "Khaleed",
+      "Helcurt",
+      "Faramis",
+      "Atlas",
+      "Edith"
+    ],
     "tags": [
       "marksman",
       "burst"
@@ -234,8 +470,26 @@
     "name": "Bruno",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Floryn",
+      "Balmond",
+      "Bane",
+      "Hylos",
+      "Lapu-Lapu",
+      "Alice",
+      "Harley",
+      "Leomord"
+    ],
+    "synergies": [
+      "Joy",
+      "Khaleed",
+      "Dyrroth",
+      "Guinevere",
+      "Gloo",
+      "Alice",
+      "Atlas",
+      "Faramis"
+    ],
     "tags": [
       "marksman",
       "finisher"
@@ -245,7 +499,9 @@
     "name": "Carmilla",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
+    "counters": [
+      "Silvanna"
+    ],
     "synergies": [],
     "tags": [
       "support",
@@ -257,8 +513,15 @@
     "name": "Cecilion",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Carmilla"
+    ],
+    "synergies": [
+      "Atlas",
+      "Edith",
+      "Franco",
+      "Jawhead"
+    ],
     "tags": [
       "mage",
       "poke"
@@ -268,33 +531,88 @@
     "name": "Chang'E",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Diggie",
+      "Ruby",
+      "Wanwan"
+    ],
+    "synergies": [
+      "Selena",
+      "Khufra"
+    ],
     "tags": [
       "mage",
       "poke"
     ]
   },
   {
+    "name": "Chip",
+    "role": "Mid Laner",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": []
+  },
+  {
     "name": "Chou",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Minsitthar",
+      "Guinevere",
+      "Cyclops",
+      "Johnson",
+      "Carmilla",
+      "Luo Yi",
+      "Lesley",
+      "Belerick"
+    ],
+    "synergies": [
+      "Estes",
+      "Natan",
+      "Masha",
+      "Guinevere",
+      "Phoveus",
+      "Dyrroth",
+      "Minotaur",
+      "Yi Sun-Shin"
+    ],
     "tags": [
       "fighter",
       "chase"
     ]
   },
   {
+    "name": "Cici",
+    "role": "Mid Laner",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": []
+  },
+  {
     "name": "Claude",
     "role": "Gold Laner",
     "damage_type": "Physical",
     "counters": [
-      "Esmeralda"
+      "Esmeralda",
+      "Minsitthar",
+      "Belerick",
+      "Angela",
+      "Lylia",
+      "Chang'E",
+      "Ling",
+      "Clint"
     ],
     "synergies": [
-      "Tigreal"
+      "Tigreal",
+      "Belerick",
+      "Guinevere",
+      "Bane",
+      "Atlas",
+      "Luo Yi",
+      "Masha",
+      "Thamuz"
     ],
     "tags": [
       "marksman",
@@ -305,8 +623,26 @@
     "name": "Clint",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Bane",
+      "Roger",
+      "Angela",
+      "Alice",
+      "X.Borg",
+      "Kimmy",
+      "Karrie",
+      "Selena"
+    ],
+    "synergies": [
+      "Hilda",
+      "Masha",
+      "Franco",
+      "Yi Sun-Shin",
+      "Lapu-Lapu",
+      "Chou",
+      "Xavier",
+      "Yve"
+    ],
     "tags": [
       "marksman",
       "finisher"
@@ -316,7 +652,9 @@
     "name": "Cyclops",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
+    "counters": [
+      "Esmeralda"
+    ],
     "synergies": [],
     "tags": [
       "mage",
@@ -327,8 +665,26 @@
     "name": "Diggie",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Edith",
+      "Hylos",
+      "Silvanna",
+      "Balmond",
+      "Martis",
+      "Minotaur",
+      "Bruno",
+      "Ruby"
+    ],
+    "synergies": [
+      "Lesley",
+      "Melissa",
+      "Jawhead",
+      "Khufra",
+      "Paquito",
+      "Leomord",
+      "Harith",
+      "Phoveus"
+    ],
     "tags": [
       "support",
       "guard"
@@ -338,8 +694,26 @@
     "name": "Dyrroth",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Barats",
+      "Selena",
+      "Hilda",
+      "Rafaela",
+      "Karrie",
+      "Angela",
+      "Irithel",
+      "Valentina"
+    ],
+    "synergies": [
+      "Faramis",
+      "Masha",
+      "Balmond",
+      "Bruno",
+      "Hilda",
+      "Julian",
+      "Chou",
+      "Xavier"
+    ],
     "tags": [
       "fighter",
       "charge"
@@ -349,8 +723,26 @@
     "name": "Edith",
     "role": "Exp Laner",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Bane",
+      "Lunox",
+      "Xavier",
+      "Hilda",
+      "Angela",
+      "Fanny",
+      "Lapu-Lapu",
+      "Claude"
+    ],
+    "synergies": [
+      "Khaleed",
+      "Faramis",
+      "Kaja",
+      "Ixia",
+      "Terizla",
+      "Minotaur",
+      "Cecilion",
+      "Franco"
+    ],
     "tags": [
       "tank",
       "marksman",
@@ -363,10 +755,14 @@
     "role": "Exp Laner",
     "damage_type": "Magic",
     "counters": [
-      "Tigreal"
+      "Tigreal",
+      "Belerick",
+      "Chang'E"
     ],
     "synergies": [
-      "Gusion"
+      "Gusion",
+      "Silvanna",
+      "Luo Yi"
     ],
     "tags": [
       "mage",
@@ -379,8 +775,26 @@
     "name": "Estes",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Irithel",
+      "Angela",
+      "Franco",
+      "Harith",
+      "Joy",
+      "Diggie",
+      "Chang'E",
+      "Barats"
+    ],
+    "synergies": [
+      "Chou",
+      "Akai",
+      "Popol And Kupa",
+      "Melissa",
+      "Hayabusa",
+      "Natan",
+      "Alice",
+      "Paquito"
+    ],
     "tags": [
       "support",
       "regen"
@@ -390,8 +804,22 @@
     "name": "Eudora",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Roger",
+      "Ling",
+      "Lunox",
+      "Jawhead",
+      "Claude",
+      "Popol And Kupa"
+    ],
+    "synergies": [
+      "Alice",
+      "Yi Sun-Shin",
+      "Benedetta",
+      "Paquito",
+      "Jawhead",
+      "Yu Zhong"
+    ],
     "tags": [
       "mage",
       "control"
@@ -401,8 +829,24 @@
     "name": "Fanny",
     "role": "Jungler",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Barats",
+      "Lunox",
+      "Xavier",
+      "Angela",
+      "Novaria",
+      "Melissa",
+      "Benedetta"
+    ],
+    "synergies": [
+      "Masha",
+      "Popol And Kupa",
+      "Edith",
+      "Gloo",
+      "Terizla",
+      "Atlas",
+      "Faramis"
+    ],
     "tags": [
       "assassin",
       "chase"
@@ -412,8 +856,26 @@
     "name": "Faramis",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Rafaela",
+      "Alice",
+      "Moskov",
+      "Lancelot",
+      "Khufra",
+      "Gord",
+      "Gloo",
+      "Ruby"
+    ],
+    "synergies": [
+      "Edith",
+      "Atlas",
+      "Julian",
+      "Dyrroth",
+      "Khaleed",
+      "Joy",
+      "Lunox",
+      "Aamon"
+    ],
     "tags": [
       "support",
       "mage",
@@ -425,8 +887,13 @@
     "name": "Floryn",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Lapu-Lapu",
+      "Arlott"
+    ],
+    "synergies": [
+      "Pharsa"
+    ],
     "tags": [
       "support",
       "poke"
@@ -436,8 +903,26 @@
     "name": "Franco",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Valir",
+      "Masha",
+      "Esmeralda",
+      "Karina",
+      "Cecilion",
+      "Hayabusa",
+      "Yu Zhong",
+      "Gord"
+    ],
+    "synergies": [
+      "Masha",
+      "Wanwan",
+      "Kadita",
+      "Karina",
+      "Bane",
+      "Edith",
+      "Cecilion",
+      "Yve"
+    ],
     "tags": [
       "tank",
       "support",
@@ -448,8 +933,26 @@
     "name": "Fredrinn",
     "role": "Exp Laner",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Kagura",
+      "Harith",
+      "Carmilla",
+      "Floryn",
+      "Lunox",
+      "Minsitthar",
+      "Ruby",
+      "Cecilion"
+    ],
+    "synergies": [
+      "Gusion",
+      "Khaleed",
+      "Masha",
+      "Ixia",
+      "Minsitthar",
+      "Bane",
+      "Kaja",
+      "Edith"
+    ],
     "tags": [
       "tank",
       "fighter",
@@ -472,8 +975,13 @@
     "name": "Gatotkaca",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Claude"
+    ],
+    "synergies": [
+      "Selena",
+      "Claude"
+    ],
     "tags": [
       "tank",
       "fighter",
@@ -485,8 +993,26 @@
     "name": "Gloo",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Chang'E",
+      "Granger",
+      "Angela",
+      "Atlas",
+      "Estes",
+      "Bruno",
+      "Kagura",
+      "Rafaela"
+    ],
+    "synergies": [
+      "Helcurt",
+      "Kaja",
+      "Atlas",
+      "Yi Sun-Shin",
+      "Popol And Kupa",
+      "Kadita",
+      "Bruno",
+      "Barats"
+    ],
     "tags": [
       "tank",
       "regen"
@@ -496,8 +1022,15 @@
     "name": "Gord",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Paquito",
+      "Martis"
+    ],
+    "synergies": [
+      "Bruno",
+      "Fredrinn",
+      "Beatrix"
+    ],
     "tags": [
       "mage",
       "poke"
@@ -507,8 +1040,21 @@
     "name": "Granger",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Franco",
+      "Estes",
+      "Alice"
+    ],
+    "synergies": [
+      "Luo Yi",
+      "Kimmy",
+      "Terizla",
+      "Rafaela",
+      "Lylia",
+      "Estes",
+      "Benedetta",
+      "Alice"
+    ],
     "tags": [
       "marksman",
       "burst"
@@ -518,8 +1064,17 @@
     "name": "Grock",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Cyclops",
+      "Belerick",
+      "Gatotkaca"
+    ],
+    "synergies": [
+      "Bane",
+      "Angela",
+      "Lolita",
+      "Aamon"
+    ],
     "tags": [
       "tank",
       "crowd_control",
@@ -530,8 +1085,16 @@
     "name": "Guinevere",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Brody",
+      "Arlott",
+      "Kaja"
+    ],
+    "synergies": [
+      "Chou",
+      "Claude",
+      "Bruno"
+    ],
     "tags": [
       "fighter",
       "burst"
@@ -542,10 +1105,24 @@
     "role": "Jungler",
     "damage_type": "Physical",
     "counters": [
-      "Layla"
+      "Layla",
+      "Fredrinn",
+      "Yve",
+      "Beatrix",
+      "Mathilda",
+      "Harley",
+      "Pharsa",
+      "Paquito"
     ],
     "synergies": [
-      "Tigreal"
+      "Tigreal",
+      "Fredrinn",
+      "Khufra",
+      "X.Borg",
+      "Beatrix",
+      "Kaja",
+      "Irithel",
+      "Hayabusa"
     ],
     "tags": [
       "assassin",
@@ -578,8 +1155,26 @@
     "name": "Harith",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Harley",
+      "Roger",
+      "Ruby",
+      "X.Borg",
+      "Chang'E",
+      "Thamuz",
+      "Ling",
+      "Minsitthar"
+    ],
+    "synergies": [
+      "Kimmy",
+      "Lolita",
+      "Terizla",
+      "Ling",
+      "Kaja",
+      "Angela",
+      "Rafaela",
+      "Kadita"
+    ],
     "tags": [
       "mage",
       "chase"
@@ -589,8 +1184,24 @@
     "name": "Harley",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Fanny",
+      "Esmeralda",
+      "Ruby",
+      "Martis",
+      "Chang'E",
+      "Hylos",
+      "Cyclops",
+      "Benedetta"
+    ],
+    "synergies": [
+      "Beatrix",
+      "Benedetta",
+      "X.Borg",
+      "Akai",
+      "Hayabusa",
+      "Saber"
+    ],
     "tags": [
       "mage",
       "assassin",
@@ -602,8 +1213,26 @@
     "name": "Hayabusa",
     "role": "Jungler",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Minsitthar",
+      "Tigreal",
+      "Rafaela",
+      "Cecilion",
+      "Chang'E",
+      "Hylos",
+      "Angela",
+      "Leomord"
+    ],
+    "synergies": [
+      "Wanwan",
+      "Estes",
+      "Natan",
+      "Phoveus",
+      "Lolita",
+      "Kimmy",
+      "Gloo",
+      "Popol And Kupa"
+    ],
     "tags": [
       "assassin",
       "chase"
@@ -613,8 +1242,26 @@
     "name": "Helcurt",
     "role": "Jungler",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Clint",
+      "Jawhead",
+      "Harley",
+      "Martis",
+      "X.Borg",
+      "Khufra",
+      "Minotaur",
+      "Karrie"
+    ],
+    "synergies": [
+      "Gloo",
+      "Kagura",
+      "Terizla",
+      "Wanwan",
+      "Kaja",
+      "Lunox",
+      "Brody",
+      "Chou"
+    ],
     "tags": [
       "assassin",
       "push"
@@ -624,8 +1271,24 @@
     "name": "Hilda",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Mathilda",
+      "Cecilion",
+      "Khaleed",
+      "Clint",
+      "X.Borg",
+      "Thamuz",
+      "Alice"
+    ],
+    "synergies": [
+      "Clint",
+      "Yi Sun-Shin",
+      "Benedetta",
+      "Dyrroth",
+      "Paquito",
+      "Wanwan",
+      "Roger"
+    ],
     "tags": [
       "fighter",
       "tank",
@@ -637,8 +1300,17 @@
     "name": "Hylos",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Angela",
+      "Hilda",
+      "Selena"
+    ],
+    "synergies": [
+      "Lancelot",
+      "Kagura",
+      "Jawhead",
+      "Yve"
+    ],
     "tags": [
       "tank",
       "guard"
@@ -648,19 +1320,71 @@
     "name": "Irithel",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Ruby",
+      "Bane"
+    ],
+    "synergies": [
+      "Dyrroth",
+      "Hayabusa",
+      "Masha",
+      "Mathilda",
+      "Atlas",
+      "Gusion",
+      "Uranus",
+      "Kaja"
+    ],
     "tags": [
       "marksman",
       "finisher"
     ]
   },
   {
+    "name": "Ixia",
+    "role": "Mid Laner",
+    "damage_type": "Mixed",
+    "counters": [
+      "Grock",
+      "Lylia",
+      "Rafaela",
+      "Paquito",
+      "Fredrinn",
+      "Brody"
+    ],
+    "synergies": [
+      "Edith",
+      "Valentina",
+      "Yu Zhong",
+      "Fredrinn",
+      "Mathilda",
+      "Faramis",
+      "Martis",
+      "Baxia"
+    ],
+    "tags": []
+  },
+  {
     "name": "Jawhead",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Hilda",
+      "Estes",
+      "Natalia",
+      "Cecilion",
+      "Chang'E",
+      "Brody"
+    ],
+    "synergies": [
+      "Diggie",
+      "Cecilion",
+      "Wanwan",
+      "Hylos",
+      "Paquito",
+      "Eudora",
+      "Claude",
+      "Phoveus"
+    ],
     "tags": [
       "fighter",
       "charge"
@@ -679,11 +1403,52 @@
     ]
   },
   {
+    "name": "Joy",
+    "role": "Mid Laner",
+    "damage_type": "Mixed",
+    "counters": [
+      "X.Borg",
+      "Floryn",
+      "Kagura",
+      "Rafaela",
+      "Chou",
+      "Akai",
+      "Ling",
+      "Harith"
+    ],
+    "synergies": [
+      "Terizla",
+      "Bruno",
+      "Faramis",
+      "Novaria",
+      "Paquito",
+      "Wanwan",
+      "Yu Zhong",
+      "Yve"
+    ],
+    "tags": []
+  },
+  {
     "name": "Julian",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Yu Zhong",
+      "Mathilda",
+      "Popol And Kupa",
+      "Esmeralda",
+      "Cecilion"
+    ],
+    "synergies": [
+      "Faramis",
+      "Atlas",
+      "Wanwan",
+      "Dyrroth",
+      "Yve",
+      "Chou",
+      "Popol And Kupa",
+      "Uranus"
+    ],
     "tags": [
       "fighter",
       "mage",
@@ -695,8 +1460,26 @@
     "name": "Kadita",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Karina",
+      "Xavier",
+      "Ling",
+      "Popol And Kupa",
+      "Leomord",
+      "Lylia",
+      "Baxia",
+      "Hilda"
+    ],
+    "synergies": [
+      "Franco",
+      "Masha",
+      "Gloo",
+      "Terizla",
+      "Mathilda",
+      "Atlas",
+      "Pharsa",
+      "Kaja"
+    ],
     "tags": [
       "mage",
       "assassin",
@@ -707,8 +1490,26 @@
     "name": "Kagura",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Faramis",
+      "Bane",
+      "Gatotkaca",
+      "Hilda",
+      "Silvanna",
+      "Saber",
+      "Cyclops",
+      "Edith"
+    ],
+    "synergies": [
+      "Wanwan",
+      "Helcurt",
+      "Saber",
+      "Hylos",
+      "Angela",
+      "Melissa",
+      "Natalia",
+      "Phoveus"
+    ],
     "tags": [
       "mage",
       "poke"
@@ -718,8 +1519,26 @@
     "name": "Kaja",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Xavier",
+      "Granger",
+      "Cecilion",
+      "Aldous",
+      "Minsitthar",
+      "Chang'E",
+      "Karina",
+      "Floryn"
+    ],
+    "synergies": [
+      "Gloo",
+      "Edith",
+      "Wanwan",
+      "Bane",
+      "Moskov",
+      "Helcurt",
+      "Kimmy",
+      "Kadita"
+    ],
     "tags": [
       "fighter",
       "support",
@@ -731,8 +1550,26 @@
     "name": "Karina",
     "role": "Jungler",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Natan",
+      "Barats",
+      "Brody",
+      "Hilda",
+      "Selena",
+      "Mathilda",
+      "Balmond",
+      "Kagura"
+    ],
+    "synergies": [
+      "Thamuz",
+      "Franco",
+      "Lapu-Lapu",
+      "Paquito",
+      "Wanwan",
+      "Faramis",
+      "Phoveus",
+      "Lolita"
+    ],
     "tags": [
       "assassin",
       "finisher"
@@ -742,8 +1579,17 @@
     "name": "Karrie",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Fanny",
+      "Kagura"
+    ],
+    "synergies": [
+      "Natalia",
+      "Novaria",
+      "Julian",
+      "Kadita",
+      "Gloo"
+    ],
     "tags": [
       "marksman",
       "finisher"
@@ -753,8 +1599,26 @@
     "name": "Khaleed",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Cecilion",
+      "Martis",
+      "Joy",
+      "Valentina",
+      "Ruby",
+      "Harith",
+      "X.Borg",
+      "Thamuz"
+    ],
+    "synergies": [
+      "Edith",
+      "Rafaela",
+      "Faramis",
+      "Valentina",
+      "Bruno",
+      "Fredrinn",
+      "Beatrix",
+      "Brody"
+    ],
     "tags": [
       "fighter",
       "damage"
@@ -764,8 +1628,26 @@
     "name": "Khufra",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Nana",
+      "Floryn",
+      "Guinevere",
+      "Natan",
+      "Diggie",
+      "Leomord",
+      "Silvanna",
+      "Chang'E"
+    ],
+    "synergies": [
+      "Diggie",
+      "Gusion",
+      "Mathilda",
+      "Karina",
+      "Yve",
+      "Wanwan",
+      "Hayabusa",
+      "Luo Yi"
+    ],
     "tags": [
       "tank",
       "support",
@@ -776,8 +1658,26 @@
     "name": "Kimmy",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Valir",
+      "Baxia",
+      "Kadita",
+      "Minotaur",
+      "Hylos",
+      "Alice",
+      "Ruby",
+      "Helcurt"
+    ],
+    "synergies": [
+      "Harith",
+      "Granger",
+      "X.Borg",
+      "Paquito",
+      "Pharsa",
+      "Rafaela",
+      "Lylia",
+      "Mathilda"
+    ],
     "tags": [
       "marksman",
       "mage",
@@ -789,8 +1689,26 @@
     "name": "Lancelot",
     "role": "Jungler",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Balmond",
+      "Roger",
+      "Lesley",
+      "Chang'E",
+      "Granger",
+      "Aulus",
+      "Luo Yi",
+      "Estes"
+    ],
+    "synergies": [
+      "Luo Yi",
+      "Baxia",
+      "Lesley",
+      "Franco",
+      "Hylos",
+      "Moskov",
+      "Dyrroth",
+      "Bruno"
+    ],
     "tags": [
       "assassin",
       "chase"
@@ -800,8 +1718,26 @@
     "name": "Lapu-Lapu",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Chang'E",
+      "Masha",
+      "Xavier",
+      "Cecilion",
+      "Clint",
+      "Uranus",
+      "Helcurt",
+      "Granger"
+    ],
+    "synergies": [
+      "Karina",
+      "Paquito",
+      "Yi Sun-Shin",
+      "Clint",
+      "Atlas",
+      "Moskov",
+      "Balmond",
+      "Benedetta"
+    ],
     "tags": [
       "fighter",
       "chase"
@@ -826,8 +1762,19 @@
     "name": "Leomord",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Yu Zhong",
+      "Harley",
+      "Yve",
+      "Granger"
+    ],
+    "synergies": [
+      "Kimmy",
+      "Diggie",
+      "Gusion",
+      "Uranus",
+      "Akai"
+    ],
     "tags": [
       "fighter",
       "chase"
@@ -837,8 +1784,23 @@
     "name": "Lesley",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Mathilda",
+      "Uranus",
+      "Minotaur",
+      "Martis",
+      "Lapu-Lapu"
+    ],
+    "synergies": [
+      "Lolita",
+      "Terizla",
+      "Diggie",
+      "Yve",
+      "Novaria",
+      "Lancelot",
+      "Arlott",
+      "Gloo"
+    ],
     "tags": [
       "marksman",
       "assassin",
@@ -850,8 +1812,26 @@
     "name": "Ling",
     "role": "Jungler",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Natan",
+      "Saber",
+      "Chang'E",
+      "Lesley",
+      "Aldous",
+      "Julian",
+      "Ruby",
+      "Rafaela"
+    ],
+    "synergies": [
+      "Valir",
+      "Xavier",
+      "Barats",
+      "Harith",
+      "Masha",
+      "Lunox",
+      "Joy",
+      "Bruno"
+    ],
     "tags": [
       "assassin",
       "chase"
@@ -861,8 +1841,26 @@
     "name": "Lolita",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Harith",
+      "Cecilion",
+      "Helcurt",
+      "Yi Sun-Shin",
+      "Xavier",
+      "Diggie",
+      "Mathilda",
+      "Bane"
+    ],
+    "synergies": [
+      "Lesley",
+      "Wanwan",
+      "Xavier",
+      "Kimmy",
+      "Hayabusa",
+      "Harith",
+      "Gloo",
+      "Karina"
+    ],
     "tags": [
       "support",
       "tank",
@@ -874,12 +1872,55 @@
     "name": "Lunox",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Minsitthar",
+      "Silvanna",
+      "Khaleed",
+      "Angela",
+      "Martis",
+      "Balmond",
+      "Cecilion"
+    ],
+    "synergies": [
+      "Faramis",
+      "Yve",
+      "Helcurt",
+      "Silvanna",
+      "Gloo",
+      "Kadita",
+      "Phoveus",
+      "Chou"
+    ],
     "tags": [
       "mage",
       "burst"
     ]
+  },
+  {
+    "name": "Luo Yi",
+    "role": "Mid Laner",
+    "damage_type": "Mixed",
+    "counters": [
+      "Chang'E",
+      "Ruby",
+      "Atlas",
+      "Roger",
+      "Akai",
+      "Thamuz",
+      "Selena",
+      "Barats"
+    ],
+    "synergies": [
+      "Granger",
+      "Brody",
+      "Benedetta",
+      "Yi Sun-Shin",
+      "Thamuz",
+      "Lancelot",
+      "Popol And Kupa",
+      "Chou"
+    ],
+    "tags": []
   },
   {
     "name": "Luo_Yi",
@@ -895,8 +1936,26 @@
     "name": "Lylia",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Bane",
+      "Alice",
+      "Thamuz",
+      "Valir",
+      "Khaleed",
+      "Barats",
+      "Selena",
+      "Chang'E"
+    ],
+    "synergies": [
+      "Valentina",
+      "Kimmy",
+      "Granger",
+      "Joy",
+      "Chou",
+      "Phoveus",
+      "Terizla",
+      "Wanwan"
+    ],
     "tags": [
       "mage",
       "push"
@@ -906,8 +1965,13 @@
     "name": "Martis",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Hanzo"
+    ],
+    "synergies": [
+      "Masha",
+      "Ixia"
+    ],
     "tags": [
       "fighter",
       "finisher"
@@ -917,8 +1981,26 @@
     "name": "Masha",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Hilda",
+      "Angela",
+      "Arlott",
+      "Hylos",
+      "Rafaela",
+      "X.Borg",
+      "Lancelot",
+      "Xavier"
+    ],
+    "synergies": [
+      "Franco",
+      "Mathilda",
+      "Selena",
+      "Wanwan",
+      "Martis",
+      "Dyrroth",
+      "Chou",
+      "Kadita"
+    ],
     "tags": [
       "fighter",
       "tank",
@@ -930,8 +2012,26 @@
     "name": "Mathilda",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "X.Borg",
+      "Chang'E",
+      "Khaleed",
+      "Jawhead",
+      "Barats",
+      "Tigreal",
+      "Yi Sun-Shin",
+      "Minotaur"
+    ],
+    "synergies": [
+      "Masha",
+      "Rafaela",
+      "Kadita",
+      "Kimmy",
+      "Ixia",
+      "Bruno",
+      "Khufra",
+      "Khaleed"
+    ],
     "tags": [
       "support",
       "assassin",
@@ -943,8 +2043,24 @@
     "name": "Melissa",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Estes",
+      "Harith",
+      "Balmond",
+      "Cecilion",
+      "Irithel",
+      "Kagura"
+    ],
+    "synergies": [
+      "Atlas",
+      "Estes",
+      "Diggie",
+      "Karina",
+      "Kaja",
+      "Gloo",
+      "Kagura",
+      "Kadita"
+    ],
     "tags": [
       "marksman",
       "finisher"
@@ -954,8 +2070,22 @@
     "name": "Minotaur",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Minsitthar",
+      "Gord",
+      "Saber",
+      "Esmeralda",
+      "Lancelot",
+      "Harley",
+      "Alice"
+    ],
+    "synergies": [
+      "Edith",
+      "Wanwan",
+      "Kadita",
+      "Chou",
+      "Selena"
+    ],
     "tags": [
       "tank",
       "support",
@@ -966,8 +2096,14 @@
     "name": "Minsitthar",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Martis",
+      "Lapu-Lapu"
+    ],
+    "synergies": [
+      "Yve",
+      "Fredrinn"
+    ],
     "tags": [
       "fighter",
       "initiator"
@@ -988,8 +2124,23 @@
     "name": "Moskov",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Lapu-Lapu",
+      "Arlott",
+      "Hayabusa",
+      "Lylia",
+      "Martis"
+    ],
+    "synergies": [
+      "Kaja",
+      "Lancelot",
+      "Faramis",
+      "Akai",
+      "Lapu-Lapu",
+      "Fredrinn",
+      "Valentina",
+      "Pharsa"
+    ],
     "tags": [
       "marksman",
       "finisher"
@@ -999,7 +2150,9 @@
     "name": "Nana",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
+    "counters": [
+      "Uranus"
+    ],
     "synergies": [],
     "tags": [
       "mage",
@@ -1011,8 +2164,19 @@
     "name": "Natalia",
     "role": "Jungler",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Xavier",
+      "Valentina",
+      "Angela",
+      "Lolita"
+    ],
+    "synergies": [
+      "Karrie",
+      "Brody",
+      "Karina",
+      "Kagura",
+      "Baxia"
+    ],
     "tags": [
       "assassin",
       "chase"
@@ -1022,12 +2186,62 @@
     "name": "Natan",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Selena",
+      "Paquito",
+      "Ruby",
+      "Claude",
+      "Baxia",
+      "Jawhead",
+      "Barats",
+      "Roger"
+    ],
+    "synergies": [
+      "Chou",
+      "Hayabusa",
+      "Estes",
+      "Barats",
+      "Paquito",
+      "Lylia"
+    ],
     "tags": [
       "marksman",
       "burst"
     ]
+  },
+  {
+    "name": "Nolan",
+    "role": "Mid Laner",
+    "damage_type": "Mixed",
+    "counters": [],
+    "synergies": [],
+    "tags": []
+  },
+  {
+    "name": "Novaria",
+    "role": "Mid Laner",
+    "damage_type": "Mixed",
+    "counters": [
+      "Melissa",
+      "Ruby",
+      "Lolita",
+      "Karrie",
+      "Akai",
+      "Floryn",
+      "Esmeralda",
+      "Lancelot"
+    ],
+    "synergies": [
+      "Valentina",
+      "Yve",
+      "Uranus",
+      "Joy",
+      "Lesley",
+      "Karrie",
+      "Terizla",
+      "Wanwan"
+    ],
+    "tags": []
   },
   {
     "name": "Odette",
@@ -1044,8 +2258,26 @@
     "name": "Paquito",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Lesley",
+      "Valir",
+      "Natalia",
+      "Floryn",
+      "Cyclops",
+      "Cecilion",
+      "Bane",
+      "Silvanna"
+    ],
+    "synergies": [
+      "Aamon",
+      "Kimmy",
+      "Joy",
+      "Karina",
+      "Benedetta",
+      "Hilda",
+      "Lapu-Lapu",
+      "Estes"
+    ],
     "tags": [
       "fighter",
       "chase",
@@ -1056,8 +2288,25 @@
     "name": "Pharsa",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Vale",
+      "Nana",
+      "Valir",
+      "Silvanna",
+      "Tigreal",
+      "Hanzo",
+      "Saber"
+    ],
+    "synergies": [
+      "Kimmy",
+      "Kadita",
+      "Wanwan",
+      "Floryn",
+      "Selena",
+      "Popol And Kupa",
+      "Yi Sun-Shin",
+      "Moskov"
+    ],
     "tags": [
       "mage",
       "tba"
@@ -1067,12 +2316,53 @@
     "name": "Phoveus",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Ruby",
+      "Estes",
+      "Natan",
+      "Karrie",
+      "Balmond",
+      "Fanny",
+      "Thamuz",
+      "Jawhead"
+    ],
+    "synergies": [
+      "Yu Zhong",
+      "Rafaela",
+      "Akai",
+      "Chou",
+      "Hayabusa",
+      "Karina",
+      "Selena",
+      "Faramis"
+    ],
     "tags": [
       "fighter",
       "chase"
     ]
+  },
+  {
+    "name": "Popol And Kupa",
+    "role": "Mid Laner",
+    "damage_type": "Mixed",
+    "counters": [
+      "Edith",
+      "Hayabusa",
+      "Angela",
+      "Cecilion",
+      "Ruby"
+    ],
+    "synergies": [
+      "Estes",
+      "Gloo",
+      "Luo Yi",
+      "Beatrix",
+      "Hayabusa",
+      "Fanny",
+      "Julian",
+      "Rafaela"
+    ],
+    "tags": []
   },
   {
     "name": "Popol_And_Kupa",
@@ -1088,8 +2378,26 @@
     "name": "Rafaela",
     "role": "Roamer",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Bane",
+      "Floryn",
+      "Harley",
+      "Claude",
+      "Alice",
+      "Hylos",
+      "Natan",
+      "Gusion"
+    ],
+    "synergies": [
+      "Khaleed",
+      "Phoveus",
+      "Bane",
+      "Kimmy",
+      "Mathilda",
+      "Granger",
+      "Faramis",
+      "Popol And Kupa"
+    ],
     "tags": [
       "support",
       "regen"
@@ -1099,8 +2407,20 @@
     "name": "Roger",
     "role": "Jungler",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Saber",
+      "Hilda"
+    ],
+    "synergies": [
+      "X.Borg",
+      "Hilda",
+      "Khaleed",
+      "Lunox",
+      "Angela",
+      "Harith",
+      "Chou",
+      "Uranus"
+    ],
     "tags": [
       "fighter",
       "marksman",
@@ -1112,8 +2432,16 @@
     "name": "Ruby",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Minotaur",
+      "Gusion"
+    ],
+    "synergies": [
+      "X.Borg",
+      "Gloo",
+      "Bruno",
+      "Wanwan"
+    ],
     "tags": [
       "fighter",
       "tank",
@@ -1121,11 +2449,41 @@
     ]
   },
   {
+    "name": "Saber",
+    "role": "Mid Laner",
+    "damage_type": "Mixed",
+    "counters": [
+      "Jawhead",
+      "Hylos",
+      "Cyclops"
+    ],
+    "synergies": [
+      "Kagura",
+      "Harley"
+    ],
+    "tags": []
+  },
+  {
     "name": "Selena",
     "role": "Jungler",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Gatotkaca",
+      "Nana",
+      "Leomord",
+      "Aldous",
+      "Helcurt"
+    ],
+    "synergies": [
+      "Masha",
+      "Gatotkaca",
+      "X.Borg",
+      "Phoveus",
+      "Lancelot",
+      "Pharsa",
+      "Kimmy",
+      "Chang'E"
+    ],
     "tags": [
       "assassin",
       "mage",
@@ -1137,19 +2495,57 @@
     "name": "Silvanna",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Ling",
+      "Lapu-Lapu",
+      "Esmeralda"
+    ],
+    "synergies": [
+      "Wanwan",
+      "Lunox",
+      "Yi Sun-Shin",
+      "Esmeralda",
+      "Benedetta"
+    ],
     "tags": [
       "fighter",
       "initiator"
     ]
   },
   {
+    "name": "Sun",
+    "role": "Mid Laner",
+    "damage_type": "Mixed",
+    "counters": [
+      "Hayabusa"
+    ],
+    "synergies": [],
+    "tags": []
+  },
+  {
     "name": "Terizla",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Ruby",
+      "Floryn",
+      "Leomord",
+      "Hayabusa",
+      "Lancelot",
+      "Xavier",
+      "Khaleed",
+      "Alpha"
+    ],
+    "synergies": [
+      "Joy",
+      "Helcurt",
+      "Edith",
+      "Lesley",
+      "Kadita",
+      "Granger",
+      "Harith",
+      "Novaria"
+    ],
     "tags": [
       "fighter",
       "burst"
@@ -1159,8 +2555,26 @@
     "name": "Thamuz",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Nana",
+      "Irithel",
+      "Belerick",
+      "Gatotkaca",
+      "Ruby",
+      "Chang'E",
+      "Natalia",
+      "Valentina"
+    ],
+    "synergies": [
+      "Karina",
+      "Luo Yi",
+      "Wanwan",
+      "Masha",
+      "Uranus",
+      "Khaleed",
+      "Lolita",
+      "Estes"
+    ],
     "tags": [
       "fighter",
       "chase"
@@ -1187,8 +2601,26 @@
     "name": "Uranus",
     "role": "Exp Laner",
     "damage_type": "Mixed",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Arlott",
+      "Hilda",
+      "Floryn",
+      "Hylos",
+      "Diggie",
+      "Phoveus",
+      "Balmond",
+      "Irithel"
+    ],
+    "synergies": [
+      "Yu Zhong",
+      "Wanwan",
+      "Novaria",
+      "Franco",
+      "Thamuz",
+      "Julian",
+      "Mathilda",
+      "Irithel"
+    ],
     "tags": [
       "tank",
       "regen"
@@ -1209,8 +2641,26 @@
     "name": "Valentina",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Hanzo",
+      "Selena",
+      "Lesley",
+      "Grock",
+      "Cecilion",
+      "Natan",
+      "Alpha",
+      "Xavier"
+    ],
+    "synergies": [
+      "Novaria",
+      "Lylia",
+      "Aamon",
+      "Khaleed",
+      "Ixia",
+      "Masha",
+      "Alpha",
+      "Estes"
+    ],
     "tags": [
       "mage",
       "burst"
@@ -1220,8 +2670,24 @@
     "name": "Valir",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Alice",
+      "Faramis",
+      "Khaleed",
+      "Martis",
+      "Rafaela",
+      "Kagura",
+      "Hilda",
+      "Esmeralda"
+    ],
+    "synergies": [
+      "Ling",
+      "Beatrix",
+      "Terizla",
+      "Alice",
+      "Khaleed",
+      "Lancelot"
+    ],
     "tags": [
       "mage",
       "damage"
@@ -1242,8 +2708,26 @@
     "name": "Wanwan",
     "role": "Gold Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Valir",
+      "Martis",
+      "Hilda",
+      "Roger",
+      "Esmeralda",
+      "Karina",
+      "Bruno",
+      "Yve"
+    ],
+    "synergies": [
+      "Kagura",
+      "Hayabusa",
+      "Franco",
+      "Atlas",
+      "Masha",
+      "Kaja",
+      "Helcurt",
+      "Silvanna"
+    ],
     "tags": [
       "marksman",
       "finisher"
@@ -1253,8 +2737,25 @@
     "name": "X.Borg",
     "role": "Exp Laner",
     "damage_type": "Physical",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Gusion",
+      "Leomord",
+      "Luo Yi",
+      "Lolita",
+      "Karrie",
+      "Lapu-Lapu",
+      "Benedetta"
+    ],
+    "synergies": [
+      "Kimmy",
+      "Harley",
+      "Ruby",
+      "Selena",
+      "Gusion",
+      "Roger",
+      "Harith",
+      "Bruno"
+    ],
     "tags": [
       "fighter",
       "regen"
@@ -1264,12 +2765,54 @@
     "name": "Xavier",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Popol And Kupa",
+      "Mathilda",
+      "Angela",
+      "Cecilion",
+      "Grock",
+      "Lylia"
+    ],
+    "synergies": [
+      "Lolita",
+      "Ling",
+      "Dyrroth",
+      "Clint",
+      "Wanwan",
+      "Masha",
+      "Karina",
+      "Popol And Kupa"
+    ],
     "tags": [
       "mage",
       "damage"
     ]
+  },
+  {
+    "name": "Yi Sun-Shin",
+    "role": "Mid Laner",
+    "damage_type": "Mixed",
+    "counters": [
+      "Karrie",
+      "Tigreal",
+      "Atlas",
+      "Balmond",
+      "Chang'E",
+      "Grock",
+      "Hylos",
+      "Khufra"
+    ],
+    "synergies": [
+      "Atlas",
+      "Baxia",
+      "Gloo",
+      "Luo Yi",
+      "Hilda",
+      "Yu Zhong",
+      "Wanwan",
+      "Eudora"
+    ],
+    "tags": []
   },
   {
     "name": "Yi_Sun-Shin",
@@ -1295,6 +2838,32 @@
     ]
   },
   {
+    "name": "Yu Zhong",
+    "role": "Mid Laner",
+    "damage_type": "Mixed",
+    "counters": [
+      "Hylos",
+      "Lesley",
+      "Minsitthar",
+      "Natan",
+      "Balmond",
+      "Helcurt",
+      "Harley",
+      "Valir"
+    ],
+    "synergies": [
+      "Uranus",
+      "Phoveus",
+      "Aulus",
+      "Yi Sun-Shin",
+      "Ixia",
+      "Joy",
+      "Dyrroth",
+      "Chou"
+    ],
+    "tags": []
+  },
+  {
     "name": "Yu_Zhong",
     "role": "Exp Laner",
     "damage_type": "Physical",
@@ -1308,8 +2877,26 @@
     "name": "Yve",
     "role": "Mid Laner",
     "damage_type": "Magic",
-    "counters": [],
-    "synergies": [],
+    "counters": [
+      "Harley",
+      "Estes",
+      "Hanzo",
+      "Roger",
+      "X.Borg",
+      "Popol And Kupa",
+      "Granger",
+      "Floryn"
+    ],
+    "synergies": [
+      "Aulus",
+      "Novaria",
+      "Lunox",
+      "Minsitthar",
+      "Lesley",
+      "Franco",
+      "Julian",
+      "Faramis"
+    ],
     "tags": [
       "mage",
       "burst"

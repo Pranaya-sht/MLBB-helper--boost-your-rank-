@@ -1,44 +1,96 @@
 [
   {
+    "name": "Antique Cuirass",
+    "price": 2170,
+    "stats": {
+      "hp": 924,
+      "physical_defense": 40
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "When hit by a skill, reduces the attacker's Physical Damage by 6% for 2 seconds (this effect stacks up to 3 times)."
+  },
+  {
+    "name": "Arcane Boots",
+    "price": 720,
+    "stats": {
+      "magic_power": 15,
+      "movement_speed": 40
+    },
+    "counter_tags": [],
+    "description": "Magic"
+  },
+  {
+    "name": "Ares Belt",
+    "price": 700,
+    "stats": {
+      "hp": 600
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "Defense"
+  },
+  {
     "name": "Athena's Shield",
     "price": 2150,
     "stats": {
-      "magic_defense": 62,
-      "hp": 900,
-      "hp_regen": 4
+      "hp": 902,
+      "magic_defense": 48
     },
-    "counter_tags": ["burst", "magic"],
-    "description": "Reduces magic damage taken by 25% for 3s upon taking magic damage."
+    "counter_tags": [
+      "burst",
+      "magic"
+    ],
+    "description": "Upon taking Magic Damage from enemy hero skills or Basic Attacks, reduces Magic Damage taken by 25% for 3 second (including the damage that triggers the effect)s. Regains this effect 5 seconds after leaving combat."
   },
   {
-    "name": "Sea Halberd",
-    "price": 2200,
+    "name": "Azure Blade",
+    "price": 600,
     "stats": {
-      "physical_attack": 80,
-      "attack_speed": 25
+      "magic_power": 5,
+      "cdr": 5
     },
-    "counter_tags": ["sustain", "shield", "regen"],
-    "description": "Reduces target's healing and shield by 50% for 3s upon dealing damage."
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "After casting a skill, the next Basic Attack within 3 seconds deals 50 extra True Damage (1.5 seconds cooldown)."
   },
   {
-    "name": "Dominance Ice",
-    "price": 2010,
+    "name": "Berserker's Fury",
+    "price": 2390,
     "stats": {
-      "physical_defense": 70,
-      "mana": 500,
-      "movement_speed": 4
+      "physical_attack": 65
     },
-    "counter_tags": ["sustain", "attack_speed", "regen"],
-    "description": "Reduces nearby enemy heroes' attack speed by 30% and shield/healing by 50%."
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "+40% Crit Damage"
   },
   {
-    "name": "Malefic Roar",
-    "price": 2060,
+    "name": "Black Ice Shield",
+    "price": 780,
     "stats": {
-      "physical_attack": 60
+      "physical_defense": 20,
+      "magic_defense": 20
     },
-    "counter_tags": ["tank", "physical_defense"],
-    "description": "Increases physical penetration by up to 40% based on the enemy's physical defense."
+    "counter_tags": [
+      "magic",
+      "physical_defense"
+    ],
+    "description": "For each enemy hero within 5 units, Hybrid Defense is increased by 4, up to 20."
+  },
+  {
+    "name": "Blade Armor",
+    "price": 1910,
+    "stats": {
+      "physical_defense": 80
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "+20% Crit Damage Reduction"
   },
   {
     "name": "Blade of Despair",
@@ -47,7 +99,980 @@
       "physical_attack": 160,
       "movement_speed": 5
     },
-    "counter_tags": ["burst"],
-    "description": "Increases physical attack by 25% when attacking enemies with HP below 50%."
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Dealing damage to non-Minion enemies below 50% HP increases Physical Attack by 25% for 2 seconds (takes effect before the damage is dealt)."
+  },
+  {
+    "name": "Blade of the Heptaseas",
+    "price": 1950,
+    "stats": {
+      "physical_attack": 70,
+      "hp": 250
+    },
+    "counter_tags": [
+      "physical_defense",
+      "tank"
+    ],
+    "description": "+15 Physical Penetration"
+  },
+  {
+    "name": "Blood Wings",
+    "price": 2100,
+    "stats": {
+      "magic_power": 90
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Gains a 800 (+100% Magic Power) Shield that will regenerate 20 seconds after being damaged. The Shield also grants 30 Movement Speed while it lasts and 150 Movement Speed for 1 second after it breaks."
+  },
+  {
+    "name": "Book of Sages",
+    "price": 450,
+    "stats": {
+      "magic_power": 8,
+      "cdr": 5
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Magic"
+  },
+  {
+    "name": "Boots",
+    "price": 250,
+    "stats": {
+      "movement_speed": 20
+    },
+    "counter_tags": [],
+    "description": "Movement"
+  },
+  {
+    "name": "Brute Force Breastplate",
+    "price": 2070,
+    "stats": {
+      "hp": 800,
+      "physical_defense": 20,
+      "cdr": 10
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "Each second after dealing damage, gain 8 extra Adaptive Attack and 2% extra Movement Speed for 4 seconds, up to 6 stacks. Gain 25% extra Control Duration Reduction at full stacks."
+  },
+  {
+    "name": "Chastise Pauldron",
+    "price": 2100,
+    "stats": {
+      "hp": 900,
+      "physical_defense": 40
+    },
+    "counter_tags": [
+      "attack_speed",
+      "physical_defense"
+    ],
+    "description": "Taking damage will reduce the Attack Speed and Attack Speed cap of the attacker to 75% of normal for 2 seconds."
+  },
+  {
+    "name": "Clock of Destiny",
+    "price": 2030,
+    "stats": {
+      "magic_power": 445,
+      "hp": 400,
+      "cdr": 10
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Gains 4.5(+0.5*Hero Level) Hybrid Defense for 5 seconds when dealing Magic Damage to enemy heroes, stacking up to 6 times (can gain 1 stack every 0.4 second)."
+  },
+  {
+    "name": "Concentrated Energy",
+    "price": 2020,
+    "stats": {
+      "magic_power": 70,
+      "hp": 400
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "+20% Hybrid Lifesteal"
+  },
+  {
+    "name": "Corrosion Scythe",
+    "price": 2050,
+    "stats": {
+      "physical_attack": 30,
+      "movement_speed": 5,
+      "attack_speed": 30
+    },
+    "counter_tags": [
+      "attack_speed"
+    ],
+    "description": "Basic Attacks gain 80 extra Physical Damage and slow the target by 8% (halved for ranged Basic Attacks) for 1.5 seconds. Stacks up to 5 times."
+  },
+  {
+    "name": "Cursed Helmet",
+    "price": 1910,
+    "stats": {
+      "hp": 1200,
+      "magic_defense": 20
+    },
+    "counter_tags": [
+      "burst",
+      "magic"
+    ],
+    "description": "Deals (1.2% Total HP) Magic Damage to nearby enemies per second. This damage is increased by 125(+15*Hero Level)% against creeps and minions."
+  },
+  {
+    "name": "Dagger",
+    "price": 250,
+    "stats": {
+      "physical_attack": 15
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Attack"
+  },
+  {
+    "name": "Demon Hunter Sword",
+    "price": 2180,
+    "stats": {
+      "physical_attack": 35,
+      "attack_speed": 20,
+      "physical_lifesteal": 8
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Basic Attacks deal 8% of the target's current HP as extra physical damage (capped at 60 against minions)."
+  },
+  {
+    "name": "Demon Shoes",
+    "price": 720,
+    "stats": {
+      "magic_power": 10,
+      "movement_speed": 40
+    },
+    "counter_tags": [],
+    "description": "Getting a kill or assist on an enemy Minion will restore 4% Mana. (An assist occurs when a Minion dies within 2 seconds after taking damage from the hero.)"
+  },
+  {
+    "name": "Divine Glaive",
+    "price": 1970,
+    "stats": {
+      "magic_power": 65
+    },
+    "counter_tags": [
+      "magic",
+      "physical_defense",
+      "tank"
+    ],
+    "description": "+40% Magic Penetration"
+  },
+  {
+    "name": "Dominance Ice",
+    "price": 2010,
+    "stats": {
+      "physical_defense": 40,
+      "magic_defense": 40,
+      "movement_speed": 5
+    },
+    "counter_tags": [
+      "sustain",
+      "attack_speed",
+      "regen"
+    ],
+    "description": "For each enemy hero within 5 units, Hybrid Defense is increased by 8, up to 40."
+  },
+  {
+    "name": "Dreadnaught Armor",
+    "price": 730,
+    "stats": {
+      "physical_defense": 30
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "When hit by a skill, reduces the attacker's Physical Damage by 4% for 2 seconds (this effect stacks up to 3 times)."
+  },
+  {
+    "name": "Elegant Gem",
+    "price": 700,
+    "stats": {
+      "magic_power": 380,
+      "hp": 300
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "When HP drops below 50%, recovers 15% of HP over the next 3 seconds. When Mana drops below 50%, restores 15% of Mana over the next 3 seconds. Cooldown: 60 seconds."
+  },
+  {
+    "name": "Enchanted Talisman",
+    "price": 1870,
+    "stats": {
+      "magic_power": 50,
+      "hp": 250,
+      "cdr": 20
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Regenerates 15% of Max Mana every 10 seconds."
+  },
+  {
+    "name": "Endless Battle",
+    "price": 2330,
+    "stats": {
+      "physical_attack": 60,
+      "magic_power": 5,
+      "hp": 250,
+      "movement_speed": 5,
+      "cdr": 10
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "After casting a skill, the next Basic Attack within 3 seconds deals (60% Total Physical Attack) extra True Damage and recovers 80 (+40% of Total Physical Attack) HP (1.5 seconds cooldown)."
+  },
+  {
+    "name": "Exotic Veil",
+    "price": 600,
+    "stats": {
+      "magic_power": 30,
+      "movement_speed": 5
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Magic"
+  },
+  {
+    "name": "Expert Gloves",
+    "price": 500,
+    "stats": {
+      "physical_attack": 30
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Attack & Magic"
+  },
+  {
+    "name": "Feather of Heaven",
+    "price": 2030,
+    "stats": {
+      "magic_power": 55,
+      "attack_speed": 20,
+      "cdr": 5,
+      "physical_lifesteal": 10
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Each Basic Attack deals extra 50 (+30% Total Magic Power) Magic Damage."
+  },
+  {
+    "name": "Flask of the Oasis",
+    "price": 1850,
+    "stats": {
+      "magic_power": 60,
+      "hp": 300,
+      "cdr": 10
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "+12% Healing Effect"
+  },
+  {
+    "name": "Fleeting Time",
+    "price": 2050,
+    "stats": {
+      "physical_attack": 30,
+      "hp": 600,
+      "cdr": 15
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "Hero kills or assists reduce the Ultimate's current cooldown by 30%."
+  },
+  {
+    "name": "Fury Hammer",
+    "price": 830,
+    "stats": {
+      "physical_attack": 35
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Attack"
+  },
+  {
+    "name": "Genius Wand",
+    "price": 2000,
+    "stats": {
+      "magic_power": 75,
+      "movement_speed": 5
+    },
+    "counter_tags": [
+      "burst",
+      "magic",
+      "tank"
+    ],
+    "description": "+10 Magic Penetration"
+  },
+  {
+    "name": "Glowing Wand",
+    "price": 2150,
+    "stats": {
+      "magic_power": 75,
+      "hp": 400,
+      "movement_speed": 5
+    },
+    "counter_tags": [
+      "burst",
+      "magic",
+      "regen",
+      "shield",
+      "sustain"
+    ],
+    "description": "Dealing Magic Damage burns the targets for 3 seconds, also dealing extra Magic Damage equal to 1% of the target's Max HP per second."
+  },
+  {
+    "name": "Golden Staff",
+    "price": 2000,
+    "stats": {
+      "physical_attack": 55,
+      "attack_speed": 15
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Every 1% extra Crit Chance gained is converted into 1% extra Attack Speed."
+  },
+  {
+    "name": "Great Dragon Spear",
+    "price": 2140,
+    "stats": {
+      "physical_attack": 70,
+      "cdr": 10
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "After casting an Ultimate, increase Movement Speed by 30% for 7.5 seconds. This effect has a 15 seconds cooldown."
+  },
+  {
+    "name": "Guardian Helmet",
+    "price": 2500,
+    "stats": {
+      "hp": 1820
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "After 5 seconds out of combat, recover (2.5% Total HP) HP per second."
+  },
+  {
+    "name": "Haas' Claws",
+    "price": 2020,
+    "stats": {
+      "physical_attack": 40,
+      "attack_speed": 15
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "+20% Lifesteal"
+  },
+  {
+    "name": "Healing Necklace",
+    "price": 140,
+    "stats": {
+      "hp": 4
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "Defense"
+  },
+  {
+    "name": "Hero's Ring",
+    "price": 450,
+    "stats": {
+      "hp": 150,
+      "cdr": 5
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "Defense"
+  },
+  {
+    "name": "Holy Crystal",
+    "price": 3000,
+    "stats": {
+      "magic_power": 185
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Gains 21%-35% extra Magic Power (scales with level)."
+  },
+  {
+    "name": "Hunter Strike",
+    "price": 2010,
+    "stats": {
+      "physical_attack": 80,
+      "cdr": 10
+    },
+    "counter_tags": [
+      "physical_defense",
+      "tank"
+    ],
+    "description": "+15 Physical Penetration"
+  },
+  {
+    "name": "Ice Queen Wand",
+    "price": 2040,
+    "stats": {
+      "magic_power": 75,
+      "hp": 300,
+      "movement_speed": 7,
+      "spell_vamp": 10
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "When a skill deals damage to an enemy hero, it will also slow them by 10% for 2 seconds (stacks up to 3 times). This effect has a 1 second cooldown."
+  },
+  {
+    "name": "Immortality",
+    "price": 2120,
+    "stats": {
+      "hp": 850,
+      "physical_defense": 15
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "Resurrect 2.5 seconds upon death and gets 16% Max HP and a shield that can absorb 150(+70*Hero Level）damage. Shield lasts 3 seconds. This effect has a 210 seconds cooldown."
+  },
+  {
+    "name": "Iron Hunting Bow",
+    "price": 450,
+    "stats": {
+      "physical_attack": 10,
+      "cdr": 5
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Attack"
+  },
+  {
+    "name": "Javelin",
+    "price": 320,
+    "stats": {},
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Attack"
+  },
+  {
+    "name": "Knife",
+    "price": 280,
+    "stats": {
+      "attack_speed": 10
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Attack_Speed"
+  },
+  {
+    "name": "Leather Jerkin",
+    "price": 220,
+    "stats": {
+      "physical_defense": 14
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "Defense"
+  },
+  {
+    "name": "Legion Sword",
+    "price": 910,
+    "stats": {
+      "physical_attack": 60
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Attack"
+  },
+  {
+    "name": "Lightning Truncheon",
+    "price": 2250,
+    "stats": {
+      "magic_power": 475,
+      "cdr": 10
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Every 6 seconds, the next skill echoes, dealing 170 (+85% Magic Power) extra Magic Damage to all enemies in range."
+  },
+  {
+    "name": "Magic Blade",
+    "price": 1050,
+    "stats": {
+      "physical_attack": 35,
+      "physical_lifesteal": 10
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "When taking damage that reduces HP below 30%, gains a (+60*Hero Level) shield (increases with level) and 50% Movement Speed that rapidly decays over 3 seconds. This effect has a 60 seconds cooldown."
+  },
+  {
+    "name": "Magic Necklace",
+    "price": 120,
+    "stats": {
+      "magic_power": 2
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Magic"
+  },
+  {
+    "name": "Magic Resist Cloak",
+    "price": 220,
+    "stats": {
+      "magic_defense": 14
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Defense"
+  },
+  {
+    "name": "Magic Shoes",
+    "price": 720,
+    "stats": {
+      "hp": 150,
+      "movement_speed": 40,
+      "cdr": 10
+    },
+    "counter_tags": [],
+    "description": "Health"
+  },
+  {
+    "name": "Magic Wand",
+    "price": 820,
+    "stats": {
+      "magic_power": 45
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Magic"
+  },
+  {
+    "name": "Malefic Gun",
+    "price": 2120,
+    "stats": {
+      "physical_attack": 40,
+      "attack_speed": 20
+    },
+    "counter_tags": [
+      "physical_defense",
+      "tank"
+    ],
+    "description": "Increase Physical Penetration by 30%."
+  },
+  {
+    "name": "Malefic Roar",
+    "price": 2060,
+    "stats": {
+      "physical_attack": 60
+    },
+    "counter_tags": [
+      "tank",
+      "physical_defense"
+    ],
+    "description": "Increase Physical Penetration by 30%."
+  },
+  {
+    "name": "Molten Essence",
+    "price": 800,
+    "stats": {
+      "hp": 540
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "Deals (0.6% Total HP) Magic Damage to nearby enemies per second. This damage is increased by 125(+15*Hero Level)% against creeps and minions."
+  },
+  {
+    "name": "Mystery Codex",
+    "price": 300,
+    "stats": {
+      "magic_power": 15
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Magic"
+  },
+  {
+    "name": "Mystic Container",
+    "price": 500,
+    "stats": {
+      "magic_power": 15,
+      "spell_vamp": 8
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Magic"
+  },
+  {
+    "name": "Ogre Tomahawk",
+    "price": 650,
+    "stats": {
+      "physical_attack": 25,
+      "hp": 230
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Health"
+  },
+  {
+    "name": "Oracle",
+    "price": 1860,
+    "stats": {
+      "hp": 850,
+      "physical_defense": 20,
+      "magic_defense": 20,
+      "cdr": 10
+    },
+    "counter_tags": [
+      "magic",
+      "physical_defense"
+    ],
+    "description": "Received Shield and HP Regen effects are increased by 30%."
+  },
+  {
+    "name": "Power Crystal",
+    "price": 220,
+    "stats": {
+      "magic_power": 280
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Magic"
+  },
+  {
+    "name": "Queen's Wings",
+    "price": 2250,
+    "stats": {
+      "physical_attack": 30,
+      "hp": 750,
+      "cdr": 10,
+      "spell_vamp": 10
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "When HP drops below 40%, gains 30% Damage Reduction for 3 seconds and reduces skill cooldowns by 2 seconds. This effect has a 60 seconds cooldown."
+  },
+  {
+    "name": "Radiant Armor",
+    "price": 1880,
+    "stats": {
+      "hp": 962,
+      "magic_defense": 40
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Taking Magic Damage grants 5(+1*Hero Level) Magic Defense for 5 seconds, up to 6 stacks ( can only gain 1 stack(s) every 0.4 seconds)."
+  },
+  {
+    "name": "Rapid Boots",
+    "price": 720,
+    "stats": {
+      "hp": 12,
+      "movement_speed": 65
+    },
+    "counter_tags": [],
+    "description": "Loses 20 Movement Speed for 5 seconds upon dealing or taking damage."
+  },
+  {
+    "name": "Regular Spear",
+    "price": 600,
+    "stats": {
+      "physical_attack": 20,
+      "attack_speed": 10
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Attack_Speed"
+  },
+  {
+    "name": "Rogue Meteor",
+    "price": 900,
+    "stats": {
+      "attack_speed": 15
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Attack_Speed"
+  },
+  {
+    "name": "Rose Gold Meteor",
+    "price": 2030,
+    "stats": {
+      "physical_attack": 40,
+      "attack_speed": 20,
+      "physical_lifesteal": 10
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Every 1% Lifesteal increases Hybrid Defense by 1, up to 50 (effect is halved for non-Fighter heroes)."
+  },
+  {
+    "name": "Sea Halberd",
+    "price": 2050,
+    "stats": {
+      "physical_attack": 80,
+      "attack_speed": 20
+    },
+    "counter_tags": [
+      "sustain",
+      "shield",
+      "regen"
+    ],
+    "description": "Dealing damage to a target will reduce the Shield and HP Regen effects on them to 60% of normal for 3 seconds."
+  },
+  {
+    "name": "Silence Robe",
+    "price": 1020,
+    "stats": {
+      "hp": 540,
+      "magic_defense": 23
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Defense"
+  },
+  {
+    "name": "Sky Piercer",
+    "price": 1500,
+    "stats": {
+      "physical_attack": 60,
+      "movement_speed": 15
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "After dealing damage to an enemy hero, executes the hero if their HP is lower than 4%. Gains 10 stack(s) of Lethality for each kill and loses 30% current stack(s) for each death. Each stack of Lethality increases the HP threshold of the execute effect by 0.1%, stacking up 80 times."
+  },
+  {
+    "name": "Starlium Scythe",
+    "price": 2120,
+    "stats": {
+      "magic_power": 76,
+      "cdr": 10
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "After casting a skill, the next Basic Attack within 3 seconds deals 100 (+100% Total Magic Power) extra True Damage and reduces the target's Movement Speed by 40% for 1.5 seconds (5 seconds cooldown)."
+  },
+  {
+    "name": "Steel Legplates",
+    "price": 630,
+    "stats": {
+      "physical_defense": 35
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "Defense"
+  },
+  {
+    "name": "Swift Boots",
+    "price": 720,
+    "stats": {
+      "movement_speed": 40,
+      "attack_speed": 15
+    },
+    "counter_tags": [],
+    "description": "Movement"
+  },
+  {
+    "name": "Swift Crossbow",
+    "price": 1000,
+    "stats": {
+      "attack_speed": 20
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Each Basic Attack deals 40 extra Adaptive Damage."
+  },
+  {
+    "name": "Thunder Belt",
+    "price": 1820,
+    "stats": {
+      "hp": 600,
+      "physical_defense": 15,
+      "magic_defense": 15,
+      "movement_speed": 20
+    },
+    "counter_tags": [
+      "magic",
+      "physical_defense"
+    ],
+    "description": "Every 4 seconds, the next Basic Attack deals 50 (+100% Extra Physical Defense) (+100% Extra Magic Defense) extra True Damage to the target and enemies around them, and briefly slows them by 99%. Hybrid Defense permanently increases by 1 each time the attack hits an enemy hero. (This effect is reduced to 50% for Marksmen and Mages)"
+  },
+  {
+    "name": "Tome of Evil",
+    "price": 950,
+    "stats": {
+      "magic_power": 39,
+      "cdr": 8
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Magic"
+  },
+  {
+    "name": "Tough Boots",
+    "price": 720,
+    "stats": {
+      "magic_defense": 18,
+      "movement_speed": 40
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "CC and Slow Duration reduced by 25%."
+  },
+  {
+    "name": "Vampire Mallet",
+    "price": 400,
+    "stats": {
+      "physical_attack": 8,
+      "physical_lifesteal": 8
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Attack"
+  },
+  {
+    "name": "Vitality Crystal",
+    "price": 300,
+    "stats": {
+      "hp": 230
+    },
+    "counter_tags": [
+      "physical_defense"
+    ],
+    "description": "Defense"
+  },
+  {
+    "name": "War Axe",
+    "price": 2100,
+    "stats": {
+      "physical_attack": 35,
+      "hp": 400,
+      "cdr": 10,
+      "spell_vamp": 12
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Attacks grants 12 extra Physical Attack per second for 4 seconds, up to 6 stacks. Deals 10% extra True Damage based on the damage dealt (no damage reduction counted) at full stacks. (Marksmen, Mages, and Supports only receive 50% of these stacked effects.)"
+  },
+  {
+    "name": "Warrior Boots",
+    "price": 720,
+    "stats": {
+      "physical_defense": 18,
+      "movement_speed": 40
+    },
+    "counter_tags": [],
+    "description": "Gains 4 extra Physical Defense for 3 seconds when taking Physical Damage, up to 20."
+  },
+  {
+    "name": "Wind of Nature",
+    "price": 1910,
+    "stats": {
+      "physical_attack": 30,
+      "attack_speed": 20,
+      "physical_lifesteal": 10
+    },
+    "counter_tags": [
+      "burst"
+    ],
+    "description": "Become immune to all Physical Damage for 2 seconds (duration is halved for non-Marksmen; 90 seconds cooldown)."
+  },
+  {
+    "name": "Windtalker",
+    "price": 1880,
+    "stats": {
+      "movement_speed": 20,
+      "attack_speed": 35
+    },
+    "counter_tags": [
+      "burst",
+      "magic"
+    ],
+    "description": "Every 5–2 seconds (reduced by 0.2 seconds for each Basic Attack), the next Basic Attack will hit up to 3 enemy units for 150–362 Magic Damage. (This attack can Crit and the damage increases to 200% against Minions.)"
+  },
+  {
+    "name": "Winter Crown",
+    "price": 1910,
+    "stats": {
+      "physical_attack": 45,
+      "hp": 400,
+      "cdr": 5
+    },
+    "counter_tags": [
+      "magic"
+    ],
+    "description": "Becomes frozen, untarge, and immune to damage for 2 seconds (100 seconds cooldown). Cannot move or cast skills while frozen, but skills already cast won't be interrupted."
+  },
+  {
+    "name": "Wishing Lantern",
+    "price": 2250,
+    "stats": {
+      "magic_power": 475,
+      "cdr": 10
+    },
+    "counter_tags": [
+      "burst",
+      "magic"
+    ],
+    "description": "For every 800 Magic Damage dealt to an enemy hero (calculated before Damage Reduction), a Butterfly Goddess is summoned to attack the enemy hero, dealing Magic Damage equal to 8% of their Current HP."
   }
 ]

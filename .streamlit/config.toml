@@ -1,0 +1,6 @@
+[server]
+# Allow larger replay uploads for local testing (MB)
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false

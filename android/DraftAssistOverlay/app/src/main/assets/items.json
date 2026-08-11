@@ -1,0 +1,358 @@
+[
+  {
+    "name": "Antique Cuirass",
+    "price": 2170
+  },
+  {
+    "name": "Arcane Boots",
+    "price": 720
+  },
+  {
+    "name": "Ares Belt",
+    "price": 700
+  },
+  {
+    "name": "Athena's Shield",
+    "price": 2150
+  },
+  {
+    "name": "Azure Blade",
+    "price": 600
+  },
+  {
+    "name": "Berserker's Fury",
+    "price": 2390
+  },
+  {
+    "name": "Black Ice Shield",
+    "price": 780
+  },
+  {
+    "name": "Blade Armor",
+    "price": 1910
+  },
+  {
+    "name": "Blade of Despair",
+    "price": 3010
+  },
+  {
+    "name": "Blade of the Heptaseas",
+    "price": 1950
+  },
+  {
+    "name": "Blood Wings",
+    "price": 2100
+  },
+  {
+    "name": "Book of Sages",
+    "price": 450
+  },
+  {
+    "name": "Boots",
+    "price": 250
+  },
+  {
+    "name": "Brute Force Breastplate",
+    "price": 2070
+  },
+  {
+    "name": "Chastise Pauldron",
+    "price": 2100
+  },
+  {
+    "name": "Clock of Destiny",
+    "price": 2030
+  },
+  {
+    "name": "Concentrated Energy",
+    "price": 2020
+  },
+  {
+    "name": "Corrosion Scythe",
+    "price": 2050
+  },
+  {
+    "name": "Cursed Helmet",
+    "price": 1910
+  },
+  {
+    "name": "Dagger",
+    "price": 250
+  },
+  {
+    "name": "Demon Hunter Sword",
+    "price": 2180
+  },
+  {
+    "name": "Demon Shoes",
+    "price": 720
+  },
+  {
+    "name": "Divine Glaive",
+    "price": 1970
+  },
+  {
+    "name": "Dominance Ice",
+    "price": 2010
+  },
+  {
+    "name": "Dreadnaught Armor",
+    "price": 730
+  },
+  {
+    "name": "Elegant Gem",
+    "price": 700
+  },
+  {
+    "name": "Enchanted Talisman",
+    "price": 1870
+  },
+  {
+    "name": "Endless Battle",
+    "price": 2330
+  },
+  {
+    "name": "Exotic Veil",
+    "price": 600
+  },
+  {
+    "name": "Expert Gloves",
+    "price": 500
+  },
+  {
+    "name": "Feather of Heaven",
+    "price": 2030
+  },
+  {
+    "name": "Flask of the Oasis",
+    "price": 1850
+  },
+  {
+    "name": "Fleeting Time",
+    "price": 2050
+  },
+  {
+    "name": "Fury Hammer",
+    "price": 830
+  },
+  {
+    "name": "Genius Wand",
+    "price": 2000
+  },
+  {
+    "name": "Glowing Wand",
+    "price": 2150
+  },
+  {
+    "name": "Golden Staff",
+    "price": 2000
+  },
+  {
+    "name": "Great Dragon Spear",
+    "price": 2140
+  },
+  {
+    "name": "Guardian Helmet",
+    "price": 2500
+  },
+  {
+    "name": "Haas' Claws",
+    "price": 2020
+  },
+  {
+    "name": "Healing Necklace",
+    "price": 140
+  },
+  {
+    "name": "Hero's Ring",
+    "price": 450
+  },
+  {
+    "name": "Holy Crystal",
+    "price": 3000
+  },
+  {
+    "name": "Hunter Strike",
+    "price": 2010
+  },
+  {
+    "name": "Ice Queen Wand",
+    "price": 2040
+  },
+  {
+    "name": "Immortality",
+    "price": 2120
+  },
+  {
+    "name": "Iron Hunting Bow",
+    "price": 450
+  },
+  {
+    "name": "Javelin",
+    "price": 320
+  },
+  {
+    "name": "Knife",
+    "price": 280
+  },
+  {
+    "name": "Leather Jerkin",
+    "price": 220
+  },
+  {
+    "name": "Legion Sword",
+    "price": 910
+  },
+  {
+    "name": "Lightning Truncheon",
+    "price": 2250
+  },
+  {
+    "name": "Magic Blade",
+    "price": 1050
+  },
+  {
+    "name": "Magic Necklace",
+    "price": 120
+  },
+  {
+    "name": "Magic Resist Cloak",
+    "price": 220
+  },
+  {
+    "name": "Magic Shoes",
+    "price": 720
+  },
+  {
+    "name": "Magic Wand",
+    "price": 820
+  },
+  {
+    "name": "Malefic Gun",
+    "price": 2120
+  },
+  {
+    "name": "Malefic Roar",
+    "price": 2060
+  },
+  {
+    "name": "Molten Essence",
+    "price": 800
+  },
+  {
+    "name": "Mystery Codex",
+    "price": 300
+  },
+  {
+    "name": "Mystic Container",
+    "price": 500
+  },
+  {
+    "name": "Ogre Tomahawk",
+    "price": 650
+  },
+  {
+    "name": "Oracle",
+    "price": 1860
+  },
+  {
+    "name": "Power Crystal",
+    "price": 220
+  },
+  {
+    "name": "Queen's Wings",
+    "price": 2250
+  },
+  {
+    "name": "Radiant Armor",
+    "price": 1880
+  },
+  {
+    "name": "Rapid Boots",
+    "price": 720
+  },
+  {
+    "name": "Regular Spear",
+    "price": 600
+  },
+  {
+    "name": "Rogue Meteor",
+    "price": 900
+  },
+  {
+    "name": "Rose Gold Meteor",
+    "price": 2030
+  },
+  {
+    "name": "Sea Halberd",
+    "price": 2050
+  },
+  {
+    "name": "Silence Robe",
+    "price": 1020
+  },
+  {
+    "name": "Sky Piercer",
+    "price": 1500
+  },
+  {
+    "name": "Starlium Scythe",
+    "price": 2120
+  },
+  {
+    "name": "Steel Legplates",
+    "price": 630
+  },
+  {
+    "name": "Swift Boots",
+    "price": 720
+  },
+  {
+    "name": "Swift Crossbow",
+    "price": 1000
+  },
+  {
+    "name": "Thunder Belt",
+    "price": 1820
+  },
+  {
+    "name": "Tome of Evil",
+    "price": 950
+  },
+  {
+    "name": "Tough Boots",
+    "price": 720
+  },
+  {
+    "name": "Vampire Mallet",
+    "price": 400
+  },
+  {
+    "name": "Vitality Crystal",
+    "price": 300
+  },
+  {
+    "name": "War Axe",
+    "price": 2100
+  },
+  {
+    "name": "Warrior Boots",
+    "price": 720
+  },
+  {
+    "name": "Wind of Nature",
+    "price": 1910
+  },
+  {
+    "name": "Windtalker",
+    "price": 1880
+  },
+  {
+    "name": "Winter Crown",
+    "price": 1910
+  },
+  {
+    "name": "Wishing Lantern",
+    "price": 2250
+  }
+]

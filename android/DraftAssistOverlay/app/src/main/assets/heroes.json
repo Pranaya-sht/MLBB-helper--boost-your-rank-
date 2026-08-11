@@ -1,0 +1,1042 @@
+[
+  {
+    "name": "Aamon",
+    "role": "Jungler",
+    "tags": [
+      "assassin",
+      "chase"
+    ]
+  },
+  {
+    "name": "Akai",
+    "role": "Roamer",
+    "tags": [
+      "tank",
+      "support",
+      "guard"
+    ]
+  },
+  {
+    "name": "Aldous",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "burst"
+    ]
+  },
+  {
+    "name": "Alice",
+    "role": "Exp Laner",
+    "tags": [
+      "mage",
+      "tank",
+      "charge",
+      "regen"
+    ]
+  },
+  {
+    "name": "Alpha",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "charge"
+    ]
+  },
+  {
+    "name": "Alucard",
+    "role": "Jungler",
+    "tags": [
+      "fighter",
+      "assassin",
+      "chase",
+      "damage"
+    ]
+  },
+  {
+    "name": "Angela",
+    "role": "Roamer",
+    "tags": [
+      "support",
+      "guard"
+    ]
+  },
+  {
+    "name": "Argus",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "charge"
+    ]
+  },
+  {
+    "name": "Arlott",
+    "role": "Mid Laner",
+    "tags": []
+  },
+  {
+    "name": "Atlas",
+    "role": "Roamer",
+    "tags": [
+      "tank",
+      "support",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Aulus",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "damage"
+    ]
+  },
+  {
+    "name": "Aurora",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Badang",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "charge"
+    ]
+  },
+  {
+    "name": "Balmond",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "damage"
+    ]
+  },
+  {
+    "name": "Bane",
+    "role": "Jungler",
+    "tags": [
+      "fighter",
+      "mage",
+      "push",
+      "burst"
+    ]
+  },
+  {
+    "name": "Barats",
+    "role": "Exp Laner",
+    "tags": [
+      "tank",
+      "fighter",
+      "damage",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Baxia",
+    "role": "Jungler",
+    "tags": [
+      "tank",
+      "support"
+    ]
+  },
+  {
+    "name": "Beatrix",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Belerick",
+    "role": "Roamer",
+    "tags": [
+      "tank",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Benedetta",
+    "role": "Exp Laner",
+    "tags": [
+      "assassin",
+      "chase",
+      "burst"
+    ]
+  },
+  {
+    "name": "Brody",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "burst"
+    ]
+  },
+  {
+    "name": "Bruno",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Carmilla",
+    "role": "Roamer",
+    "tags": [
+      "support",
+      "crowd_control",
+      "damage"
+    ]
+  },
+  {
+    "name": "Cecilion",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "poke"
+    ]
+  },
+  {
+    "name": "Chang'E",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "poke"
+    ]
+  },
+  {
+    "name": "Chip",
+    "role": "Mid Laner",
+    "tags": []
+  },
+  {
+    "name": "Chou",
+    "role": "Gold Laner",
+    "tags": [
+      "fighter",
+      "chase"
+    ]
+  },
+  {
+    "name": "Cici",
+    "role": "Mid Laner",
+    "tags": []
+  },
+  {
+    "name": "Claude",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "burst"
+    ]
+  },
+  {
+    "name": "Clint",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Cyclops",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "poke"
+    ]
+  },
+  {
+    "name": "Diggie",
+    "role": "Roamer",
+    "tags": [
+      "support",
+      "guard"
+    ]
+  },
+  {
+    "name": "Dyrroth",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "charge"
+    ]
+  },
+  {
+    "name": "Edith",
+    "role": "Exp Laner",
+    "tags": [
+      "tank",
+      "marksman",
+      "control",
+      "burst"
+    ]
+  },
+  {
+    "name": "Esmeralda",
+    "role": "Exp Laner",
+    "tags": [
+      "mage",
+      "tank",
+      "regen",
+      "mixed_damage"
+    ]
+  },
+  {
+    "name": "Estes",
+    "role": "Roamer",
+    "tags": [
+      "support",
+      "regen"
+    ]
+  },
+  {
+    "name": "Eudora",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "control"
+    ]
+  },
+  {
+    "name": "Fanny",
+    "role": "Jungler",
+    "tags": [
+      "assassin",
+      "chase"
+    ]
+  },
+  {
+    "name": "Faramis",
+    "role": "Roamer",
+    "tags": [
+      "support",
+      "mage",
+      "guard",
+      "charge"
+    ]
+  },
+  {
+    "name": "Floryn",
+    "role": "Roamer",
+    "tags": [
+      "support",
+      "poke"
+    ]
+  },
+  {
+    "name": "Franco",
+    "role": "Roamer",
+    "tags": [
+      "tank",
+      "support",
+      "initiator"
+    ]
+  },
+  {
+    "name": "Fredrinn",
+    "role": "Exp Laner",
+    "tags": [
+      "tank",
+      "fighter",
+      "damage",
+      "chase"
+    ]
+  },
+  {
+    "name": "Freya",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "chase"
+    ]
+  },
+  {
+    "name": "Gatotkaca",
+    "role": "Roamer",
+    "tags": [
+      "tank",
+      "fighter",
+      "crowd_control",
+      "burst"
+    ]
+  },
+  {
+    "name": "Gloo",
+    "role": "Roamer",
+    "tags": [
+      "tank",
+      "regen"
+    ]
+  },
+  {
+    "name": "Gord",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "poke"
+    ]
+  },
+  {
+    "name": "Granger",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "burst"
+    ]
+  },
+  {
+    "name": "Grock",
+    "role": "Roamer",
+    "tags": [
+      "tank",
+      "crowd_control",
+      "initiator"
+    ]
+  },
+  {
+    "name": "Guinevere",
+    "role": "Gold Laner",
+    "tags": [
+      "fighter",
+      "burst"
+    ]
+  },
+  {
+    "name": "Gusion",
+    "role": "Jungler",
+    "tags": [
+      "assassin",
+      "burst"
+    ]
+  },
+  {
+    "name": "Hanabi",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Hanzo",
+    "role": "Jungler",
+    "tags": [
+      "assassin",
+      "burst"
+    ]
+  },
+  {
+    "name": "Harith",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "chase"
+    ]
+  },
+  {
+    "name": "Harley",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "assassin",
+      "burst",
+      "poke"
+    ]
+  },
+  {
+    "name": "Hayabusa",
+    "role": "Jungler",
+    "tags": [
+      "assassin",
+      "chase"
+    ]
+  },
+  {
+    "name": "Helcurt",
+    "role": "Jungler",
+    "tags": [
+      "assassin",
+      "push"
+    ]
+  },
+  {
+    "name": "Hilda",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "tank",
+      "damage",
+      "regen"
+    ]
+  },
+  {
+    "name": "Hylos",
+    "role": "Roamer",
+    "tags": [
+      "tank",
+      "guard"
+    ]
+  },
+  {
+    "name": "Irithel",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Ixia",
+    "role": "Mid Laner",
+    "tags": []
+  },
+  {
+    "name": "Jawhead",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "charge"
+    ]
+  },
+  {
+    "name": "Johnson",
+    "role": "Roamer",
+    "tags": [
+      "tank",
+      "support",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Joy",
+    "role": "Mid Laner",
+    "tags": []
+  },
+  {
+    "name": "Julian",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "mage",
+      "chase",
+      "magic_damage"
+    ]
+  },
+  {
+    "name": "Kadita",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "assassin",
+      "tba"
+    ]
+  },
+  {
+    "name": "Kagura",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "poke"
+    ]
+  },
+  {
+    "name": "Kaja",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "support",
+      "control",
+      "charge"
+    ]
+  },
+  {
+    "name": "Karina",
+    "role": "Jungler",
+    "tags": [
+      "assassin",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Karrie",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Khaleed",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "damage"
+    ]
+  },
+  {
+    "name": "Khufra",
+    "role": "Roamer",
+    "tags": [
+      "tank",
+      "support",
+      "initiator"
+    ]
+  },
+  {
+    "name": "Kimmy",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "mage",
+      "damage",
+      "magic_damage"
+    ]
+  },
+  {
+    "name": "Lancelot",
+    "role": "Jungler",
+    "tags": [
+      "assassin",
+      "chase"
+    ]
+  },
+  {
+    "name": "Lapu-Lapu",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "chase"
+    ]
+  },
+  {
+    "name": "Layla",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Leomord",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "chase"
+    ]
+  },
+  {
+    "name": "Lesley",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "assassin",
+      "finisher",
+      "burst"
+    ]
+  },
+  {
+    "name": "Ling",
+    "role": "Jungler",
+    "tags": [
+      "assassin",
+      "chase"
+    ]
+  },
+  {
+    "name": "Lolita",
+    "role": "Roamer",
+    "tags": [
+      "support",
+      "tank",
+      "guard",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Lunox",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "burst"
+    ]
+  },
+  {
+    "name": "Luo Yi",
+    "role": "Mid Laner",
+    "tags": []
+  },
+  {
+    "name": "Luo_Yi",
+    "role": "Mid Laner",
+    "tags": [
+      "mage"
+    ]
+  },
+  {
+    "name": "Lylia",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "push"
+    ]
+  },
+  {
+    "name": "Martis",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Masha",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "tank",
+      "push",
+      "damage"
+    ]
+  },
+  {
+    "name": "Mathilda",
+    "role": "Roamer",
+    "tags": [
+      "support",
+      "assassin",
+      "initiator",
+      "guard"
+    ]
+  },
+  {
+    "name": "Melissa",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Minotaur",
+    "role": "Roamer",
+    "tags": [
+      "tank",
+      "support",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Minsitthar",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "initiator"
+    ]
+  },
+  {
+    "name": "Miya",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Moskov",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Nana",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "support",
+      "poke"
+    ]
+  },
+  {
+    "name": "Natalia",
+    "role": "Jungler",
+    "tags": [
+      "assassin",
+      "chase"
+    ]
+  },
+  {
+    "name": "Natan",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "burst"
+    ]
+  },
+  {
+    "name": "Nolan",
+    "role": "Mid Laner",
+    "tags": []
+  },
+  {
+    "name": "Novaria",
+    "role": "Mid Laner",
+    "tags": []
+  },
+  {
+    "name": "Odette",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "burst"
+    ]
+  },
+  {
+    "name": "Paquito",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "chase",
+      "damage"
+    ]
+  },
+  {
+    "name": "Pharsa",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "tba"
+    ]
+  },
+  {
+    "name": "Phoveus",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "chase"
+    ]
+  },
+  {
+    "name": "Popol And Kupa",
+    "role": "Mid Laner",
+    "tags": []
+  },
+  {
+    "name": "Popol_And_Kupa",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman"
+    ]
+  },
+  {
+    "name": "Rafaela",
+    "role": "Roamer",
+    "tags": [
+      "support",
+      "regen"
+    ]
+  },
+  {
+    "name": "Roger",
+    "role": "Jungler",
+    "tags": [
+      "fighter",
+      "marksman",
+      "finisher",
+      "burst"
+    ]
+  },
+  {
+    "name": "Ruby",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "tank",
+      "crowd_control"
+    ]
+  },
+  {
+    "name": "Saber",
+    "role": "Mid Laner",
+    "tags": []
+  },
+  {
+    "name": "Selena",
+    "role": "Jungler",
+    "tags": [
+      "assassin",
+      "mage",
+      "initiator",
+      "finisher"
+    ]
+  },
+  {
+    "name": "Silvanna",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "initiator"
+    ]
+  },
+  {
+    "name": "Sun",
+    "role": "Mid Laner",
+    "tags": []
+  },
+  {
+    "name": "Terizla",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "burst"
+    ]
+  },
+  {
+    "name": "Thamuz",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "chase"
+    ]
+  },
+  {
+    "name": "Tigreal",
+    "role": "Roamer",
+    "tags": [
+      "tank",
+      "crowd_control",
+      "engage",
+      "sustain"
+    ]
+  },
+  {
+    "name": "Uranus",
+    "role": "Exp Laner",
+    "tags": [
+      "tank",
+      "regen"
+    ]
+  },
+  {
+    "name": "Vale",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "burst"
+    ]
+  },
+  {
+    "name": "Valentina",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "burst"
+    ]
+  },
+  {
+    "name": "Valir",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "damage"
+    ]
+  },
+  {
+    "name": "Vexana",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "poke"
+    ]
+  },
+  {
+    "name": "Wanwan",
+    "role": "Gold Laner",
+    "tags": [
+      "marksman",
+      "finisher"
+    ]
+  },
+  {
+    "name": "X.Borg",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "regen"
+    ]
+  },
+  {
+    "name": "Xavier",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "damage"
+    ]
+  },
+  {
+    "name": "Yi Sun-Shin",
+    "role": "Mid Laner",
+    "tags": []
+  },
+  {
+    "name": "Yi_Sun-Shin",
+    "role": "Jungler",
+    "tags": [
+      "assassin",
+      "marksman"
+    ]
+  },
+  {
+    "name": "Yin",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter",
+      "burst",
+      "control"
+    ]
+  },
+  {
+    "name": "Yu Zhong",
+    "role": "Mid Laner",
+    "tags": []
+  },
+  {
+    "name": "Yu_Zhong",
+    "role": "Exp Laner",
+    "tags": [
+      "fighter"
+    ]
+  },
+  {
+    "name": "Yve",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "burst"
+    ]
+  },
+  {
+    "name": "Zhask",
+    "role": "Mid Laner",
+    "tags": [
+      "mage",
+      "chase"
+    ]
+  },
+  {
+    "name": "Zilong",
+    "role": "Gold Laner",
+    "tags": [
+      "fighter",
+      "assassin",
+      "chase",
+      "damage"
+    ]
+  }
+]

@@ -10,12 +10,21 @@ from core.models import DraftState, TimelineEvent, MatchTimeline
 from core.draft_analyzer import DraftAnalyzer
 from core.item_analyzer import ItemAnalyzer
 from core.meta_analyzer import MetaAnalyzer
+from core.live_coach import LiveCoach
 from vision.replay_processor import ReplayProcessor
+
+TEST_VIDEOS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "test", "videos")
+MAX_UPLOAD_MB = 200
 
 
 @st.cache_resource
 def get_meta_analyzer() -> MetaAnalyzer:
     return MetaAnalyzer()
+
+
+@st.cache_resource
+def get_live_coach() -> LiveCoach:
+    return LiveCoach()
 
 
 @st.cache_data(show_spinner=False)
@@ -35,6 +44,18 @@ def run_meta_bpw(
         tournament_end_date=tournament_end_date,
     )
     return result["num_games"], result["table"]
+
+
+def list_test_videos() -> list[str]:
+    if not os.path.isdir(TEST_VIDEOS_DIR):
+        return []
+    return sorted(
+        [
+            f
+            for f in os.listdir(TEST_VIDEOS_DIR)
+            if f.lower().endswith(".mp4")
+        ]
+    )
 
 # 1. Page Configuration
 st.set_page_config(
@@ -294,8 +315,8 @@ with head_left:
     st.markdown(f"""
     <div class="brand-container">
         <div>
-            <div class="brand-title">⚔️ MLBB MATCH ANALYST <span class="badge badge-blue">Phase 0+1 MVP</span></div>
-            <div class="brand-subtitle">Offline tactical draft evaluation & replay commentary engine</div>
+            <div class="brand-title">⚔️ MLBB MATCH ANALYST <span class="badge badge-blue">Offline + Live Coach</span></div>
+            <div class="brand-subtitle">Draft · meta BPW · replay timelines · ban/pick overlay coach</div>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -316,8 +337,13 @@ except Exception as e:
     item_list = ["Athena's Shield", "Sea Halberd", "Dominance Ice", "Malefic Roar", "Blade of Despair"]
 
 # 6. Tab Selection Navigation
-tab_names = ["🎯 Draft & Item Analyzer", "📼 Replay Timeline Analyzer", "📊 Meta Ban / Pick / Win"]
-tab_draft, tab_replay, tab_meta = st.tabs(tab_names)
+tab_names = [
+    "🎯 Draft & Item Analyzer",
+    "📼 Replay Timeline Analyzer",
+    "📊 Meta Ban / Pick / Win",
+    "📱 Live Overlay Coach",
+]
+tab_draft, tab_replay, tab_meta, tab_overlay = st.tabs(tab_names)
 
 # --- TAB 1: DRAFT & ITEM ANALYZER ---
 with tab_draft:
@@ -519,24 +545,64 @@ with tab_draft:
 
 # --- TAB 2: REPLAY TIMELINE ---
 with tab_replay:
-    st.markdown("<p style='font-size: 0.85rem; color:#71717a; margin-top:-0.5rem; margin-bottom:1.5rem;'>Upload a local game replay MP4 or trigger Simulation Mode to generate a tactical commentary timeline and gold difference graph.</p>", unsafe_allow_html=True)
+    st.markdown(
+        "<p style='font-size: 0.85rem; color:#71717a; margin-top:-0.5rem; margin-bottom:1.5rem;'>"
+        f"Load a local replay from <code>test/videos/</code> or upload an MP4 (max {MAX_UPLOAD_MB} MB). "
+        "Simulation Mode still works for an instant demo."
+        "</p>",
+        unsafe_allow_html=True,
+    )
     
     col_vid_left, col_vid_right = st.columns([2, 1])
     
     with col_vid_left:
-        video_input_type = st.radio("Select Input Mode", options=["Run Match Simulation (Recommended / Instant Demo)", "Upload Replay File (.mp4)"], horizontal=True)
+        video_input_type = st.radio(
+            "Select Input Mode",
+            options=[
+                "Run Match Simulation (Recommended / Instant Demo)",
+                "Load from test/videos folder",
+                "Upload Replay File (.mp4)",
+            ],
+            horizontal=False,
+        )
         
         uploaded_file_path = None
-        if video_input_type == "Upload Replay File (.mp4)":
-            uploaded_file = st.file_uploader("Upload Replay Video (.mp4)", type=["mp4"])
+        if video_input_type == "Load from test/videos folder":
+            videos = list_test_videos()
+            if not videos:
+                st.warning(
+                    f"No `.mp4` files found in `{TEST_VIDEOS_DIR}`. "
+                    "Drop a replay there and refresh."
+                )
+            else:
+                chosen = st.selectbox("Choose test video", options=videos, key="test_video_sel")
+                candidate = os.path.join(TEST_VIDEOS_DIR, chosen)
+                size_mb = os.path.getsize(candidate) / (1024 * 1024)
+                st.caption(f"Selected: {chosen} ({size_mb:.1f} MB)")
+                if size_mb > MAX_UPLOAD_MB:
+                    st.error(f"File exceeds {MAX_UPLOAD_MB} MB test limit.")
+                else:
+                    uploaded_file_path = candidate
+                    st.success(f"Ready: {chosen}")
+        elif video_input_type == "Upload Replay File (.mp4)":
+            uploaded_file = st.file_uploader(
+                f"Upload Replay Video (.mp4, max {MAX_UPLOAD_MB} MB)",
+                type=["mp4"],
+            )
             if uploaded_file:
-                # Save uploaded file temporarily in workspace
-                temp_dir = os.path.join(os.getcwd(), "scratch")
-                os.makedirs(temp_dir, exist_ok=True)
-                uploaded_file_path = os.path.join(temp_dir, uploaded_file.name)
-                with open(uploaded_file_path, "wb") as f:
-                    f.write(uploaded_file.getbuffer())
-                st.success(f"Video uploaded: {uploaded_file.name}")
+                size_mb = uploaded_file.size / (1024 * 1024)
+                if size_mb > MAX_UPLOAD_MB:
+                    st.error(
+                        f"Upload is {size_mb:.1f} MB — limit is {MAX_UPLOAD_MB} MB "
+                        "(see `.streamlit/config.toml`)."
+                    )
+                else:
+                    temp_dir = os.path.join(os.getcwd(), "scratch")
+                    os.makedirs(temp_dir, exist_ok=True)
+                    uploaded_file_path = os.path.join(temp_dir, uploaded_file.name)
+                    with open(uploaded_file_path, "wb") as f:
+                        f.write(uploaded_file.getbuffer())
+                    st.success(f"Video uploaded: {uploaded_file.name} ({size_mb:.1f} MB)")
         else:
             uploaded_file_path = "simulated_match.mp4"  # Triggers simulation fallback path
             
@@ -999,4 +1065,139 @@ with tab_meta:
                     mime="text/csv",
                     use_container_width=True,
                 )
+
+# --- TAB 4: LIVE OVERLAY COACH ---
+with tab_overlay:
+    st.markdown(
+        "<p style='font-size: 0.85rem; color:#71717a; margin-top:-0.5rem; margin-bottom:1.5rem;'>"
+        "Desktop preview of an MLBB live overlay coach: ban priorities, pick suggestions with synergy/counter reasons, "
+        "and counter-item calls for the enemy draft. Android MediaProjection overlay is Phase 2 — this tab reuses the same advice engine."
+        "</p>",
+        unsafe_allow_html=True,
+    )
+
+    try:
+        coach = get_live_coach()
+    except Exception as e:
+        st.error(f"Could not load live coach: {e}")
+        coach = None
+
+    if coach is not None:
+        rank_meta = coach.rank_meta or {}
+        st.caption(
+            f"Rank snapshot source: {rank_meta.get('source', 'missing')} · "
+            f"updated: {rank_meta.get('updated_at', 'run scripts/fetch_rank_meta.py')}"
+        )
+
+        o1, o2, o3 = st.columns(3)
+        with o1:
+            ov_allies = st.multiselect(
+                "Your team picks",
+                options=hero_list,
+                max_selections=5,
+                key="ov_allies",
+            )
+        with o2:
+            ov_enemies = st.multiselect(
+                "Enemy picks",
+                options=hero_list,
+                max_selections=5,
+                key="ov_enemies",
+            )
+        with o3:
+            ov_banned = st.multiselect(
+                "Already banned",
+                options=hero_list,
+                max_selections=10,
+                key="ov_banned",
+            )
+
+        ov_items = st.multiselect(
+            "Enemy items (optional)",
+            options=item_list,
+            key="ov_items",
+        )
+
+        advice = coach.advise(
+            allies=ov_allies,
+            enemies=ov_enemies,
+            banned=ov_banned,
+            enemy_items=ov_items,
+        )
+
+        # Overlay-styled panels
+        st.markdown(
+            f"""
+            <div class="panel-card" style="border-color:#2563eb;">
+              <div style="font-size:0.75rem; letter-spacing:0.08em; text-transform:uppercase; color:#71717a;">Live Overlay · Draft Phase</div>
+              <div style="display:flex; gap:1.5rem; flex-wrap:wrap; margin-top:0.75rem;">
+                <div><strong>Ally</strong>: {', '.join(ov_allies) or '—'}</div>
+                <div><strong>Enemy</strong>: {', '.join(ov_enemies) or '—'}</div>
+                <div><strong>Banned</strong>: {', '.join(ov_banned) or '—'}</div>
+              </div>
+              <div style="margin-top:0.75rem; font-size:0.9rem;">
+                Draft strength <strong>{advice['draft']['overall_score']}%</strong>
+                · Synergy <strong>{advice['draft']['synergy_score']}%</strong>
+                · Matchup <strong>{advice['draft']['counter_score']}%</strong>
+              </div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+        bcol, pcol = st.columns(2)
+        with bcol:
+            st.markdown("<h4 style='font-size:0.95rem;'>Ban recommendations</h4>", unsafe_allow_html=True)
+            ban_df = pd.DataFrame(advice["ban_recommendations"])
+            if ban_df.empty:
+                st.info("No ban candidates.")
+            else:
+                show_ban = ban_df[["hero", "role", "ban_rate", "pick_rate", "win_rate", "reason"]].copy()
+                for c in ("ban_rate", "pick_rate", "win_rate"):
+                    show_ban[c] = (show_ban[c] * 100).round(1)
+                st.dataframe(show_ban, use_container_width=True, hide_index=True)
+
+        with pcol:
+            st.markdown("<h4 style='font-size:0.95rem;'>Pick recommendations</h4>", unsafe_allow_html=True)
+            pick_df = pd.DataFrame(advice["pick_recommendations"])
+            if pick_df.empty:
+                st.info("No pick candidates.")
+            else:
+                show_pick = pick_df[["hero", "role", "win_rate", "pick_rate", "reason"]].copy()
+                for c in ("win_rate", "pick_rate"):
+                    show_pick[c] = (show_pick[c] * 100).round(1)
+                st.dataframe(show_pick, use_container_width=True, hide_index=True)
+
+        st.markdown("<h4 style='font-size:0.95rem; margin-top:1rem;'>Synergy / matchup notes</h4>", unsafe_allow_html=True)
+        notes = advice["draft"].get("synergy_details", []) + advice["draft"].get("counter_details", [])
+        if notes:
+            for note in notes[:12]:
+                st.markdown(f"- {note}")
+        else:
+            st.caption("Pick allies/enemies to see synergy and counter callouts.")
+
+        gaps = advice["draft"].get("gaps") or []
+        if gaps:
+            st.markdown("<h4 style='font-size:0.95rem;'>Composition gaps</h4>", unsafe_allow_html=True)
+            for gap in gaps:
+                st.markdown(f"- {gap}")
+
+        st.markdown("<h4 style='font-size:0.95rem; margin-top:1rem;'>Counter items vs enemy</h4>", unsafe_allow_html=True)
+        item_recs = advice.get("item_recommendations") or []
+        if not ov_enemies and not ov_items:
+            st.caption("Select enemy heroes (and optional items) for counter builds.")
+        elif not item_recs:
+            st.info("No strong counter-item matches for this enemy set.")
+        else:
+            item_df = pd.DataFrame(item_recs)[["recommended_item", "priority", "price", "reason"]]
+            st.dataframe(item_df, use_container_width=True, hide_index=True)
+
+        st.markdown(
+            "<p style='font-size:0.8rem; color:#71717a; margin-top:1rem;'>"
+            "Refresh meta: <code>.\\.venv\\Scripts\\python.exe scripts\\fetch_rank_meta.py</code> "
+            "· Official UI reference: "
+            "<a href='https://www.mobilelegends.com/rank' target='_blank'>mobilelegends.com/rank</a>"
+            "</p>",
+            unsafe_allow_html=True,
+        )
 

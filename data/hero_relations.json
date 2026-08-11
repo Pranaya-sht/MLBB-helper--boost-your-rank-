@@ -1,0 +1,8811 @@
+{
+  "meta": {
+    "source": "data\\data-20260810T160518Z-1-001\\data\\consolidated_game_data.csv",
+    "num_games": 13171,
+    "min_copick_games": 25,
+    "min_matchup_games": 20,
+    "synergy_wr": 0.55,
+    "counter_wr": 0.58,
+    "max_synergies": 8,
+    "max_counters": 8
+  },
+  "heroes": {
+    "Aamon": {
+      "games": 161,
+      "wins": 87,
+      "win_rate": 0.5404,
+      "synergies": [
+        {
+          "partner": "Paquito",
+          "wins": 21,
+          "games": 32,
+          "win_rate": 0.6562
+        },
+        {
+          "partner": "Valentina",
+          "wins": 17,
+          "games": 26,
+          "win_rate": 0.6538
+        },
+        {
+          "partner": "Faramis",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Beatrix",
+          "wins": 23,
+          "games": 38,
+          "win_rate": 0.6053
+        },
+        {
+          "partner": "Grock",
+          "wins": 16,
+          "games": 29,
+          "win_rate": 0.5517
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Esmeralda",
+          "wins": 21,
+          "games": 29,
+          "win_rate": 0.7241
+        },
+        {
+          "enemy": "Ling",
+          "wins": 14,
+          "games": 21,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Grock",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        }
+      ]
+    },
+    "Akai": {
+      "games": 2275,
+      "wins": 1143,
+      "win_rate": 0.5024,
+      "synergies": [
+        {
+          "partner": "Estes",
+          "wins": 40,
+          "games": 58,
+          "win_rate": 0.6897
+        },
+        {
+          "partner": "Phoveus",
+          "wins": 35,
+          "games": 54,
+          "win_rate": 0.6481
+        },
+        {
+          "partner": "Atlas",
+          "wins": 30,
+          "games": 48,
+          "win_rate": 0.625
+        },
+        {
+          "partner": "Kimmy",
+          "wins": 57,
+          "games": 95,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Moskov",
+          "wins": 24,
+          "games": 41,
+          "win_rate": 0.5854
+        },
+        {
+          "partner": "Gloo",
+          "wins": 53,
+          "games": 91,
+          "win_rate": 0.5824
+        },
+        {
+          "partner": "Bruno",
+          "wins": 60,
+          "games": 106,
+          "win_rate": 0.566
+        },
+        {
+          "partner": "Chou",
+          "wins": 147,
+          "games": 260,
+          "win_rate": 0.5654
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Bane",
+          "wins": 17,
+          "games": 25,
+          "win_rate": 0.68
+        },
+        {
+          "enemy": "Jawhead",
+          "wins": 59,
+          "games": 92,
+          "win_rate": 0.6413
+        },
+        {
+          "enemy": "Hylos",
+          "wins": 43,
+          "games": 70,
+          "win_rate": 0.6143
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 20,
+          "games": 33,
+          "win_rate": 0.6061
+        },
+        {
+          "enemy": "Harley",
+          "wins": 44,
+          "games": 73,
+          "win_rate": 0.6027
+        },
+        {
+          "enemy": "Saber",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Nana",
+          "wins": 12,
+          "games": 20,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Melissa",
+          "wins": 57,
+          "games": 97,
+          "win_rate": 0.5876
+        }
+      ]
+    },
+    "Aldous": {
+      "games": 183,
+      "wins": 92,
+      "win_rate": 0.5027,
+      "synergies": [
+        {
+          "partner": "Kaja",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Lunox",
+          "wins": 16,
+          "games": 28,
+          "win_rate": 0.5714
+        },
+        {
+          "partner": "Mathilda",
+          "wins": 14,
+          "games": 25,
+          "win_rate": 0.56
+        },
+        {
+          "partner": "Chou",
+          "wins": 19,
+          "games": 34,
+          "win_rate": 0.5588
+        },
+        {
+          "partner": "Yve",
+          "wins": 16,
+          "games": 29,
+          "win_rate": 0.5517
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Paquito",
+          "wins": 21,
+          "games": 32,
+          "win_rate": 0.6562
+        },
+        {
+          "enemy": "Yu Zhong",
+          "wins": 13,
+          "games": 20,
+          "win_rate": 0.65
+        }
+      ]
+    },
+    "Alice": {
+      "games": 965,
+      "wins": 479,
+      "win_rate": 0.4964,
+      "synergies": [
+        {
+          "partner": "Eudora",
+          "wins": 22,
+          "games": 34,
+          "win_rate": 0.6471
+        },
+        {
+          "partner": "Estes",
+          "wins": 21,
+          "games": 33,
+          "win_rate": 0.6364
+        },
+        {
+          "partner": "Bruno",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Barats",
+          "wins": 51,
+          "games": 84,
+          "win_rate": 0.6071
+        },
+        {
+          "partner": "Gloo",
+          "wins": 18,
+          "games": 31,
+          "win_rate": 0.5806
+        },
+        {
+          "partner": "Valir",
+          "wins": 16,
+          "games": 28,
+          "win_rate": 0.5714
+        },
+        {
+          "partner": "Yi Sun-Shin",
+          "wins": 55,
+          "games": 97,
+          "win_rate": 0.567
+        },
+        {
+          "partner": "Kaja",
+          "wins": 37,
+          "games": 66,
+          "win_rate": 0.5606
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Gusion",
+          "wins": 21,
+          "games": 32,
+          "win_rate": 0.6562
+        },
+        {
+          "enemy": "Silvanna",
+          "wins": 19,
+          "games": 30,
+          "win_rate": 0.6333
+        },
+        {
+          "enemy": "Jawhead",
+          "wins": 62,
+          "games": 103,
+          "win_rate": 0.6019
+        },
+        {
+          "enemy": "Bane",
+          "wins": 17,
+          "games": 29,
+          "win_rate": 0.5862
+        },
+        {
+          "enemy": "Martis",
+          "wins": 31,
+          "games": 53,
+          "win_rate": 0.5849
+        }
+      ]
+    },
+    "Alpha": {
+      "games": 183,
+      "wins": 90,
+      "win_rate": 0.4918,
+      "synergies": [
+        {
+          "partner": "Valentina",
+          "wins": 17,
+          "games": 28,
+          "win_rate": 0.6071
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Paquito",
+          "wins": 16,
+          "games": 24,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Uranus",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        }
+      ]
+    },
+    "Alucard": {
+      "games": 61,
+      "wins": 26,
+      "win_rate": 0.4262,
+      "synergies": [],
+      "counters": []
+    },
+    "Angela": {
+      "games": 1187,
+      "wins": 554,
+      "win_rate": 0.4667,
+      "synergies": [
+        {
+          "partner": "Grock",
+          "wins": 48,
+          "games": 82,
+          "win_rate": 0.5854
+        },
+        {
+          "partner": "Kagura",
+          "wins": 35,
+          "games": 60,
+          "win_rate": 0.5833
+        },
+        {
+          "partner": "Harith",
+          "wins": 31,
+          "games": 54,
+          "win_rate": 0.5741
+        },
+        {
+          "partner": "Edith",
+          "wins": 41,
+          "games": 72,
+          "win_rate": 0.5694
+        },
+        {
+          "partner": "Roger",
+          "wins": 23,
+          "games": 41,
+          "win_rate": 0.561
+        },
+        {
+          "partner": "Popol And Kupa",
+          "wins": 20,
+          "games": 36,
+          "win_rate": 0.5556
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Luo Yi",
+          "wins": 16,
+          "games": 20,
+          "win_rate": 0.8
+        },
+        {
+          "enemy": "Jawhead",
+          "wins": 35,
+          "games": 53,
+          "win_rate": 0.6604
+        },
+        {
+          "enemy": "Karrie",
+          "wins": 53,
+          "games": 85,
+          "win_rate": 0.6235
+        },
+        {
+          "enemy": "Arlott",
+          "wins": 24,
+          "games": 39,
+          "win_rate": 0.6154
+        },
+        {
+          "enemy": "Valir",
+          "wins": 20,
+          "games": 33,
+          "win_rate": 0.6061
+        },
+        {
+          "enemy": "Floryn",
+          "wins": 23,
+          "games": 38,
+          "win_rate": 0.6053
+        },
+        {
+          "enemy": "Lapu-Lapu",
+          "wins": 32,
+          "games": 53,
+          "win_rate": 0.6038
+        },
+        {
+          "enemy": "Yi Sun-Shin",
+          "wins": 23,
+          "games": 39,
+          "win_rate": 0.5897
+        }
+      ]
+    },
+    "Argus": {
+      "games": 8,
+      "wins": 2,
+      "win_rate": 0.25,
+      "synergies": [],
+      "counters": []
+    },
+    "Arlott": {
+      "games": 1113,
+      "wins": 536,
+      "win_rate": 0.4816,
+      "synergies": [
+        {
+          "partner": "Bruno",
+          "wins": 27,
+          "games": 46,
+          "win_rate": 0.587
+        },
+        {
+          "partner": "Lesley",
+          "wins": 20,
+          "games": 35,
+          "win_rate": 0.5714
+        },
+        {
+          "partner": "Irithel",
+          "wins": 37,
+          "games": 66,
+          "win_rate": 0.5606
+        },
+        {
+          "partner": "Novaria",
+          "wins": 43,
+          "games": 77,
+          "win_rate": 0.5584
+        },
+        {
+          "partner": "Fredrinn",
+          "wins": 146,
+          "games": 262,
+          "win_rate": 0.5573
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Harith",
+          "wins": 24,
+          "games": 36,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Lunox",
+          "wins": 18,
+          "games": 28,
+          "win_rate": 0.6429
+        },
+        {
+          "enemy": "Benedetta",
+          "wins": 23,
+          "games": 37,
+          "win_rate": 0.6216
+        },
+        {
+          "enemy": "Nolan",
+          "wins": 12,
+          "games": 20,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Clint",
+          "wins": 14,
+          "games": 24,
+          "win_rate": 0.5833
+        }
+      ]
+    },
+    "Atlas": {
+      "games": 797,
+      "wins": 431,
+      "win_rate": 0.5408,
+      "synergies": [
+        {
+          "partner": "Yi Sun-Shin",
+          "wins": 18,
+          "games": 25,
+          "win_rate": 0.72
+        },
+        {
+          "partner": "Faramis",
+          "wins": 50,
+          "games": 73,
+          "win_rate": 0.6849
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 39,
+          "games": 57,
+          "win_rate": 0.6842
+        },
+        {
+          "partner": "Melissa",
+          "wins": 34,
+          "games": 50,
+          "win_rate": 0.68
+        },
+        {
+          "partner": "Gloo",
+          "wins": 21,
+          "games": 32,
+          "win_rate": 0.6562
+        },
+        {
+          "partner": "Cecilion",
+          "wins": 26,
+          "games": 41,
+          "win_rate": 0.6341
+        },
+        {
+          "partner": "Akai",
+          "wins": 30,
+          "games": 48,
+          "win_rate": 0.625
+        },
+        {
+          "partner": "Julian",
+          "wins": 28,
+          "games": 45,
+          "win_rate": 0.6222
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Lunox",
+          "wins": 39,
+          "games": 59,
+          "win_rate": 0.661
+        },
+        {
+          "enemy": "Irithel",
+          "wins": 28,
+          "games": 43,
+          "win_rate": 0.6512
+        },
+        {
+          "enemy": "Yu Zhong",
+          "wins": 33,
+          "games": 51,
+          "win_rate": 0.6471
+        },
+        {
+          "enemy": "Hilda",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 31,
+          "games": 49,
+          "win_rate": 0.6327
+        },
+        {
+          "enemy": "Estes",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        },
+        {
+          "enemy": "Valentina",
+          "wins": 39,
+          "games": 62,
+          "win_rate": 0.629
+        },
+        {
+          "enemy": "Lolita",
+          "wins": 40,
+          "games": 64,
+          "win_rate": 0.625
+        }
+      ]
+    },
+    "Aulus": {
+      "games": 177,
+      "wins": 95,
+      "win_rate": 0.5367,
+      "synergies": [
+        {
+          "partner": "Yve",
+          "wins": 28,
+          "games": 39,
+          "win_rate": 0.7179
+        },
+        {
+          "partner": "Yu Zhong",
+          "wins": 18,
+          "games": 28,
+          "win_rate": 0.6429
+        },
+        {
+          "partner": "Beatrix",
+          "wins": 22,
+          "games": 37,
+          "win_rate": 0.5946
+        },
+        {
+          "partner": "Chou",
+          "wins": 19,
+          "games": 34,
+          "win_rate": 0.5588
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Hayabusa",
+          "wins": 15,
+          "games": 21,
+          "win_rate": 0.7143
+        },
+        {
+          "enemy": "Mathilda",
+          "wins": 20,
+          "games": 29,
+          "win_rate": 0.6897
+        },
+        {
+          "enemy": "Lunox",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "enemy": "Khufra",
+          "wins": 12,
+          "games": 20,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Chou",
+          "wins": 18,
+          "games": 31,
+          "win_rate": 0.5806
+        }
+      ]
+    },
+    "Aurora": {
+      "games": 97,
+      "wins": 43,
+      "win_rate": 0.4433,
+      "synergies": [],
+      "counters": []
+    },
+    "Badang": {
+      "games": 90,
+      "wins": 45,
+      "win_rate": 0.5,
+      "synergies": [],
+      "counters": []
+    },
+    "Balmond": {
+      "games": 717,
+      "wins": 335,
+      "win_rate": 0.4672,
+      "synergies": [
+        {
+          "partner": "Dyrroth",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "partner": "Lapu-Lapu",
+          "wins": 15,
+          "games": 26,
+          "win_rate": 0.5769
+        },
+        {
+          "partner": "Franco",
+          "wins": 15,
+          "games": 26,
+          "win_rate": 0.5769
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 27,
+          "games": 47,
+          "win_rate": 0.5745
+        },
+        {
+          "partner": "Chou",
+          "wins": 55,
+          "games": 96,
+          "win_rate": 0.5729
+        },
+        {
+          "partner": "Julian",
+          "wins": 22,
+          "games": 39,
+          "win_rate": 0.5641
+        },
+        {
+          "partner": "Faramis",
+          "wins": 19,
+          "games": 34,
+          "win_rate": 0.5588
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Irithel",
+          "wins": 30,
+          "games": 49,
+          "win_rate": 0.6122
+        },
+        {
+          "enemy": "Rafaela",
+          "wins": 25,
+          "games": 42,
+          "win_rate": 0.5952
+        }
+      ]
+    },
+    "Bane": {
+      "games": 470,
+      "wins": 228,
+      "win_rate": 0.4851,
+      "synergies": [
+        {
+          "partner": "Rafaela",
+          "wins": 19,
+          "games": 29,
+          "win_rate": 0.6552
+        },
+        {
+          "partner": "Kaja",
+          "wins": 29,
+          "games": 45,
+          "win_rate": 0.6444
+        },
+        {
+          "partner": "Franco",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        },
+        {
+          "partner": "Gloo",
+          "wins": 21,
+          "games": 35,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Fredrinn",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Grock",
+          "wins": 26,
+          "games": 44,
+          "win_rate": 0.5909
+        },
+        {
+          "partner": "Yve",
+          "wins": 37,
+          "games": 63,
+          "win_rate": 0.5873
+        },
+        {
+          "partner": "Claude",
+          "wins": 31,
+          "games": 53,
+          "win_rate": 0.5849
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Angela",
+          "wins": 19,
+          "games": 29,
+          "win_rate": 0.6552
+        },
+        {
+          "enemy": "Karrie",
+          "wins": 20,
+          "games": 32,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Fanny",
+          "wins": 13,
+          "games": 21,
+          "win_rate": 0.619
+        },
+        {
+          "enemy": "Valentina",
+          "wins": 40,
+          "games": 66,
+          "win_rate": 0.6061
+        },
+        {
+          "enemy": "Yi Sun-Shin",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Lapu-Lapu",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Hayabusa",
+          "wins": 19,
+          "games": 32,
+          "win_rate": 0.5938
+        },
+        {
+          "enemy": "Esmeralda",
+          "wins": 32,
+          "games": 54,
+          "win_rate": 0.5926
+        }
+      ]
+    },
+    "Barats": {
+      "games": 965,
+      "wins": 467,
+      "win_rate": 0.4839,
+      "synergies": [
+        {
+          "partner": "Natan",
+          "wins": 24,
+          "games": 39,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Gloo",
+          "wins": 22,
+          "games": 36,
+          "win_rate": 0.6111
+        },
+        {
+          "partner": "Alice",
+          "wins": 51,
+          "games": 84,
+          "win_rate": 0.6071
+        },
+        {
+          "partner": "Ling",
+          "wins": 33,
+          "games": 55,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Estes",
+          "wins": 45,
+          "games": 77,
+          "win_rate": 0.5844
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 26,
+          "games": 47,
+          "win_rate": 0.5532
+        },
+        {
+          "partner": "Chou",
+          "wins": 49,
+          "games": 89,
+          "win_rate": 0.5506
+        },
+        {
+          "partner": "Yi Sun-Shin",
+          "wins": 33,
+          "games": 60,
+          "win_rate": 0.55
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Irithel",
+          "wins": 23,
+          "games": 36,
+          "win_rate": 0.6389
+        },
+        {
+          "enemy": "Harley",
+          "wins": 17,
+          "games": 28,
+          "win_rate": 0.6071
+        },
+        {
+          "enemy": "Thamuz",
+          "wins": 28,
+          "games": 48,
+          "win_rate": 0.5833
+        },
+        {
+          "enemy": "Grock",
+          "wins": 53,
+          "games": 91,
+          "win_rate": 0.5824
+        }
+      ]
+    },
+    "Baxia": {
+      "games": 2024,
+      "wins": 1011,
+      "win_rate": 0.4995,
+      "synergies": [
+        {
+          "partner": "Yi Sun-Shin",
+          "wins": 44,
+          "games": 67,
+          "win_rate": 0.6567
+        },
+        {
+          "partner": "Lancelot",
+          "wins": 29,
+          "games": 46,
+          "win_rate": 0.6304
+        },
+        {
+          "partner": "Masha",
+          "wins": 36,
+          "games": 59,
+          "win_rate": 0.6102
+        },
+        {
+          "partner": "Edith",
+          "wins": 77,
+          "games": 127,
+          "win_rate": 0.6063
+        },
+        {
+          "partner": "Atlas",
+          "wins": 22,
+          "games": 37,
+          "win_rate": 0.5946
+        },
+        {
+          "partner": "Luo Yi",
+          "wins": 20,
+          "games": 34,
+          "win_rate": 0.5882
+        },
+        {
+          "partner": "Ixia",
+          "wins": 22,
+          "games": 38,
+          "win_rate": 0.5789
+        },
+        {
+          "partner": "Natalia",
+          "wins": 19,
+          "games": 33,
+          "win_rate": 0.5758
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Silvanna",
+          "wins": 20,
+          "games": 31,
+          "win_rate": 0.6452
+        },
+        {
+          "enemy": "Floryn",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 32,
+          "games": 51,
+          "win_rate": 0.6275
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 53,
+          "games": 85,
+          "win_rate": 0.6235
+        },
+        {
+          "enemy": "Lesley",
+          "wins": 18,
+          "games": 30,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Roger",
+          "wins": 38,
+          "games": 64,
+          "win_rate": 0.5938
+        },
+        {
+          "enemy": "Lapu-Lapu",
+          "wins": 68,
+          "games": 116,
+          "win_rate": 0.5862
+        },
+        {
+          "enemy": "Ixia",
+          "wins": 25,
+          "games": 43,
+          "win_rate": 0.5814
+        }
+      ]
+    },
+    "Beatrix": {
+      "games": 3833,
+      "wins": 1935,
+      "win_rate": 0.5048,
+      "synergies": [
+        {
+          "partner": "Harley",
+          "wins": 27,
+          "games": 40,
+          "win_rate": 0.675
+        },
+        {
+          "partner": "Popol And Kupa",
+          "wins": 26,
+          "games": 42,
+          "win_rate": 0.619
+        },
+        {
+          "partner": "Valir",
+          "wins": 19,
+          "games": 31,
+          "win_rate": 0.6129
+        },
+        {
+          "partner": "Khaleed",
+          "wins": 25,
+          "games": 41,
+          "win_rate": 0.6098
+        },
+        {
+          "partner": "Aamon",
+          "wins": 23,
+          "games": 38,
+          "win_rate": 0.6053
+        },
+        {
+          "partner": "Aulus",
+          "wins": 22,
+          "games": 37,
+          "win_rate": 0.5946
+        },
+        {
+          "partner": "Gusion",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Edith",
+          "wins": 147,
+          "games": 249,
+          "win_rate": 0.5904
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Saber",
+          "wins": 18,
+          "games": 24,
+          "win_rate": 0.75
+        },
+        {
+          "enemy": "Aldous",
+          "wins": 17,
+          "games": 24,
+          "win_rate": 0.7083
+        },
+        {
+          "enemy": "Hylos",
+          "wins": 39,
+          "games": 56,
+          "win_rate": 0.6964
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 21,
+          "games": 31,
+          "win_rate": 0.6774
+        },
+        {
+          "enemy": "Yin",
+          "wins": 14,
+          "games": 22,
+          "win_rate": 0.6364
+        },
+        {
+          "enemy": "Granger",
+          "wins": 30,
+          "games": 48,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Floryn",
+          "wins": 32,
+          "games": 52,
+          "win_rate": 0.6154
+        },
+        {
+          "enemy": "Rafaela",
+          "wins": 81,
+          "games": 132,
+          "win_rate": 0.6136
+        }
+      ]
+    },
+    "Belerick": {
+      "games": 179,
+      "wins": 73,
+      "win_rate": 0.4078,
+      "synergies": [
+        {
+          "partner": "Claude",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        }
+      ],
+      "counters": []
+    },
+    "Benedetta": {
+      "games": 1723,
+      "wins": 863,
+      "win_rate": 0.5009,
+      "synergies": [
+        {
+          "partner": "Harley",
+          "wins": 34,
+          "games": 51,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Luo Yi",
+          "wins": 32,
+          "games": 49,
+          "win_rate": 0.6531
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 52,
+          "games": 83,
+          "win_rate": 0.6265
+        },
+        {
+          "partner": "Hilda",
+          "wins": 20,
+          "games": 32,
+          "win_rate": 0.625
+        },
+        {
+          "partner": "Paquito",
+          "wins": 70,
+          "games": 114,
+          "win_rate": 0.614
+        },
+        {
+          "partner": "Eudora",
+          "wins": 22,
+          "games": 37,
+          "win_rate": 0.5946
+        },
+        {
+          "partner": "Kadita",
+          "wins": 40,
+          "games": 70,
+          "win_rate": 0.5714
+        },
+        {
+          "partner": "Atlas",
+          "wins": 29,
+          "games": 51,
+          "win_rate": 0.5686
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Minotaur",
+          "wins": 15,
+          "games": 22,
+          "win_rate": 0.6818
+        },
+        {
+          "enemy": "Terizla",
+          "wins": 29,
+          "games": 43,
+          "win_rate": 0.6744
+        },
+        {
+          "enemy": "Natalia",
+          "wins": 14,
+          "games": 21,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Khaleed",
+          "wins": 31,
+          "games": 48,
+          "win_rate": 0.6458
+        },
+        {
+          "enemy": "Bane",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        },
+        {
+          "enemy": "Natan",
+          "wins": 23,
+          "games": 37,
+          "win_rate": 0.6216
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 54,
+          "games": 87,
+          "win_rate": 0.6207
+        },
+        {
+          "enemy": "Eudora",
+          "wins": 19,
+          "games": 31,
+          "win_rate": 0.6129
+        }
+      ]
+    },
+    "Brody": {
+      "games": 2297,
+      "wins": 1143,
+      "win_rate": 0.4976,
+      "synergies": [
+        {
+          "partner": "Luo Yi",
+          "wins": 20,
+          "games": 28,
+          "win_rate": 0.7143
+        },
+        {
+          "partner": "Natalia",
+          "wins": 18,
+          "games": 29,
+          "win_rate": 0.6207
+        },
+        {
+          "partner": "Franco",
+          "wins": 114,
+          "games": 188,
+          "win_rate": 0.6064
+        },
+        {
+          "partner": "Khaleed",
+          "wins": 27,
+          "games": 45,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Helcurt",
+          "wins": 22,
+          "games": 37,
+          "win_rate": 0.5946
+        },
+        {
+          "partner": "Faramis",
+          "wins": 111,
+          "games": 195,
+          "win_rate": 0.5692
+        },
+        {
+          "partner": "Atlas",
+          "wins": 30,
+          "games": 53,
+          "win_rate": 0.566
+        },
+        {
+          "partner": "Edith",
+          "wins": 108,
+          "games": 193,
+          "win_rate": 0.5596
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Chang'E",
+          "wins": 18,
+          "games": 29,
+          "win_rate": 0.6207
+        },
+        {
+          "enemy": "Floryn",
+          "wins": 25,
+          "games": 42,
+          "win_rate": 0.5952
+        },
+        {
+          "enemy": "Xavier",
+          "wins": 47,
+          "games": 79,
+          "win_rate": 0.5949
+        },
+        {
+          "enemy": "Granger",
+          "wins": 26,
+          "games": 44,
+          "win_rate": 0.5909
+        },
+        {
+          "enemy": "Minsitthar",
+          "wins": 13,
+          "games": 22,
+          "win_rate": 0.5909
+        }
+      ]
+    },
+    "Bruno": {
+      "games": 1336,
+      "wins": 702,
+      "win_rate": 0.5254,
+      "synergies": [
+        {
+          "partner": "Joy",
+          "wins": 34,
+          "games": 52,
+          "win_rate": 0.6538
+        },
+        {
+          "partner": "Khaleed",
+          "wins": 28,
+          "games": 43,
+          "win_rate": 0.6512
+        },
+        {
+          "partner": "Dyrroth",
+          "wins": 22,
+          "games": 35,
+          "win_rate": 0.6286
+        },
+        {
+          "partner": "Guinevere",
+          "wins": 21,
+          "games": 34,
+          "win_rate": 0.6176
+        },
+        {
+          "partner": "Gloo",
+          "wins": 24,
+          "games": 39,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Alice",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Atlas",
+          "wins": 20,
+          "games": 33,
+          "win_rate": 0.6061
+        },
+        {
+          "partner": "Faramis",
+          "wins": 77,
+          "games": 128,
+          "win_rate": 0.6016
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Floryn",
+          "wins": 17,
+          "games": 24,
+          "win_rate": 0.7083
+        },
+        {
+          "enemy": "Balmond",
+          "wins": 14,
+          "games": 20,
+          "win_rate": 0.7
+        },
+        {
+          "enemy": "Bane",
+          "wins": 19,
+          "games": 28,
+          "win_rate": 0.6786
+        },
+        {
+          "enemy": "Hylos",
+          "wins": 15,
+          "games": 24,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Lapu-Lapu",
+          "wins": 49,
+          "games": 79,
+          "win_rate": 0.6203
+        },
+        {
+          "enemy": "Alice",
+          "wins": 21,
+          "games": 34,
+          "win_rate": 0.6176
+        },
+        {
+          "enemy": "Harley",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Leomord",
+          "wins": 12,
+          "games": 20,
+          "win_rate": 0.6
+        }
+      ]
+    },
+    "Carmilla": {
+      "games": 258,
+      "wins": 113,
+      "win_rate": 0.438,
+      "synergies": [],
+      "counters": [
+        {
+          "enemy": "Silvanna",
+          "wins": 13,
+          "games": 22,
+          "win_rate": 0.5909
+        }
+      ]
+    },
+    "Cecilion": {
+      "games": 1073,
+      "wins": 479,
+      "win_rate": 0.4464,
+      "synergies": [
+        {
+          "partner": "Atlas",
+          "wins": 26,
+          "games": 41,
+          "win_rate": 0.6341
+        },
+        {
+          "partner": "Edith",
+          "wins": 23,
+          "games": 37,
+          "win_rate": 0.6216
+        },
+        {
+          "partner": "Franco",
+          "wins": 36,
+          "games": 59,
+          "win_rate": 0.6102
+        },
+        {
+          "partner": "Jawhead",
+          "wins": 46,
+          "games": 76,
+          "win_rate": 0.6053
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Carmilla",
+          "wins": 16,
+          "games": 20,
+          "win_rate": 0.8
+        }
+      ]
+    },
+    "Chang'E": {
+      "games": 592,
+      "wins": 258,
+      "win_rate": 0.4358,
+      "synergies": [
+        {
+          "partner": "Selena",
+          "wins": 23,
+          "games": 40,
+          "win_rate": 0.575
+        },
+        {
+          "partner": "Khufra",
+          "wins": 37,
+          "games": 66,
+          "win_rate": 0.5606
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Diggie",
+          "wins": 15,
+          "games": 23,
+          "win_rate": 0.6522
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 20,
+          "games": 33,
+          "win_rate": 0.6061
+        },
+        {
+          "enemy": "Wanwan",
+          "wins": 13,
+          "games": 22,
+          "win_rate": 0.5909
+        }
+      ]
+    },
+    "Chou": {
+      "games": 3703,
+      "wins": 1929,
+      "win_rate": 0.5209,
+      "synergies": [
+        {
+          "partner": "Estes",
+          "wins": 26,
+          "games": 37,
+          "win_rate": 0.7027
+        },
+        {
+          "partner": "Natan",
+          "wins": 29,
+          "games": 45,
+          "win_rate": 0.6444
+        },
+        {
+          "partner": "Masha",
+          "wins": 40,
+          "games": 63,
+          "win_rate": 0.6349
+        },
+        {
+          "partner": "Guinevere",
+          "wins": 19,
+          "games": 30,
+          "win_rate": 0.6333
+        },
+        {
+          "partner": "Phoveus",
+          "wins": 49,
+          "games": 78,
+          "win_rate": 0.6282
+        },
+        {
+          "partner": "Dyrroth",
+          "wins": 52,
+          "games": 86,
+          "win_rate": 0.6047
+        },
+        {
+          "partner": "Minotaur",
+          "wins": 55,
+          "games": 92,
+          "win_rate": 0.5978
+        },
+        {
+          "partner": "Yi Sun-Shin",
+          "wins": 102,
+          "games": 172,
+          "win_rate": 0.593
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Minsitthar",
+          "wins": 42,
+          "games": 58,
+          "win_rate": 0.7241
+        },
+        {
+          "enemy": "Guinevere",
+          "wins": 30,
+          "games": 43,
+          "win_rate": 0.6977
+        },
+        {
+          "enemy": "Cyclops",
+          "wins": 25,
+          "games": 38,
+          "win_rate": 0.6579
+        },
+        {
+          "enemy": "Johnson",
+          "wins": 26,
+          "games": 41,
+          "win_rate": 0.6341
+        },
+        {
+          "enemy": "Carmilla",
+          "wins": 38,
+          "games": 60,
+          "win_rate": 0.6333
+        },
+        {
+          "enemy": "Luo Yi",
+          "wins": 35,
+          "games": 56,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Lesley",
+          "wins": 34,
+          "games": 55,
+          "win_rate": 0.6182
+        },
+        {
+          "enemy": "Belerick",
+          "wins": 30,
+          "games": 49,
+          "win_rate": 0.6122
+        }
+      ]
+    },
+    "Claude": {
+      "games": 3411,
+      "wins": 1719,
+      "win_rate": 0.504,
+      "synergies": [
+        {
+          "partner": "Belerick",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        },
+        {
+          "partner": "Guinevere",
+          "wins": 27,
+          "games": 43,
+          "win_rate": 0.6279
+        },
+        {
+          "partner": "Bane",
+          "wins": 31,
+          "games": 53,
+          "win_rate": 0.5849
+        },
+        {
+          "partner": "Atlas",
+          "wins": 79,
+          "games": 139,
+          "win_rate": 0.5683
+        },
+        {
+          "partner": "Luo Yi",
+          "wins": 17,
+          "games": 30,
+          "win_rate": 0.5667
+        },
+        {
+          "partner": "Masha",
+          "wins": 60,
+          "games": 107,
+          "win_rate": 0.5607
+        },
+        {
+          "partner": "Thamuz",
+          "wins": 107,
+          "games": 191,
+          "win_rate": 0.5602
+        },
+        {
+          "partner": "Jawhead",
+          "wins": 67,
+          "games": 120,
+          "win_rate": 0.5583
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Minsitthar",
+          "wins": 21,
+          "games": 30,
+          "win_rate": 0.7
+        },
+        {
+          "enemy": "Belerick",
+          "wins": 22,
+          "games": 33,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Angela",
+          "wins": 86,
+          "games": 141,
+          "win_rate": 0.6099
+        },
+        {
+          "enemy": "Lylia",
+          "wins": 112,
+          "games": 188,
+          "win_rate": 0.5957
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 28,
+          "games": 47,
+          "win_rate": 0.5957
+        },
+        {
+          "enemy": "Ling",
+          "wins": 147,
+          "games": 249,
+          "win_rate": 0.5904
+        },
+        {
+          "enemy": "Clint",
+          "wins": 59,
+          "games": 100,
+          "win_rate": 0.59
+        },
+        {
+          "enemy": "Hylos",
+          "wins": 27,
+          "games": 46,
+          "win_rate": 0.587
+        }
+      ]
+    },
+    "Clint": {
+      "games": 1187,
+      "wins": 586,
+      "win_rate": 0.4937,
+      "synergies": [
+        {
+          "partner": "Hilda",
+          "wins": 18,
+          "games": 27,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Masha",
+          "wins": 32,
+          "games": 53,
+          "win_rate": 0.6038
+        },
+        {
+          "partner": "Franco",
+          "wins": 39,
+          "games": 65,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Yi Sun-Shin",
+          "wins": 18,
+          "games": 30,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Lapu-Lapu",
+          "wins": 22,
+          "games": 37,
+          "win_rate": 0.5946
+        },
+        {
+          "partner": "Chou",
+          "wins": 71,
+          "games": 120,
+          "win_rate": 0.5917
+        },
+        {
+          "partner": "Xavier",
+          "wins": 23,
+          "games": 39,
+          "win_rate": 0.5897
+        },
+        {
+          "partner": "Yve",
+          "wins": 104,
+          "games": 181,
+          "win_rate": 0.5746
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Bane",
+          "wins": 21,
+          "games": 30,
+          "win_rate": 0.7
+        },
+        {
+          "enemy": "Roger",
+          "wins": 34,
+          "games": 52,
+          "win_rate": 0.6538
+        },
+        {
+          "enemy": "Angela",
+          "wins": 25,
+          "games": 39,
+          "win_rate": 0.641
+        },
+        {
+          "enemy": "Alice",
+          "wins": 14,
+          "games": 23,
+          "win_rate": 0.6087
+        },
+        {
+          "enemy": "X.Borg",
+          "wins": 23,
+          "games": 38,
+          "win_rate": 0.6053
+        },
+        {
+          "enemy": "Kimmy",
+          "wins": 12,
+          "games": 20,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Karrie",
+          "wins": 43,
+          "games": 72,
+          "win_rate": 0.5972
+        },
+        {
+          "enemy": "Selena",
+          "wins": 26,
+          "games": 44,
+          "win_rate": 0.5909
+        }
+      ]
+    },
+    "Cyclops": {
+      "games": 174,
+      "wins": 75,
+      "win_rate": 0.431,
+      "synergies": [],
+      "counters": [
+        {
+          "enemy": "Esmeralda",
+          "wins": 14,
+          "games": 23,
+          "win_rate": 0.6087
+        }
+      ]
+    },
+    "Diggie": {
+      "games": 1136,
+      "wins": 565,
+      "win_rate": 0.4974,
+      "synergies": [
+        {
+          "partner": "Lesley",
+          "wins": 26,
+          "games": 42,
+          "win_rate": 0.619
+        },
+        {
+          "partner": "Melissa",
+          "wins": 45,
+          "games": 73,
+          "win_rate": 0.6164
+        },
+        {
+          "partner": "Jawhead",
+          "wins": 22,
+          "games": 36,
+          "win_rate": 0.6111
+        },
+        {
+          "partner": "Khufra",
+          "wins": 18,
+          "games": 30,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Paquito",
+          "wins": 74,
+          "games": 130,
+          "win_rate": 0.5692
+        },
+        {
+          "partner": "Leomord",
+          "wins": 21,
+          "games": 37,
+          "win_rate": 0.5676
+        },
+        {
+          "partner": "Harith",
+          "wins": 34,
+          "games": 60,
+          "win_rate": 0.5667
+        },
+        {
+          "partner": "Phoveus",
+          "wins": 14,
+          "games": 25,
+          "win_rate": 0.56
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Edith",
+          "wins": 26,
+          "games": 39,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Hylos",
+          "wins": 20,
+          "games": 31,
+          "win_rate": 0.6452
+        },
+        {
+          "enemy": "Silvanna",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "enemy": "Balmond",
+          "wins": 21,
+          "games": 33,
+          "win_rate": 0.6364
+        },
+        {
+          "enemy": "Martis",
+          "wins": 47,
+          "games": 75,
+          "win_rate": 0.6267
+        },
+        {
+          "enemy": "Minotaur",
+          "wins": 34,
+          "games": 55,
+          "win_rate": 0.6182
+        },
+        {
+          "enemy": "Bruno",
+          "wins": 24,
+          "games": 39,
+          "win_rate": 0.6154
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        }
+      ]
+    },
+    "Dyrroth": {
+      "games": 862,
+      "wins": 455,
+      "win_rate": 0.5278,
+      "synergies": [
+        {
+          "partner": "Faramis",
+          "wins": 39,
+          "games": 58,
+          "win_rate": 0.6724
+        },
+        {
+          "partner": "Masha",
+          "wins": 24,
+          "games": 37,
+          "win_rate": 0.6486
+        },
+        {
+          "partner": "Balmond",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "partner": "Bruno",
+          "wins": 22,
+          "games": 35,
+          "win_rate": 0.6286
+        },
+        {
+          "partner": "Hilda",
+          "wins": 21,
+          "games": 34,
+          "win_rate": 0.6176
+        },
+        {
+          "partner": "Julian",
+          "wins": 25,
+          "games": 41,
+          "win_rate": 0.6098
+        },
+        {
+          "partner": "Chou",
+          "wins": 52,
+          "games": 86,
+          "win_rate": 0.6047
+        },
+        {
+          "partner": "Xavier",
+          "wins": 40,
+          "games": 67,
+          "win_rate": 0.597
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Barats",
+          "wins": 16,
+          "games": 22,
+          "win_rate": 0.7273
+        },
+        {
+          "enemy": "Selena",
+          "wins": 24,
+          "games": 34,
+          "win_rate": 0.7059
+        },
+        {
+          "enemy": "Hilda",
+          "wins": 20,
+          "games": 29,
+          "win_rate": 0.6897
+        },
+        {
+          "enemy": "Rafaela",
+          "wins": 22,
+          "games": 34,
+          "win_rate": 0.6471
+        },
+        {
+          "enemy": "Karrie",
+          "wins": 36,
+          "games": 58,
+          "win_rate": 0.6207
+        },
+        {
+          "enemy": "Angela",
+          "wins": 37,
+          "games": 61,
+          "win_rate": 0.6066
+        },
+        {
+          "enemy": "Irithel",
+          "wins": 31,
+          "games": 52,
+          "win_rate": 0.5962
+        },
+        {
+          "enemy": "Valentina",
+          "wins": 63,
+          "games": 108,
+          "win_rate": 0.5833
+        }
+      ]
+    },
+    "Edith": {
+      "games": 1414,
+      "wins": 770,
+      "win_rate": 0.5446,
+      "synergies": [
+        {
+          "partner": "Khaleed",
+          "wins": 26,
+          "games": 35,
+          "win_rate": 0.7429
+        },
+        {
+          "partner": "Faramis",
+          "wins": 73,
+          "games": 105,
+          "win_rate": 0.6952
+        },
+        {
+          "partner": "Kaja",
+          "wins": 55,
+          "games": 82,
+          "win_rate": 0.6707
+        },
+        {
+          "partner": "Ixia",
+          "wins": 22,
+          "games": 33,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Terizla",
+          "wins": 75,
+          "games": 118,
+          "win_rate": 0.6356
+        },
+        {
+          "partner": "Minotaur",
+          "wins": 29,
+          "games": 46,
+          "win_rate": 0.6304
+        },
+        {
+          "partner": "Cecilion",
+          "wins": 23,
+          "games": 37,
+          "win_rate": 0.6216
+        },
+        {
+          "partner": "Franco",
+          "wins": 42,
+          "games": 68,
+          "win_rate": 0.6176
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Bane",
+          "wins": 22,
+          "games": 30,
+          "win_rate": 0.7333
+        },
+        {
+          "enemy": "Lunox",
+          "wins": 22,
+          "games": 33,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Xavier",
+          "wins": 14,
+          "games": 21,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Hilda",
+          "wins": 14,
+          "games": 22,
+          "win_rate": 0.6364
+        },
+        {
+          "enemy": "Angela",
+          "wins": 55,
+          "games": 87,
+          "win_rate": 0.6322
+        },
+        {
+          "enemy": "Fanny",
+          "wins": 35,
+          "games": 56,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Lapu-Lapu",
+          "wins": 64,
+          "games": 103,
+          "win_rate": 0.6214
+        },
+        {
+          "enemy": "Claude",
+          "wins": 121,
+          "games": 198,
+          "win_rate": 0.6111
+        }
+      ]
+    },
+    "Esmeralda": {
+      "games": 3234,
+      "wins": 1504,
+      "win_rate": 0.4651,
+      "synergies": [
+        {
+          "partner": "Silvanna",
+          "wins": 18,
+          "games": 32,
+          "win_rate": 0.5625
+        },
+        {
+          "partner": "Luo Yi",
+          "wins": 46,
+          "games": 83,
+          "win_rate": 0.5542
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Belerick",
+          "wins": 13,
+          "games": 22,
+          "win_rate": 0.5909
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 43,
+          "games": 73,
+          "win_rate": 0.589
+        }
+      ]
+    },
+    "Estes": {
+      "games": 651,
+      "wins": 341,
+      "win_rate": 0.5238,
+      "synergies": [
+        {
+          "partner": "Chou",
+          "wins": 26,
+          "games": 37,
+          "win_rate": 0.7027
+        },
+        {
+          "partner": "Akai",
+          "wins": 40,
+          "games": 58,
+          "win_rate": 0.6897
+        },
+        {
+          "partner": "Popol And Kupa",
+          "wins": 24,
+          "games": 35,
+          "win_rate": 0.6857
+        },
+        {
+          "partner": "Melissa",
+          "wins": 24,
+          "games": 36,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Hayabusa",
+          "wins": 19,
+          "games": 29,
+          "win_rate": 0.6552
+        },
+        {
+          "partner": "Natan",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "partner": "Alice",
+          "wins": 21,
+          "games": 33,
+          "win_rate": 0.6364
+        },
+        {
+          "partner": "Paquito",
+          "wins": 55,
+          "games": 92,
+          "win_rate": 0.5978
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Irithel",
+          "wins": 18,
+          "games": 22,
+          "win_rate": 0.8182
+        },
+        {
+          "enemy": "Angela",
+          "wins": 20,
+          "games": 27,
+          "win_rate": 0.7407
+        },
+        {
+          "enemy": "Franco",
+          "wins": 15,
+          "games": 21,
+          "win_rate": 0.7143
+        },
+        {
+          "enemy": "Harith",
+          "wins": 19,
+          "games": 27,
+          "win_rate": 0.7037
+        },
+        {
+          "enemy": "Joy",
+          "wins": 13,
+          "games": 20,
+          "win_rate": 0.65
+        },
+        {
+          "enemy": "Diggie",
+          "wins": 30,
+          "games": 48,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 15,
+          "games": 24,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Barats",
+          "wins": 23,
+          "games": 37,
+          "win_rate": 0.6216
+        }
+      ]
+    },
+    "Eudora": {
+      "games": 196,
+      "wins": 108,
+      "win_rate": 0.551,
+      "synergies": [
+        {
+          "partner": "Alice",
+          "wins": 22,
+          "games": 34,
+          "win_rate": 0.6471
+        },
+        {
+          "partner": "Yi Sun-Shin",
+          "wins": 21,
+          "games": 34,
+          "win_rate": 0.6176
+        },
+        {
+          "partner": "Benedetta",
+          "wins": 22,
+          "games": 37,
+          "win_rate": 0.5946
+        },
+        {
+          "partner": "Paquito",
+          "wins": 17,
+          "games": 29,
+          "win_rate": 0.5862
+        },
+        {
+          "partner": "Jawhead",
+          "wins": 34,
+          "games": 60,
+          "win_rate": 0.5667
+        },
+        {
+          "partner": "Yu Zhong",
+          "wins": 16,
+          "games": 29,
+          "win_rate": 0.5517
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Roger",
+          "wins": 13,
+          "games": 20,
+          "win_rate": 0.65
+        },
+        {
+          "enemy": "Ling",
+          "wins": 22,
+          "games": 34,
+          "win_rate": 0.6471
+        },
+        {
+          "enemy": "Lunox",
+          "wins": 19,
+          "games": 30,
+          "win_rate": 0.6333
+        },
+        {
+          "enemy": "Jawhead",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "enemy": "Claude",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Popol And Kupa",
+          "wins": 13,
+          "games": 22,
+          "win_rate": 0.5909
+        }
+      ]
+    },
+    "Fanny": {
+      "games": 889,
+      "wins": 429,
+      "win_rate": 0.4826,
+      "synergies": [
+        {
+          "partner": "Masha",
+          "wins": 24,
+          "games": 40,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Popol And Kupa",
+          "wins": 19,
+          "games": 32,
+          "win_rate": 0.5938
+        },
+        {
+          "partner": "Edith",
+          "wins": 34,
+          "games": 58,
+          "win_rate": 0.5862
+        },
+        {
+          "partner": "Gloo",
+          "wins": 39,
+          "games": 68,
+          "win_rate": 0.5735
+        },
+        {
+          "partner": "Terizla",
+          "wins": 48,
+          "games": 85,
+          "win_rate": 0.5647
+        },
+        {
+          "partner": "Atlas",
+          "wins": 21,
+          "games": 38,
+          "win_rate": 0.5526
+        },
+        {
+          "partner": "Faramis",
+          "wins": 33,
+          "games": 60,
+          "win_rate": 0.55
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Barats",
+          "wins": 13,
+          "games": 21,
+          "win_rate": 0.619
+        },
+        {
+          "enemy": "Lunox",
+          "wins": 32,
+          "games": 52,
+          "win_rate": 0.6154
+        },
+        {
+          "enemy": "Xavier",
+          "wins": 19,
+          "games": 31,
+          "win_rate": 0.6129
+        },
+        {
+          "enemy": "Angela",
+          "wins": 17,
+          "games": 28,
+          "win_rate": 0.6071
+        },
+        {
+          "enemy": "Novaria",
+          "wins": 24,
+          "games": 41,
+          "win_rate": 0.5854
+        },
+        {
+          "enemy": "Melissa",
+          "wins": 24,
+          "games": 41,
+          "win_rate": 0.5854
+        },
+        {
+          "enemy": "Benedetta",
+          "wins": 21,
+          "games": 36,
+          "win_rate": 0.5833
+        }
+      ]
+    },
+    "Faramis": {
+      "games": 1742,
+      "wins": 926,
+      "win_rate": 0.5316,
+      "synergies": [
+        {
+          "partner": "Edith",
+          "wins": 73,
+          "games": 105,
+          "win_rate": 0.6952
+        },
+        {
+          "partner": "Atlas",
+          "wins": 50,
+          "games": 73,
+          "win_rate": 0.6849
+        },
+        {
+          "partner": "Julian",
+          "wins": 26,
+          "games": 38,
+          "win_rate": 0.6842
+        },
+        {
+          "partner": "Dyrroth",
+          "wins": 39,
+          "games": 58,
+          "win_rate": 0.6724
+        },
+        {
+          "partner": "Khaleed",
+          "wins": 23,
+          "games": 35,
+          "win_rate": 0.6571
+        },
+        {
+          "partner": "Joy",
+          "wins": 58,
+          "games": 91,
+          "win_rate": 0.6374
+        },
+        {
+          "partner": "Lunox",
+          "wins": 19,
+          "games": 30,
+          "win_rate": 0.6333
+        },
+        {
+          "partner": "Aamon",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Rafaela",
+          "wins": 31,
+          "games": 43,
+          "win_rate": 0.7209
+        },
+        {
+          "enemy": "Alice",
+          "wins": 15,
+          "games": 21,
+          "win_rate": 0.7143
+        },
+        {
+          "enemy": "Moskov",
+          "wins": 28,
+          "games": 42,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Lancelot",
+          "wins": 102,
+          "games": 162,
+          "win_rate": 0.6296
+        },
+        {
+          "enemy": "Khufra",
+          "wins": 85,
+          "games": 136,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Gord",
+          "wins": 15,
+          "games": 24,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Gloo",
+          "wins": 78,
+          "games": 125,
+          "win_rate": 0.624
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 45,
+          "games": 73,
+          "win_rate": 0.6164
+        }
+      ]
+    },
+    "Floryn": {
+      "games": 296,
+      "wins": 125,
+      "win_rate": 0.4223,
+      "synergies": [
+        {
+          "partner": "Pharsa",
+          "wins": 23,
+          "games": 39,
+          "win_rate": 0.5897
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Lapu-Lapu",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        },
+        {
+          "enemy": "Arlott",
+          "wins": 12,
+          "games": 20,
+          "win_rate": 0.6
+        }
+      ]
+    },
+    "Franco": {
+      "games": 1479,
+      "wins": 794,
+      "win_rate": 0.5368,
+      "synergies": [
+        {
+          "partner": "Masha",
+          "wins": 27,
+          "games": 38,
+          "win_rate": 0.7105
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 77,
+          "games": 112,
+          "win_rate": 0.6875
+        },
+        {
+          "partner": "Kadita",
+          "wins": 65,
+          "games": 100,
+          "win_rate": 0.65
+        },
+        {
+          "partner": "Karina",
+          "wins": 46,
+          "games": 72,
+          "win_rate": 0.6389
+        },
+        {
+          "partner": "Bane",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        },
+        {
+          "partner": "Edith",
+          "wins": 42,
+          "games": 68,
+          "win_rate": 0.6176
+        },
+        {
+          "partner": "Cecilion",
+          "wins": 36,
+          "games": 59,
+          "win_rate": 0.6102
+        },
+        {
+          "partner": "Yve",
+          "wins": 120,
+          "games": 197,
+          "win_rate": 0.6091
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Valir",
+          "wins": 18,
+          "games": 24,
+          "win_rate": 0.75
+        },
+        {
+          "enemy": "Masha",
+          "wins": 38,
+          "games": 56,
+          "win_rate": 0.6786
+        },
+        {
+          "enemy": "Esmeralda",
+          "wins": 104,
+          "games": 162,
+          "win_rate": 0.642
+        },
+        {
+          "enemy": "Karina",
+          "wins": 45,
+          "games": 72,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 48,
+          "games": 77,
+          "win_rate": 0.6234
+        },
+        {
+          "enemy": "Hayabusa",
+          "wins": 39,
+          "games": 63,
+          "win_rate": 0.619
+        },
+        {
+          "enemy": "Yu Zhong",
+          "wins": 69,
+          "games": 112,
+          "win_rate": 0.6161
+        },
+        {
+          "enemy": "Gord",
+          "wins": 12,
+          "games": 20,
+          "win_rate": 0.6
+        }
+      ]
+    },
+    "Fredrinn": {
+      "games": 3270,
+      "wins": 1701,
+      "win_rate": 0.5202,
+      "synergies": [
+        {
+          "partner": "Gusion",
+          "wins": 21,
+          "games": 32,
+          "win_rate": 0.6562
+        },
+        {
+          "partner": "Khaleed",
+          "wins": 33,
+          "games": 51,
+          "win_rate": 0.6471
+        },
+        {
+          "partner": "Masha",
+          "wins": 28,
+          "games": 45,
+          "win_rate": 0.6222
+        },
+        {
+          "partner": "Ixia",
+          "wins": 22,
+          "games": 36,
+          "win_rate": 0.6111
+        },
+        {
+          "partner": "Minsitthar",
+          "wins": 26,
+          "games": 43,
+          "win_rate": 0.6047
+        },
+        {
+          "partner": "Bane",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Kaja",
+          "wins": 206,
+          "games": 355,
+          "win_rate": 0.5803
+        },
+        {
+          "partner": "Edith",
+          "wins": 165,
+          "games": 286,
+          "win_rate": 0.5769
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Kagura",
+          "wins": 30,
+          "games": 43,
+          "win_rate": 0.6977
+        },
+        {
+          "enemy": "Harith",
+          "wins": 53,
+          "games": 80,
+          "win_rate": 0.6625
+        },
+        {
+          "enemy": "Carmilla",
+          "wins": 13,
+          "games": 20,
+          "win_rate": 0.65
+        },
+        {
+          "enemy": "Floryn",
+          "wins": 38,
+          "games": 61,
+          "win_rate": 0.623
+        },
+        {
+          "enemy": "Lunox",
+          "wins": 72,
+          "games": 116,
+          "win_rate": 0.6207
+        },
+        {
+          "enemy": "Minsitthar",
+          "wins": 30,
+          "games": 49,
+          "win_rate": 0.6122
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 68,
+          "games": 113,
+          "win_rate": 0.6018
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 32,
+          "games": 54,
+          "win_rate": 0.5926
+        }
+      ]
+    },
+    "Freya": {
+      "games": 28,
+      "wins": 11,
+      "win_rate": 0.3929,
+      "synergies": [],
+      "counters": []
+    },
+    "Gatotkaca": {
+      "games": 178,
+      "wins": 86,
+      "win_rate": 0.4831,
+      "synergies": [
+        {
+          "partner": "Selena",
+          "wins": 18,
+          "games": 27,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Claude",
+          "wins": 15,
+          "games": 27,
+          "win_rate": 0.5556
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Claude",
+          "wins": 19,
+          "games": 31,
+          "win_rate": 0.6129
+        }
+      ]
+    },
+    "Gloo": {
+      "games": 1464,
+      "wins": 804,
+      "win_rate": 0.5492,
+      "synergies": [
+        {
+          "partner": "Helcurt",
+          "wins": 23,
+          "games": 33,
+          "win_rate": 0.697
+        },
+        {
+          "partner": "Kaja",
+          "wins": 94,
+          "games": 137,
+          "win_rate": 0.6861
+        },
+        {
+          "partner": "Atlas",
+          "wins": 21,
+          "games": 32,
+          "win_rate": 0.6562
+        },
+        {
+          "partner": "Yi Sun-Shin",
+          "wins": 28,
+          "games": 43,
+          "win_rate": 0.6512
+        },
+        {
+          "partner": "Popol And Kupa",
+          "wins": 41,
+          "games": 64,
+          "win_rate": 0.6406
+        },
+        {
+          "partner": "Kadita",
+          "wins": 62,
+          "games": 98,
+          "win_rate": 0.6327
+        },
+        {
+          "partner": "Bruno",
+          "wins": 24,
+          "games": 39,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Barats",
+          "wins": 22,
+          "games": 36,
+          "win_rate": 0.6111
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Chang'E",
+          "wins": 19,
+          "games": 23,
+          "win_rate": 0.8261
+        },
+        {
+          "enemy": "Granger",
+          "wins": 25,
+          "games": 34,
+          "win_rate": 0.7353
+        },
+        {
+          "enemy": "Angela",
+          "wins": 24,
+          "games": 35,
+          "win_rate": 0.6857
+        },
+        {
+          "enemy": "Atlas",
+          "wins": 21,
+          "games": 31,
+          "win_rate": 0.6774
+        },
+        {
+          "enemy": "Estes",
+          "wins": 34,
+          "games": 51,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Bruno",
+          "wins": 22,
+          "games": 33,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Kagura",
+          "wins": 51,
+          "games": 77,
+          "win_rate": 0.6623
+        },
+        {
+          "enemy": "Rafaela",
+          "wins": 28,
+          "games": 43,
+          "win_rate": 0.6512
+        }
+      ]
+    },
+    "Gord": {
+      "games": 329,
+      "wins": 158,
+      "win_rate": 0.4802,
+      "synergies": [
+        {
+          "partner": "Bruno",
+          "wins": 33,
+          "games": 56,
+          "win_rate": 0.5893
+        },
+        {
+          "partner": "Fredrinn",
+          "wins": 45,
+          "games": 81,
+          "win_rate": 0.5556
+        },
+        {
+          "partner": "Beatrix",
+          "wins": 20,
+          "games": 36,
+          "win_rate": 0.5556
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Paquito",
+          "wins": 24,
+          "games": 38,
+          "win_rate": 0.6316
+        },
+        {
+          "enemy": "Martis",
+          "wins": 33,
+          "games": 56,
+          "win_rate": 0.5893
+        }
+      ]
+    },
+    "Granger": {
+      "games": 947,
+      "wins": 453,
+      "win_rate": 0.4784,
+      "synergies": [
+        {
+          "partner": "Luo Yi",
+          "wins": 22,
+          "games": 30,
+          "win_rate": 0.7333
+        },
+        {
+          "partner": "Kimmy",
+          "wins": 18,
+          "games": 27,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Terizla",
+          "wins": 25,
+          "games": 41,
+          "win_rate": 0.6098
+        },
+        {
+          "partner": "Rafaela",
+          "wins": 53,
+          "games": 89,
+          "win_rate": 0.5955
+        },
+        {
+          "partner": "Lylia",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Estes",
+          "wins": 23,
+          "games": 41,
+          "win_rate": 0.561
+        },
+        {
+          "partner": "Benedetta",
+          "wins": 53,
+          "games": 96,
+          "win_rate": 0.5521
+        },
+        {
+          "partner": "Alice",
+          "wins": 49,
+          "games": 89,
+          "win_rate": 0.5506
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Franco",
+          "wins": 17,
+          "games": 24,
+          "win_rate": 0.7083
+        },
+        {
+          "enemy": "Estes",
+          "wins": 26,
+          "games": 43,
+          "win_rate": 0.6047
+        },
+        {
+          "enemy": "Alice",
+          "wins": 52,
+          "games": 87,
+          "win_rate": 0.5977
+        }
+      ]
+    },
+    "Grock": {
+      "games": 3220,
+      "wins": 1539,
+      "win_rate": 0.478,
+      "synergies": [
+        {
+          "partner": "Bane",
+          "wins": 26,
+          "games": 44,
+          "win_rate": 0.5909
+        },
+        {
+          "partner": "Angela",
+          "wins": 48,
+          "games": 82,
+          "win_rate": 0.5854
+        },
+        {
+          "partner": "Lolita",
+          "wins": 60,
+          "games": 108,
+          "win_rate": 0.5556
+        },
+        {
+          "partner": "Aamon",
+          "wins": 16,
+          "games": 29,
+          "win_rate": 0.5517
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Cyclops",
+          "wins": 14,
+          "games": 22,
+          "win_rate": 0.6364
+        },
+        {
+          "enemy": "Belerick",
+          "wins": 19,
+          "games": 32,
+          "win_rate": 0.5938
+        },
+        {
+          "enemy": "Gatotkaca",
+          "wins": 20,
+          "games": 34,
+          "win_rate": 0.5882
+        }
+      ]
+    },
+    "Guinevere": {
+      "games": 255,
+      "wins": 126,
+      "win_rate": 0.4941,
+      "synergies": [
+        {
+          "partner": "Chou",
+          "wins": 19,
+          "games": 30,
+          "win_rate": 0.6333
+        },
+        {
+          "partner": "Claude",
+          "wins": 27,
+          "games": 43,
+          "win_rate": 0.6279
+        },
+        {
+          "partner": "Bruno",
+          "wins": 21,
+          "games": 34,
+          "win_rate": 0.6176
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Brody",
+          "wins": 15,
+          "games": 20,
+          "win_rate": 0.75
+        },
+        {
+          "enemy": "Arlott",
+          "wins": 20,
+          "games": 30,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Kaja",
+          "wins": 21,
+          "games": 36,
+          "win_rate": 0.5833
+        }
+      ]
+    },
+    "Gusion": {
+      "games": 476,
+      "wins": 247,
+      "win_rate": 0.5189,
+      "synergies": [
+        {
+          "partner": "Fredrinn",
+          "wins": 21,
+          "games": 32,
+          "win_rate": 0.6562
+        },
+        {
+          "partner": "Khufra",
+          "wins": 28,
+          "games": 47,
+          "win_rate": 0.5957
+        },
+        {
+          "partner": "X.Borg",
+          "wins": 19,
+          "games": 32,
+          "win_rate": 0.5938
+        },
+        {
+          "partner": "Beatrix",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Kaja",
+          "wins": 53,
+          "games": 91,
+          "win_rate": 0.5824
+        },
+        {
+          "partner": "Irithel",
+          "wins": 16,
+          "games": 28,
+          "win_rate": 0.5714
+        },
+        {
+          "partner": "Hayabusa",
+          "wins": 16,
+          "games": 28,
+          "win_rate": 0.5714
+        },
+        {
+          "partner": "Leomord",
+          "wins": 26,
+          "games": 46,
+          "win_rate": 0.5652
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Fredrinn",
+          "wins": 26,
+          "games": 36,
+          "win_rate": 0.7222
+        },
+        {
+          "enemy": "Yve",
+          "wins": 17,
+          "games": 24,
+          "win_rate": 0.7083
+        },
+        {
+          "enemy": "Beatrix",
+          "wins": 27,
+          "games": 39,
+          "win_rate": 0.6923
+        },
+        {
+          "enemy": "Mathilda",
+          "wins": 18,
+          "games": 26,
+          "win_rate": 0.6923
+        },
+        {
+          "enemy": "Harley",
+          "wins": 17,
+          "games": 25,
+          "win_rate": 0.68
+        },
+        {
+          "enemy": "Pharsa",
+          "wins": 21,
+          "games": 31,
+          "win_rate": 0.6774
+        },
+        {
+          "enemy": "Paquito",
+          "wins": 17,
+          "games": 28,
+          "win_rate": 0.6071
+        },
+        {
+          "enemy": "Kimmy",
+          "wins": 31,
+          "games": 52,
+          "win_rate": 0.5962
+        }
+      ]
+    },
+    "Hanabi": {
+      "games": 62,
+      "wins": 26,
+      "win_rate": 0.4194,
+      "synergies": [],
+      "counters": []
+    },
+    "Hanzo": {
+      "games": 155,
+      "wins": 62,
+      "win_rate": 0.4,
+      "synergies": [],
+      "counters": []
+    },
+    "Harith": {
+      "games": 1061,
+      "wins": 523,
+      "win_rate": 0.4929,
+      "synergies": [
+        {
+          "partner": "Kimmy",
+          "wins": 20,
+          "games": 28,
+          "win_rate": 0.7143
+        },
+        {
+          "partner": "Lolita",
+          "wins": 37,
+          "games": 61,
+          "win_rate": 0.6066
+        },
+        {
+          "partner": "Terizla",
+          "wins": 43,
+          "games": 71,
+          "win_rate": 0.6056
+        },
+        {
+          "partner": "Ling",
+          "wins": 45,
+          "games": 76,
+          "win_rate": 0.5921
+        },
+        {
+          "partner": "Kaja",
+          "wins": 54,
+          "games": 93,
+          "win_rate": 0.5806
+        },
+        {
+          "partner": "Angela",
+          "wins": 31,
+          "games": 54,
+          "win_rate": 0.5741
+        },
+        {
+          "partner": "Rafaela",
+          "wins": 33,
+          "games": 58,
+          "win_rate": 0.569
+        },
+        {
+          "partner": "Kadita",
+          "wins": 25,
+          "games": 44,
+          "win_rate": 0.5682
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Harley",
+          "wins": 14,
+          "games": 21,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Roger",
+          "wins": 30,
+          "games": 46,
+          "win_rate": 0.6522
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 26,
+          "games": 41,
+          "win_rate": 0.6341
+        },
+        {
+          "enemy": "X.Borg",
+          "wins": 52,
+          "games": 83,
+          "win_rate": 0.6265
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 35,
+          "games": 56,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Thamuz",
+          "wins": 57,
+          "games": 92,
+          "win_rate": 0.6196
+        },
+        {
+          "enemy": "Ling",
+          "wins": 59,
+          "games": 96,
+          "win_rate": 0.6146
+        },
+        {
+          "enemy": "Minsitthar",
+          "wins": 13,
+          "games": 22,
+          "win_rate": 0.5909
+        }
+      ]
+    },
+    "Harley": {
+      "games": 523,
+      "wins": 259,
+      "win_rate": 0.4952,
+      "synergies": [
+        {
+          "partner": "Beatrix",
+          "wins": 27,
+          "games": 40,
+          "win_rate": 0.675
+        },
+        {
+          "partner": "Benedetta",
+          "wins": 34,
+          "games": 51,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "X.Borg",
+          "wins": 18,
+          "games": 28,
+          "win_rate": 0.6429
+        },
+        {
+          "partner": "Akai",
+          "wins": 35,
+          "games": 62,
+          "win_rate": 0.5645
+        },
+        {
+          "partner": "Hayabusa",
+          "wins": 32,
+          "games": 57,
+          "win_rate": 0.5614
+        },
+        {
+          "partner": "Saber",
+          "wins": 24,
+          "games": 43,
+          "win_rate": 0.5581
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Fanny",
+          "wins": 18,
+          "games": 24,
+          "win_rate": 0.75
+        },
+        {
+          "enemy": "Esmeralda",
+          "wins": 40,
+          "games": 62,
+          "win_rate": 0.6452
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 28,
+          "games": 44,
+          "win_rate": 0.6364
+        },
+        {
+          "enemy": "Martis",
+          "wins": 15,
+          "games": 24,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 15,
+          "games": 24,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Hylos",
+          "wins": 24,
+          "games": 40,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Cyclops",
+          "wins": 26,
+          "games": 44,
+          "win_rate": 0.5909
+        },
+        {
+          "enemy": "Benedetta",
+          "wins": 30,
+          "games": 51,
+          "win_rate": 0.5882
+        }
+      ]
+    },
+    "Hayabusa": {
+      "games": 1772,
+      "wins": 908,
+      "win_rate": 0.5124,
+      "synergies": [
+        {
+          "partner": "Wanwan",
+          "wins": 47,
+          "games": 68,
+          "win_rate": 0.6912
+        },
+        {
+          "partner": "Estes",
+          "wins": 19,
+          "games": 29,
+          "win_rate": 0.6552
+        },
+        {
+          "partner": "Natan",
+          "wins": 18,
+          "games": 28,
+          "win_rate": 0.6429
+        },
+        {
+          "partner": "Phoveus",
+          "wins": 37,
+          "games": 59,
+          "win_rate": 0.6271
+        },
+        {
+          "partner": "Lolita",
+          "wins": 66,
+          "games": 108,
+          "win_rate": 0.6111
+        },
+        {
+          "partner": "Kimmy",
+          "wins": 31,
+          "games": 51,
+          "win_rate": 0.6078
+        },
+        {
+          "partner": "Gloo",
+          "wins": 79,
+          "games": 130,
+          "win_rate": 0.6077
+        },
+        {
+          "partner": "Popol And Kupa",
+          "wins": 74,
+          "games": 124,
+          "win_rate": 0.5968
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Minsitthar",
+          "wins": 15,
+          "games": 21,
+          "win_rate": 0.7143
+        },
+        {
+          "enemy": "Tigreal",
+          "wins": 14,
+          "games": 20,
+          "win_rate": 0.7
+        },
+        {
+          "enemy": "Rafaela",
+          "wins": 46,
+          "games": 74,
+          "win_rate": 0.6216
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 47,
+          "games": 76,
+          "win_rate": 0.6184
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 42,
+          "games": 68,
+          "win_rate": 0.6176
+        },
+        {
+          "enemy": "Hylos",
+          "wins": 30,
+          "games": 49,
+          "win_rate": 0.6122
+        },
+        {
+          "enemy": "Angela",
+          "wins": 43,
+          "games": 71,
+          "win_rate": 0.6056
+        },
+        {
+          "enemy": "Leomord",
+          "wins": 30,
+          "games": 50,
+          "win_rate": 0.6
+        }
+      ]
+    },
+    "Helcurt": {
+      "games": 598,
+      "wins": 302,
+      "win_rate": 0.505,
+      "synergies": [
+        {
+          "partner": "Gloo",
+          "wins": 23,
+          "games": 33,
+          "win_rate": 0.697
+        },
+        {
+          "partner": "Kagura",
+          "wins": 27,
+          "games": 41,
+          "win_rate": 0.6585
+        },
+        {
+          "partner": "Terizla",
+          "wins": 30,
+          "games": 46,
+          "win_rate": 0.6522
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 20,
+          "games": 31,
+          "win_rate": 0.6452
+        },
+        {
+          "partner": "Kaja",
+          "wins": 42,
+          "games": 67,
+          "win_rate": 0.6269
+        },
+        {
+          "partner": "Lunox",
+          "wins": 21,
+          "games": 35,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Brody",
+          "wins": 22,
+          "games": 37,
+          "win_rate": 0.5946
+        },
+        {
+          "partner": "Chou",
+          "wins": 55,
+          "games": 94,
+          "win_rate": 0.5851
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Clint",
+          "wins": 19,
+          "games": 28,
+          "win_rate": 0.6786
+        },
+        {
+          "enemy": "Jawhead",
+          "wins": 17,
+          "games": 26,
+          "win_rate": 0.6538
+        },
+        {
+          "enemy": "Harley",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "enemy": "Martis",
+          "wins": 38,
+          "games": 61,
+          "win_rate": 0.623
+        },
+        {
+          "enemy": "X.Borg",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "enemy": "Khufra",
+          "wins": 34,
+          "games": 57,
+          "win_rate": 0.5965
+        },
+        {
+          "enemy": "Minotaur",
+          "wins": 25,
+          "games": 42,
+          "win_rate": 0.5952
+        },
+        {
+          "enemy": "Karrie",
+          "wins": 47,
+          "games": 80,
+          "win_rate": 0.5875
+        }
+      ]
+    },
+    "Hilda": {
+      "games": 623,
+      "wins": 297,
+      "win_rate": 0.4767,
+      "synergies": [
+        {
+          "partner": "Clint",
+          "wins": 18,
+          "games": 27,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Yi Sun-Shin",
+          "wins": 23,
+          "games": 36,
+          "win_rate": 0.6389
+        },
+        {
+          "partner": "Benedetta",
+          "wins": 20,
+          "games": 32,
+          "win_rate": 0.625
+        },
+        {
+          "partner": "Dyrroth",
+          "wins": 21,
+          "games": 34,
+          "win_rate": 0.6176
+        },
+        {
+          "partner": "Paquito",
+          "wins": 33,
+          "games": 54,
+          "win_rate": 0.6111
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 27,
+          "games": 45,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Roger",
+          "wins": 17,
+          "games": 30,
+          "win_rate": 0.5667
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Mathilda",
+          "wins": 18,
+          "games": 24,
+          "win_rate": 0.75
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 25,
+          "games": 35,
+          "win_rate": 0.7143
+        },
+        {
+          "enemy": "Khaleed",
+          "wins": 23,
+          "games": 36,
+          "win_rate": 0.6389
+        },
+        {
+          "enemy": "Clint",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        },
+        {
+          "enemy": "X.Borg",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "enemy": "Thamuz",
+          "wins": 25,
+          "games": 42,
+          "win_rate": 0.5952
+        },
+        {
+          "enemy": "Alice",
+          "wins": 13,
+          "games": 22,
+          "win_rate": 0.5909
+        }
+      ]
+    },
+    "Hylos": {
+      "games": 583,
+      "wins": 263,
+      "win_rate": 0.4511,
+      "synergies": [
+        {
+          "partner": "Lancelot",
+          "wins": 24,
+          "games": 40,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Kagura",
+          "wins": 29,
+          "games": 49,
+          "win_rate": 0.5918
+        },
+        {
+          "partner": "Jawhead",
+          "wins": 24,
+          "games": 41,
+          "win_rate": 0.5854
+        },
+        {
+          "partner": "Yve",
+          "wins": 24,
+          "games": 43,
+          "win_rate": 0.5581
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Angela",
+          "wins": 17,
+          "games": 25,
+          "win_rate": 0.68
+        },
+        {
+          "enemy": "Hilda",
+          "wins": 15,
+          "games": 23,
+          "win_rate": 0.6522
+        },
+        {
+          "enemy": "Selena",
+          "wins": 24,
+          "games": 41,
+          "win_rate": 0.5854
+        }
+      ]
+    },
+    "Irithel": {
+      "games": 1427,
+      "wins": 710,
+      "win_rate": 0.4975,
+      "synergies": [
+        {
+          "partner": "Dyrroth",
+          "wins": 39,
+          "games": 66,
+          "win_rate": 0.5909
+        },
+        {
+          "partner": "Hayabusa",
+          "wins": 20,
+          "games": 34,
+          "win_rate": 0.5882
+        },
+        {
+          "partner": "Masha",
+          "wins": 20,
+          "games": 34,
+          "win_rate": 0.5882
+        },
+        {
+          "partner": "Mathilda",
+          "wins": 67,
+          "games": 116,
+          "win_rate": 0.5776
+        },
+        {
+          "partner": "Atlas",
+          "wins": 27,
+          "games": 47,
+          "win_rate": 0.5745
+        },
+        {
+          "partner": "Gusion",
+          "wins": 16,
+          "games": 28,
+          "win_rate": 0.5714
+        },
+        {
+          "partner": "Uranus",
+          "wins": 50,
+          "games": 88,
+          "win_rate": 0.5682
+        },
+        {
+          "partner": "Kaja",
+          "wins": 54,
+          "games": 96,
+          "win_rate": 0.5625
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Ruby",
+          "wins": 30,
+          "games": 50,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Bane",
+          "wins": 12,
+          "games": 20,
+          "win_rate": 0.6
+        }
+      ]
+    },
+    "Ixia": {
+      "games": 197,
+      "wins": 111,
+      "win_rate": 0.5635,
+      "synergies": [
+        {
+          "partner": "Edith",
+          "wins": 22,
+          "games": 33,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Valentina",
+          "wins": 34,
+          "games": 55,
+          "win_rate": 0.6182
+        },
+        {
+          "partner": "Yu Zhong",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Fredrinn",
+          "wins": 22,
+          "games": 36,
+          "win_rate": 0.6111
+        },
+        {
+          "partner": "Mathilda",
+          "wins": 17,
+          "games": 28,
+          "win_rate": 0.6071
+        },
+        {
+          "partner": "Faramis",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Martis",
+          "wins": 17,
+          "games": 29,
+          "win_rate": 0.5862
+        },
+        {
+          "partner": "Baxia",
+          "wins": 22,
+          "games": 38,
+          "win_rate": 0.5789
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Grock",
+          "wins": 17,
+          "games": 20,
+          "win_rate": 0.85
+        },
+        {
+          "enemy": "Lylia",
+          "wins": 15,
+          "games": 21,
+          "win_rate": 0.7143
+        },
+        {
+          "enemy": "Rafaela",
+          "wins": 20,
+          "games": 29,
+          "win_rate": 0.6897
+        },
+        {
+          "enemy": "Paquito",
+          "wins": 14,
+          "games": 23,
+          "win_rate": 0.6087
+        },
+        {
+          "enemy": "Fredrinn",
+          "wins": 40,
+          "games": 66,
+          "win_rate": 0.6061
+        },
+        {
+          "enemy": "Brody",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        }
+      ]
+    },
+    "Jawhead": {
+      "games": 1279,
+      "wins": 614,
+      "win_rate": 0.4801,
+      "synergies": [
+        {
+          "partner": "Diggie",
+          "wins": 22,
+          "games": 36,
+          "win_rate": 0.6111
+        },
+        {
+          "partner": "Cecilion",
+          "wins": 46,
+          "games": 76,
+          "win_rate": 0.6053
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 41,
+          "games": 70,
+          "win_rate": 0.5857
+        },
+        {
+          "partner": "Hylos",
+          "wins": 24,
+          "games": 41,
+          "win_rate": 0.5854
+        },
+        {
+          "partner": "Paquito",
+          "wins": 55,
+          "games": 95,
+          "win_rate": 0.5789
+        },
+        {
+          "partner": "Eudora",
+          "wins": 34,
+          "games": 60,
+          "win_rate": 0.5667
+        },
+        {
+          "partner": "Claude",
+          "wins": 67,
+          "games": 120,
+          "win_rate": 0.5583
+        },
+        {
+          "partner": "Phoveus",
+          "wins": 15,
+          "games": 27,
+          "win_rate": 0.5556
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Hilda",
+          "wins": 20,
+          "games": 32,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Estes",
+          "wins": 20,
+          "games": 32,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Natalia",
+          "wins": 21,
+          "games": 34,
+          "win_rate": 0.6176
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 34,
+          "games": 57,
+          "win_rate": 0.5965
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 47,
+          "games": 80,
+          "win_rate": 0.5875
+        },
+        {
+          "enemy": "Brody",
+          "wins": 29,
+          "games": 50,
+          "win_rate": 0.58
+        }
+      ]
+    },
+    "Johnson": {
+      "games": 138,
+      "wins": 62,
+      "win_rate": 0.4493,
+      "synergies": [],
+      "counters": []
+    },
+    "Joy": {
+      "games": 879,
+      "wins": 469,
+      "win_rate": 0.5336,
+      "synergies": [
+        {
+          "partner": "Terizla",
+          "wins": 79,
+          "games": 111,
+          "win_rate": 0.7117
+        },
+        {
+          "partner": "Bruno",
+          "wins": 34,
+          "games": 52,
+          "win_rate": 0.6538
+        },
+        {
+          "partner": "Faramis",
+          "wins": 58,
+          "games": 91,
+          "win_rate": 0.6374
+        },
+        {
+          "partner": "Novaria",
+          "wins": 32,
+          "games": 52,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Paquito",
+          "wins": 24,
+          "games": 39,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 23,
+          "games": 38,
+          "win_rate": 0.6053
+        },
+        {
+          "partner": "Yu Zhong",
+          "wins": 31,
+          "games": 52,
+          "win_rate": 0.5962
+        },
+        {
+          "partner": "Yve",
+          "wins": 72,
+          "games": 123,
+          "win_rate": 0.5854
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "X.Borg",
+          "wins": 18,
+          "games": 21,
+          "win_rate": 0.8571
+        },
+        {
+          "enemy": "Floryn",
+          "wins": 16,
+          "games": 21,
+          "win_rate": 0.7619
+        },
+        {
+          "enemy": "Kagura",
+          "wins": 14,
+          "games": 21,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Rafaela",
+          "wins": 14,
+          "games": 22,
+          "win_rate": 0.6364
+        },
+        {
+          "enemy": "Chou",
+          "wins": 36,
+          "games": 57,
+          "win_rate": 0.6316
+        },
+        {
+          "enemy": "Akai",
+          "wins": 50,
+          "games": 80,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Ling",
+          "wins": 30,
+          "games": 48,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Harith",
+          "wins": 25,
+          "games": 40,
+          "win_rate": 0.625
+        }
+      ]
+    },
+    "Julian": {
+      "games": 565,
+      "wins": 288,
+      "win_rate": 0.5097,
+      "synergies": [
+        {
+          "partner": "Faramis",
+          "wins": 26,
+          "games": 38,
+          "win_rate": 0.6842
+        },
+        {
+          "partner": "Atlas",
+          "wins": 28,
+          "games": 45,
+          "win_rate": 0.6222
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 27,
+          "games": 44,
+          "win_rate": 0.6136
+        },
+        {
+          "partner": "Dyrroth",
+          "wins": 25,
+          "games": 41,
+          "win_rate": 0.6098
+        },
+        {
+          "partner": "Yve",
+          "wins": 20,
+          "games": 33,
+          "win_rate": 0.6061
+        },
+        {
+          "partner": "Chou",
+          "wins": 48,
+          "games": 81,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Popol And Kupa",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Uranus",
+          "wins": 24,
+          "games": 41,
+          "win_rate": 0.5854
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Yu Zhong",
+          "wins": 17,
+          "games": 23,
+          "win_rate": 0.7391
+        },
+        {
+          "enemy": "Mathilda",
+          "wins": 37,
+          "games": 52,
+          "win_rate": 0.7115
+        },
+        {
+          "enemy": "Popol And Kupa",
+          "wins": 20,
+          "games": 31,
+          "win_rate": 0.6452
+        },
+        {
+          "enemy": "Esmeralda",
+          "wins": 84,
+          "games": 137,
+          "win_rate": 0.6131
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 25,
+          "games": 43,
+          "win_rate": 0.5814
+        }
+      ]
+    },
+    "Kadita": {
+      "games": 1462,
+      "wins": 778,
+      "win_rate": 0.5321,
+      "synergies": [
+        {
+          "partner": "Franco",
+          "wins": 65,
+          "games": 100,
+          "win_rate": 0.65
+        },
+        {
+          "partner": "Masha",
+          "wins": 19,
+          "games": 30,
+          "win_rate": 0.6333
+        },
+        {
+          "partner": "Gloo",
+          "wins": 62,
+          "games": 98,
+          "win_rate": 0.6327
+        },
+        {
+          "partner": "Terizla",
+          "wins": 90,
+          "games": 144,
+          "win_rate": 0.625
+        },
+        {
+          "partner": "Mathilda",
+          "wins": 24,
+          "games": 39,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Atlas",
+          "wins": 22,
+          "games": 36,
+          "win_rate": 0.6111
+        },
+        {
+          "partner": "Pharsa",
+          "wins": 36,
+          "games": 59,
+          "win_rate": 0.6102
+        },
+        {
+          "partner": "Kaja",
+          "wins": 105,
+          "games": 173,
+          "win_rate": 0.6069
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Karina",
+          "wins": 21,
+          "games": 28,
+          "win_rate": 0.75
+        },
+        {
+          "enemy": "Xavier",
+          "wins": 18,
+          "games": 25,
+          "win_rate": 0.72
+        },
+        {
+          "enemy": "Ling",
+          "wins": 50,
+          "games": 75,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Popol And Kupa",
+          "wins": 15,
+          "games": 23,
+          "win_rate": 0.6522
+        },
+        {
+          "enemy": "Leomord",
+          "wins": 13,
+          "games": 20,
+          "win_rate": 0.65
+        },
+        {
+          "enemy": "Lylia",
+          "wins": 53,
+          "games": 82,
+          "win_rate": 0.6463
+        },
+        {
+          "enemy": "Baxia",
+          "wins": 63,
+          "games": 98,
+          "win_rate": 0.6429
+        },
+        {
+          "enemy": "Hilda",
+          "wins": 18,
+          "games": 29,
+          "win_rate": 0.6207
+        }
+      ]
+    },
+    "Kagura": {
+      "games": 1614,
+      "wins": 779,
+      "win_rate": 0.4827,
+      "synergies": [
+        {
+          "partner": "Wanwan",
+          "wins": 63,
+          "games": 89,
+          "win_rate": 0.7079
+        },
+        {
+          "partner": "Helcurt",
+          "wins": 27,
+          "games": 41,
+          "win_rate": 0.6585
+        },
+        {
+          "partner": "Saber",
+          "wins": 17,
+          "games": 28,
+          "win_rate": 0.6071
+        },
+        {
+          "partner": "Hylos",
+          "wins": 29,
+          "games": 49,
+          "win_rate": 0.5918
+        },
+        {
+          "partner": "Angela",
+          "wins": 35,
+          "games": 60,
+          "win_rate": 0.5833
+        },
+        {
+          "partner": "Melissa",
+          "wins": 18,
+          "games": 31,
+          "win_rate": 0.5806
+        },
+        {
+          "partner": "Natalia",
+          "wins": 15,
+          "games": 26,
+          "win_rate": 0.5769
+        },
+        {
+          "partner": "Phoveus",
+          "wins": 23,
+          "games": 40,
+          "win_rate": 0.575
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Faramis",
+          "wins": 21,
+          "games": 30,
+          "win_rate": 0.7
+        },
+        {
+          "enemy": "Bane",
+          "wins": 19,
+          "games": 30,
+          "win_rate": 0.6333
+        },
+        {
+          "enemy": "Gatotkaca",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        },
+        {
+          "enemy": "Hilda",
+          "wins": 30,
+          "games": 48,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Silvanna",
+          "wins": 25,
+          "games": 40,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Saber",
+          "wins": 26,
+          "games": 42,
+          "win_rate": 0.619
+        },
+        {
+          "enemy": "Cyclops",
+          "wins": 17,
+          "games": 28,
+          "win_rate": 0.6071
+        },
+        {
+          "enemy": "Edith",
+          "wins": 18,
+          "games": 30,
+          "win_rate": 0.6
+        }
+      ]
+    },
+    "Kaja": {
+      "games": 2327,
+      "wins": 1249,
+      "win_rate": 0.5367,
+      "synergies": [
+        {
+          "partner": "Gloo",
+          "wins": 94,
+          "games": 137,
+          "win_rate": 0.6861
+        },
+        {
+          "partner": "Edith",
+          "wins": 55,
+          "games": 82,
+          "win_rate": 0.6707
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 66,
+          "games": 102,
+          "win_rate": 0.6471
+        },
+        {
+          "partner": "Bane",
+          "wins": 29,
+          "games": 45,
+          "win_rate": 0.6444
+        },
+        {
+          "partner": "Moskov",
+          "wins": 32,
+          "games": 51,
+          "win_rate": 0.6275
+        },
+        {
+          "partner": "Helcurt",
+          "wins": 42,
+          "games": 67,
+          "win_rate": 0.6269
+        },
+        {
+          "partner": "Kimmy",
+          "wins": 45,
+          "games": 74,
+          "win_rate": 0.6081
+        },
+        {
+          "partner": "Kadita",
+          "wins": 105,
+          "games": 173,
+          "win_rate": 0.6069
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Xavier",
+          "wins": 23,
+          "games": 33,
+          "win_rate": 0.697
+        },
+        {
+          "enemy": "Granger",
+          "wins": 62,
+          "games": 91,
+          "win_rate": 0.6813
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 31,
+          "games": 46,
+          "win_rate": 0.6739
+        },
+        {
+          "enemy": "Aldous",
+          "wins": 16,
+          "games": 24,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Minsitthar",
+          "wins": 27,
+          "games": 41,
+          "win_rate": 0.6585
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 25,
+          "games": 38,
+          "win_rate": 0.6579
+        },
+        {
+          "enemy": "Karina",
+          "wins": 23,
+          "games": 36,
+          "win_rate": 0.6389
+        },
+        {
+          "enemy": "Floryn",
+          "wins": 24,
+          "games": 38,
+          "win_rate": 0.6316
+        }
+      ]
+    },
+    "Karina": {
+      "games": 905,
+      "wins": 463,
+      "win_rate": 0.5116,
+      "synergies": [
+        {
+          "partner": "Thamuz",
+          "wins": 27,
+          "games": 42,
+          "win_rate": 0.6429
+        },
+        {
+          "partner": "Franco",
+          "wins": 46,
+          "games": 72,
+          "win_rate": 0.6389
+        },
+        {
+          "partner": "Lapu-Lapu",
+          "wins": 22,
+          "games": 35,
+          "win_rate": 0.6286
+        },
+        {
+          "partner": "Paquito",
+          "wins": 51,
+          "games": 83,
+          "win_rate": 0.6145
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 46,
+          "games": 75,
+          "win_rate": 0.6133
+        },
+        {
+          "partner": "Faramis",
+          "wins": 34,
+          "games": 56,
+          "win_rate": 0.6071
+        },
+        {
+          "partner": "Phoveus",
+          "wins": 17,
+          "games": 28,
+          "win_rate": 0.6071
+        },
+        {
+          "partner": "Lolita",
+          "wins": 44,
+          "games": 74,
+          "win_rate": 0.5946
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Natan",
+          "wins": 14,
+          "games": 22,
+          "win_rate": 0.6364
+        },
+        {
+          "enemy": "Barats",
+          "wins": 38,
+          "games": 61,
+          "win_rate": 0.623
+        },
+        {
+          "enemy": "Brody",
+          "wins": 42,
+          "games": 68,
+          "win_rate": 0.6176
+        },
+        {
+          "enemy": "Hilda",
+          "wins": 20,
+          "games": 33,
+          "win_rate": 0.6061
+        },
+        {
+          "enemy": "Selena",
+          "wins": 20,
+          "games": 33,
+          "win_rate": 0.6061
+        },
+        {
+          "enemy": "Mathilda",
+          "wins": 62,
+          "games": 104,
+          "win_rate": 0.5962
+        },
+        {
+          "enemy": "Balmond",
+          "wins": 38,
+          "games": 64,
+          "win_rate": 0.5938
+        },
+        {
+          "enemy": "Kagura",
+          "wins": 32,
+          "games": 54,
+          "win_rate": 0.5926
+        }
+      ]
+    },
+    "Karrie": {
+      "games": 2365,
+      "wins": 1120,
+      "win_rate": 0.4736,
+      "synergies": [
+        {
+          "partner": "Natalia",
+          "wins": 20,
+          "games": 31,
+          "win_rate": 0.6452
+        },
+        {
+          "partner": "Novaria",
+          "wins": 42,
+          "games": 70,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Julian",
+          "wins": 21,
+          "games": 36,
+          "win_rate": 0.5833
+        },
+        {
+          "partner": "Kadita",
+          "wins": 86,
+          "games": 155,
+          "win_rate": 0.5548
+        },
+        {
+          "partner": "Gloo",
+          "wins": 83,
+          "games": 150,
+          "win_rate": 0.5533
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Fanny",
+          "wins": 44,
+          "games": 68,
+          "win_rate": 0.6471
+        },
+        {
+          "enemy": "Kagura",
+          "wins": 58,
+          "games": 100,
+          "win_rate": 0.58
+        }
+      ]
+    },
+    "Khaleed": {
+      "games": 552,
+      "wins": 289,
+      "win_rate": 0.5236,
+      "synergies": [
+        {
+          "partner": "Edith",
+          "wins": 26,
+          "games": 35,
+          "win_rate": 0.7429
+        },
+        {
+          "partner": "Rafaela",
+          "wins": 22,
+          "games": 30,
+          "win_rate": 0.7333
+        },
+        {
+          "partner": "Faramis",
+          "wins": 23,
+          "games": 35,
+          "win_rate": 0.6571
+        },
+        {
+          "partner": "Valentina",
+          "wins": 30,
+          "games": 46,
+          "win_rate": 0.6522
+        },
+        {
+          "partner": "Bruno",
+          "wins": 28,
+          "games": 43,
+          "win_rate": 0.6512
+        },
+        {
+          "partner": "Fredrinn",
+          "wins": 33,
+          "games": 51,
+          "win_rate": 0.6471
+        },
+        {
+          "partner": "Beatrix",
+          "wins": 25,
+          "games": 41,
+          "win_rate": 0.6098
+        },
+        {
+          "partner": "Brody",
+          "wins": 27,
+          "games": 45,
+          "win_rate": 0.6
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Cecilion",
+          "wins": 21,
+          "games": 27,
+          "win_rate": 0.7778
+        },
+        {
+          "enemy": "Martis",
+          "wins": 22,
+          "games": 30,
+          "win_rate": 0.7333
+        },
+        {
+          "enemy": "Joy",
+          "wins": 21,
+          "games": 29,
+          "win_rate": 0.7241
+        },
+        {
+          "enemy": "Valentina",
+          "wins": 33,
+          "games": 49,
+          "win_rate": 0.6735
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 26,
+          "games": 41,
+          "win_rate": 0.6341
+        },
+        {
+          "enemy": "Harith",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "enemy": "X.Borg",
+          "wins": 20,
+          "games": 33,
+          "win_rate": 0.6061
+        },
+        {
+          "enemy": "Thamuz",
+          "wins": 35,
+          "games": 58,
+          "win_rate": 0.6034
+        }
+      ]
+    },
+    "Khufra": {
+      "games": 2803,
+      "wins": 1401,
+      "win_rate": 0.4998,
+      "synergies": [
+        {
+          "partner": "Diggie",
+          "wins": 18,
+          "games": 30,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Gusion",
+          "wins": 28,
+          "games": 47,
+          "win_rate": 0.5957
+        },
+        {
+          "partner": "Mathilda",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Karina",
+          "wins": 39,
+          "games": 67,
+          "win_rate": 0.5821
+        },
+        {
+          "partner": "Yve",
+          "wins": 185,
+          "games": 318,
+          "win_rate": 0.5818
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 73,
+          "games": 126,
+          "win_rate": 0.5794
+        },
+        {
+          "partner": "Hayabusa",
+          "wins": 131,
+          "games": 229,
+          "win_rate": 0.5721
+        },
+        {
+          "partner": "Luo Yi",
+          "wins": 28,
+          "games": 49,
+          "win_rate": 0.5714
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Nana",
+          "wins": 24,
+          "games": 33,
+          "win_rate": 0.7273
+        },
+        {
+          "enemy": "Floryn",
+          "wins": 19,
+          "games": 27,
+          "win_rate": 0.7037
+        },
+        {
+          "enemy": "Guinevere",
+          "wins": 17,
+          "games": 25,
+          "win_rate": 0.68
+        },
+        {
+          "enemy": "Natan",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Diggie",
+          "wins": 68,
+          "games": 114,
+          "win_rate": 0.5965
+        },
+        {
+          "enemy": "Leomord",
+          "wins": 28,
+          "games": 47,
+          "win_rate": 0.5957
+        },
+        {
+          "enemy": "Silvanna",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 45,
+          "games": 76,
+          "win_rate": 0.5921
+        }
+      ]
+    },
+    "Kimmy": {
+      "games": 602,
+      "wins": 330,
+      "win_rate": 0.5482,
+      "synergies": [
+        {
+          "partner": "Harith",
+          "wins": 20,
+          "games": 28,
+          "win_rate": 0.7143
+        },
+        {
+          "partner": "Granger",
+          "wins": 18,
+          "games": 27,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "X.Borg",
+          "wins": 33,
+          "games": 51,
+          "win_rate": 0.6471
+        },
+        {
+          "partner": "Paquito",
+          "wins": 34,
+          "games": 53,
+          "win_rate": 0.6415
+        },
+        {
+          "partner": "Pharsa",
+          "wins": 23,
+          "games": 36,
+          "win_rate": 0.6389
+        },
+        {
+          "partner": "Rafaela",
+          "wins": 24,
+          "games": 38,
+          "win_rate": 0.6316
+        },
+        {
+          "partner": "Lylia",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Mathilda",
+          "wins": 19,
+          "games": 31,
+          "win_rate": 0.6129
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Valir",
+          "wins": 28,
+          "games": 38,
+          "win_rate": 0.7368
+        },
+        {
+          "enemy": "Baxia",
+          "wins": 18,
+          "games": 25,
+          "win_rate": 0.72
+        },
+        {
+          "enemy": "Kadita",
+          "wins": 15,
+          "games": 21,
+          "win_rate": 0.7143
+        },
+        {
+          "enemy": "Minotaur",
+          "wins": 16,
+          "games": 23,
+          "win_rate": 0.6957
+        },
+        {
+          "enemy": "Hylos",
+          "wins": 25,
+          "games": 36,
+          "win_rate": 0.6944
+        },
+        {
+          "enemy": "Alice",
+          "wins": 15,
+          "games": 22,
+          "win_rate": 0.6818
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 19,
+          "games": 29,
+          "win_rate": 0.6552
+        },
+        {
+          "enemy": "Helcurt",
+          "wins": 27,
+          "games": 42,
+          "win_rate": 0.6429
+        }
+      ]
+    },
+    "Lancelot": {
+      "games": 2387,
+      "wins": 1190,
+      "win_rate": 0.4985,
+      "synergies": [
+        {
+          "partner": "Luo Yi",
+          "wins": 30,
+          "games": 47,
+          "win_rate": 0.6383
+        },
+        {
+          "partner": "Baxia",
+          "wins": 29,
+          "games": 46,
+          "win_rate": 0.6304
+        },
+        {
+          "partner": "Lesley",
+          "wins": 28,
+          "games": 46,
+          "win_rate": 0.6087
+        },
+        {
+          "partner": "Franco",
+          "wins": 93,
+          "games": 153,
+          "win_rate": 0.6078
+        },
+        {
+          "partner": "Hylos",
+          "wins": 24,
+          "games": 40,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Moskov",
+          "wins": 21,
+          "games": 35,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Dyrroth",
+          "wins": 25,
+          "games": 42,
+          "win_rate": 0.5952
+        },
+        {
+          "partner": "Bruno",
+          "wins": 54,
+          "games": 91,
+          "win_rate": 0.5934
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Balmond",
+          "wins": 37,
+          "games": 56,
+          "win_rate": 0.6607
+        },
+        {
+          "enemy": "Roger",
+          "wins": 56,
+          "games": 85,
+          "win_rate": 0.6588
+        },
+        {
+          "enemy": "Lesley",
+          "wins": 30,
+          "games": 46,
+          "win_rate": 0.6522
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 27,
+          "games": 42,
+          "win_rate": 0.6429
+        },
+        {
+          "enemy": "Granger",
+          "wins": 35,
+          "games": 58,
+          "win_rate": 0.6034
+        },
+        {
+          "enemy": "Aulus",
+          "wins": 22,
+          "games": 37,
+          "win_rate": 0.5946
+        },
+        {
+          "enemy": "Luo Yi",
+          "wins": 19,
+          "games": 32,
+          "win_rate": 0.5938
+        },
+        {
+          "enemy": "Estes",
+          "wins": 35,
+          "games": 59,
+          "win_rate": 0.5932
+        }
+      ]
+    },
+    "Lapu-Lapu": {
+      "games": 1937,
+      "wins": 914,
+      "win_rate": 0.4719,
+      "synergies": [
+        {
+          "partner": "Karina",
+          "wins": 22,
+          "games": 35,
+          "win_rate": 0.6286
+        },
+        {
+          "partner": "Paquito",
+          "wins": 34,
+          "games": 56,
+          "win_rate": 0.6071
+        },
+        {
+          "partner": "Yi Sun-Shin",
+          "wins": 44,
+          "games": 73,
+          "win_rate": 0.6027
+        },
+        {
+          "partner": "Clint",
+          "wins": 22,
+          "games": 37,
+          "win_rate": 0.5946
+        },
+        {
+          "partner": "Atlas",
+          "wins": 38,
+          "games": 64,
+          "win_rate": 0.5938
+        },
+        {
+          "partner": "Moskov",
+          "wins": 29,
+          "games": 50,
+          "win_rate": 0.58
+        },
+        {
+          "partner": "Balmond",
+          "wins": 15,
+          "games": 26,
+          "win_rate": 0.5769
+        },
+        {
+          "partner": "Benedetta",
+          "wins": 47,
+          "games": 83,
+          "win_rate": 0.5663
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Chang'E",
+          "wins": 27,
+          "games": 41,
+          "win_rate": 0.6585
+        },
+        {
+          "enemy": "Masha",
+          "wins": 20,
+          "games": 32,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Xavier",
+          "wins": 20,
+          "games": 32,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 20,
+          "games": 32,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Clint",
+          "wins": 32,
+          "games": 52,
+          "win_rate": 0.6154
+        },
+        {
+          "enemy": "Uranus",
+          "wins": 49,
+          "games": 80,
+          "win_rate": 0.6125
+        },
+        {
+          "enemy": "Helcurt",
+          "wins": 22,
+          "games": 36,
+          "win_rate": 0.6111
+        },
+        {
+          "enemy": "Granger",
+          "wins": 46,
+          "games": 76,
+          "win_rate": 0.6053
+        }
+      ]
+    },
+    "Layla": {
+      "games": 13,
+      "wins": 9,
+      "win_rate": 0.6923,
+      "synergies": [],
+      "counters": []
+    },
+    "Leomord": {
+      "games": 480,
+      "wins": 229,
+      "win_rate": 0.4771,
+      "synergies": [
+        {
+          "partner": "Kimmy",
+          "wins": 38,
+          "games": 63,
+          "win_rate": 0.6032
+        },
+        {
+          "partner": "Diggie",
+          "wins": 21,
+          "games": 37,
+          "win_rate": 0.5676
+        },
+        {
+          "partner": "Gusion",
+          "wins": 26,
+          "games": 46,
+          "win_rate": 0.5652
+        },
+        {
+          "partner": "Uranus",
+          "wins": 14,
+          "games": 25,
+          "win_rate": 0.56
+        },
+        {
+          "partner": "Akai",
+          "wins": 48,
+          "games": 86,
+          "win_rate": 0.5581
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Yu Zhong",
+          "wins": 15,
+          "games": 23,
+          "win_rate": 0.6522
+        },
+        {
+          "enemy": "Harley",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        },
+        {
+          "enemy": "Yve",
+          "wins": 14,
+          "games": 24,
+          "win_rate": 0.5833
+        },
+        {
+          "enemy": "Granger",
+          "wins": 18,
+          "games": 31,
+          "win_rate": 0.5806
+        }
+      ]
+    },
+    "Lesley": {
+      "games": 433,
+      "wins": 209,
+      "win_rate": 0.4827,
+      "synergies": [
+        {
+          "partner": "Lolita",
+          "wins": 28,
+          "games": 43,
+          "win_rate": 0.6512
+        },
+        {
+          "partner": "Terizla",
+          "wins": 31,
+          "games": 49,
+          "win_rate": 0.6327
+        },
+        {
+          "partner": "Diggie",
+          "wins": 26,
+          "games": 42,
+          "win_rate": 0.619
+        },
+        {
+          "partner": "Yve",
+          "wins": 41,
+          "games": 67,
+          "win_rate": 0.6119
+        },
+        {
+          "partner": "Novaria",
+          "wins": 25,
+          "games": 41,
+          "win_rate": 0.6098
+        },
+        {
+          "partner": "Lancelot",
+          "wins": 28,
+          "games": 46,
+          "win_rate": 0.6087
+        },
+        {
+          "partner": "Arlott",
+          "wins": 20,
+          "games": 35,
+          "win_rate": 0.5714
+        },
+        {
+          "partner": "Gloo",
+          "wins": 16,
+          "games": 28,
+          "win_rate": 0.5714
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Mathilda",
+          "wins": 16,
+          "games": 20,
+          "win_rate": 0.8
+        },
+        {
+          "enemy": "Uranus",
+          "wins": 22,
+          "games": 34,
+          "win_rate": 0.6471
+        },
+        {
+          "enemy": "Minotaur",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "enemy": "Martis",
+          "wins": 41,
+          "games": 65,
+          "win_rate": 0.6308
+        },
+        {
+          "enemy": "Lapu-Lapu",
+          "wins": 26,
+          "games": 42,
+          "win_rate": 0.619
+        }
+      ]
+    },
+    "Ling": {
+      "games": 1899,
+      "wins": 936,
+      "win_rate": 0.4929,
+      "synergies": [
+        {
+          "partner": "Valir",
+          "wins": 35,
+          "games": 55,
+          "win_rate": 0.6364
+        },
+        {
+          "partner": "Xavier",
+          "wins": 29,
+          "games": 47,
+          "win_rate": 0.617
+        },
+        {
+          "partner": "Barats",
+          "wins": 33,
+          "games": 55,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Harith",
+          "wins": 45,
+          "games": 76,
+          "win_rate": 0.5921
+        },
+        {
+          "partner": "Masha",
+          "wins": 26,
+          "games": 44,
+          "win_rate": 0.5909
+        },
+        {
+          "partner": "Lunox",
+          "wins": 97,
+          "games": 167,
+          "win_rate": 0.5808
+        },
+        {
+          "partner": "Joy",
+          "wins": 15,
+          "games": 26,
+          "win_rate": 0.5769
+        },
+        {
+          "partner": "Bruno",
+          "wins": 16,
+          "games": 28,
+          "win_rate": 0.5714
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Natan",
+          "wins": 19,
+          "games": 27,
+          "win_rate": 0.7037
+        },
+        {
+          "enemy": "Saber",
+          "wins": 19,
+          "games": 29,
+          "win_rate": 0.6552
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 29,
+          "games": 45,
+          "win_rate": 0.6444
+        },
+        {
+          "enemy": "Lesley",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "enemy": "Aldous",
+          "wins": 14,
+          "games": 22,
+          "win_rate": 0.6364
+        },
+        {
+          "enemy": "Julian",
+          "wins": 30,
+          "games": 48,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 99,
+          "games": 161,
+          "win_rate": 0.6149
+        },
+        {
+          "enemy": "Rafaela",
+          "wins": 49,
+          "games": 82,
+          "win_rate": 0.5976
+        }
+      ]
+    },
+    "Lolita": {
+      "games": 1743,
+      "wins": 903,
+      "win_rate": 0.5181,
+      "synergies": [
+        {
+          "partner": "Lesley",
+          "wins": 28,
+          "games": 43,
+          "win_rate": 0.6512
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 51,
+          "games": 81,
+          "win_rate": 0.6296
+        },
+        {
+          "partner": "Xavier",
+          "wins": 37,
+          "games": 59,
+          "win_rate": 0.6271
+        },
+        {
+          "partner": "Kimmy",
+          "wins": 41,
+          "games": 67,
+          "win_rate": 0.6119
+        },
+        {
+          "partner": "Hayabusa",
+          "wins": 66,
+          "games": 108,
+          "win_rate": 0.6111
+        },
+        {
+          "partner": "Harith",
+          "wins": 37,
+          "games": 61,
+          "win_rate": 0.6066
+        },
+        {
+          "partner": "Gloo",
+          "wins": 82,
+          "games": 137,
+          "win_rate": 0.5985
+        },
+        {
+          "partner": "Karina",
+          "wins": 44,
+          "games": 74,
+          "win_rate": 0.5946
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Harith",
+          "wins": 39,
+          "games": 53,
+          "win_rate": 0.7358
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 68,
+          "games": 99,
+          "win_rate": 0.6869
+        },
+        {
+          "enemy": "Helcurt",
+          "wins": 24,
+          "games": 35,
+          "win_rate": 0.6857
+        },
+        {
+          "enemy": "Yi Sun-Shin",
+          "wins": 15,
+          "games": 23,
+          "win_rate": 0.6522
+        },
+        {
+          "enemy": "Xavier",
+          "wins": 38,
+          "games": 61,
+          "win_rate": 0.623
+        },
+        {
+          "enemy": "Diggie",
+          "wins": 56,
+          "games": 90,
+          "win_rate": 0.6222
+        },
+        {
+          "enemy": "Mathilda",
+          "wins": 120,
+          "games": 194,
+          "win_rate": 0.6186
+        },
+        {
+          "enemy": "Bane",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        }
+      ]
+    },
+    "Lunox": {
+      "games": 2063,
+      "wins": 1036,
+      "win_rate": 0.5022,
+      "synergies": [
+        {
+          "partner": "Faramis",
+          "wins": 19,
+          "games": 30,
+          "win_rate": 0.6333
+        },
+        {
+          "partner": "Yve",
+          "wins": 44,
+          "games": 70,
+          "win_rate": 0.6286
+        },
+        {
+          "partner": "Helcurt",
+          "wins": 21,
+          "games": 35,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Silvanna",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Gloo",
+          "wins": 58,
+          "games": 97,
+          "win_rate": 0.5979
+        },
+        {
+          "partner": "Kadita",
+          "wins": 19,
+          "games": 32,
+          "win_rate": 0.5938
+        },
+        {
+          "partner": "Phoveus",
+          "wins": 31,
+          "games": 53,
+          "win_rate": 0.5849
+        },
+        {
+          "partner": "Chou",
+          "wins": 190,
+          "games": 326,
+          "win_rate": 0.5828
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Minsitthar",
+          "wins": 19,
+          "games": 26,
+          "win_rate": 0.7308
+        },
+        {
+          "enemy": "Silvanna",
+          "wins": 19,
+          "games": 27,
+          "win_rate": 0.7037
+        },
+        {
+          "enemy": "Khaleed",
+          "wins": 21,
+          "games": 31,
+          "win_rate": 0.6774
+        },
+        {
+          "enemy": "Angela",
+          "wins": 54,
+          "games": 85,
+          "win_rate": 0.6353
+        },
+        {
+          "enemy": "Martis",
+          "wins": 50,
+          "games": 79,
+          "win_rate": 0.6329
+        },
+        {
+          "enemy": "Balmond",
+          "wins": 45,
+          "games": 73,
+          "win_rate": 0.6164
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 46,
+          "games": 78,
+          "win_rate": 0.5897
+        }
+      ]
+    },
+    "Luo Yi": {
+      "games": 376,
+      "wins": 204,
+      "win_rate": 0.5426,
+      "synergies": [
+        {
+          "partner": "Granger",
+          "wins": 22,
+          "games": 30,
+          "win_rate": 0.7333
+        },
+        {
+          "partner": "Brody",
+          "wins": 20,
+          "games": 28,
+          "win_rate": 0.7143
+        },
+        {
+          "partner": "Benedetta",
+          "wins": 32,
+          "games": 49,
+          "win_rate": 0.6531
+        },
+        {
+          "partner": "Yi Sun-Shin",
+          "wins": 28,
+          "games": 43,
+          "win_rate": 0.6512
+        },
+        {
+          "partner": "Thamuz",
+          "wins": 18,
+          "games": 28,
+          "win_rate": 0.6429
+        },
+        {
+          "partner": "Lancelot",
+          "wins": 30,
+          "games": 47,
+          "win_rate": 0.6383
+        },
+        {
+          "partner": "Popol And Kupa",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        },
+        {
+          "partner": "Chou",
+          "wins": 33,
+          "games": 56,
+          "win_rate": 0.5893
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Chang'E",
+          "wins": 19,
+          "games": 23,
+          "win_rate": 0.8261
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 21,
+          "games": 30,
+          "win_rate": 0.7
+        },
+        {
+          "enemy": "Atlas",
+          "wins": 14,
+          "games": 20,
+          "win_rate": 0.7
+        },
+        {
+          "enemy": "Roger",
+          "wins": 30,
+          "games": 46,
+          "win_rate": 0.6522
+        },
+        {
+          "enemy": "Akai",
+          "wins": 13,
+          "games": 20,
+          "win_rate": 0.65
+        },
+        {
+          "enemy": "Thamuz",
+          "wins": 21,
+          "games": 33,
+          "win_rate": 0.6364
+        },
+        {
+          "enemy": "Selena",
+          "wins": 21,
+          "games": 34,
+          "win_rate": 0.6176
+        },
+        {
+          "enemy": "Barats",
+          "wins": 22,
+          "games": 36,
+          "win_rate": 0.6111
+        }
+      ]
+    },
+    "Lylia": {
+      "games": 1843,
+      "wins": 918,
+      "win_rate": 0.4981,
+      "synergies": [
+        {
+          "partner": "Valentina",
+          "wins": 21,
+          "games": 32,
+          "win_rate": 0.6562
+        },
+        {
+          "partner": "Kimmy",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Granger",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Joy",
+          "wins": 28,
+          "games": 48,
+          "win_rate": 0.5833
+        },
+        {
+          "partner": "Chou",
+          "wins": 117,
+          "games": 201,
+          "win_rate": 0.5821
+        },
+        {
+          "partner": "Phoveus",
+          "wins": 32,
+          "games": 55,
+          "win_rate": 0.5818
+        },
+        {
+          "partner": "Terizla",
+          "wins": 69,
+          "games": 119,
+          "win_rate": 0.5798
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 67,
+          "games": 117,
+          "win_rate": 0.5726
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Bane",
+          "wins": 23,
+          "games": 34,
+          "win_rate": 0.6765
+        },
+        {
+          "enemy": "Alice",
+          "wins": 22,
+          "games": 35,
+          "win_rate": 0.6286
+        },
+        {
+          "enemy": "Thamuz",
+          "wins": 44,
+          "games": 72,
+          "win_rate": 0.6111
+        },
+        {
+          "enemy": "Valir",
+          "wins": 12,
+          "games": 20,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Khaleed",
+          "wins": 19,
+          "games": 32,
+          "win_rate": 0.5938
+        },
+        {
+          "enemy": "Barats",
+          "wins": 45,
+          "games": 76,
+          "win_rate": 0.5921
+        },
+        {
+          "enemy": "Selena",
+          "wins": 52,
+          "games": 88,
+          "win_rate": 0.5909
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 13,
+          "games": 22,
+          "win_rate": 0.5909
+        }
+      ]
+    },
+    "Martis": {
+      "games": 2059,
+      "wins": 946,
+      "win_rate": 0.4594,
+      "synergies": [
+        {
+          "partner": "Masha",
+          "wins": 23,
+          "games": 35,
+          "win_rate": 0.6571
+        },
+        {
+          "partner": "Ixia",
+          "wins": 17,
+          "games": 29,
+          "win_rate": 0.5862
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Hanzo",
+          "wins": 18,
+          "games": 25,
+          "win_rate": 0.72
+        }
+      ]
+    },
+    "Masha": {
+      "games": 697,
+      "wins": 373,
+      "win_rate": 0.5352,
+      "synergies": [
+        {
+          "partner": "Franco",
+          "wins": 27,
+          "games": 38,
+          "win_rate": 0.7105
+        },
+        {
+          "partner": "Mathilda",
+          "wins": 23,
+          "games": 34,
+          "win_rate": 0.6765
+        },
+        {
+          "partner": "Selena",
+          "wins": 18,
+          "games": 27,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 29,
+          "games": 44,
+          "win_rate": 0.6591
+        },
+        {
+          "partner": "Martis",
+          "wins": 23,
+          "games": 35,
+          "win_rate": 0.6571
+        },
+        {
+          "partner": "Dyrroth",
+          "wins": 24,
+          "games": 37,
+          "win_rate": 0.6486
+        },
+        {
+          "partner": "Chou",
+          "wins": 40,
+          "games": 63,
+          "win_rate": 0.6349
+        },
+        {
+          "partner": "Kadita",
+          "wins": 19,
+          "games": 30,
+          "win_rate": 0.6333
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Hilda",
+          "wins": 24,
+          "games": 33,
+          "win_rate": 0.7273
+        },
+        {
+          "enemy": "Angela",
+          "wins": 26,
+          "games": 37,
+          "win_rate": 0.7027
+        },
+        {
+          "enemy": "Arlott",
+          "wins": 16,
+          "games": 24,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Hylos",
+          "wins": 19,
+          "games": 29,
+          "win_rate": 0.6552
+        },
+        {
+          "enemy": "Rafaela",
+          "wins": 15,
+          "games": 23,
+          "win_rate": 0.6522
+        },
+        {
+          "enemy": "X.Borg",
+          "wins": 26,
+          "games": 41,
+          "win_rate": 0.6341
+        },
+        {
+          "enemy": "Lancelot",
+          "wins": 19,
+          "games": 30,
+          "win_rate": 0.6333
+        },
+        {
+          "enemy": "Xavier",
+          "wins": 28,
+          "games": 45,
+          "win_rate": 0.6222
+        }
+      ]
+    },
+    "Mathilda": {
+      "games": 1925,
+      "wins": 970,
+      "win_rate": 0.5039,
+      "synergies": [
+        {
+          "partner": "Masha",
+          "wins": 23,
+          "games": 34,
+          "win_rate": 0.6765
+        },
+        {
+          "partner": "Rafaela",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        },
+        {
+          "partner": "Kadita",
+          "wins": 24,
+          "games": 39,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Kimmy",
+          "wins": 19,
+          "games": 31,
+          "win_rate": 0.6129
+        },
+        {
+          "partner": "Ixia",
+          "wins": 17,
+          "games": 28,
+          "win_rate": 0.6071
+        },
+        {
+          "partner": "Bruno",
+          "wins": 48,
+          "games": 81,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Khufra",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Khaleed",
+          "wins": 25,
+          "games": 43,
+          "win_rate": 0.5814
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "X.Borg",
+          "wins": 36,
+          "games": 52,
+          "win_rate": 0.6923
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 40,
+          "games": 58,
+          "win_rate": 0.6897
+        },
+        {
+          "enemy": "Khaleed",
+          "wins": 23,
+          "games": 36,
+          "win_rate": 0.6389
+        },
+        {
+          "enemy": "Jawhead",
+          "wins": 70,
+          "games": 111,
+          "win_rate": 0.6306
+        },
+        {
+          "enemy": "Barats",
+          "wins": 56,
+          "games": 89,
+          "win_rate": 0.6292
+        },
+        {
+          "enemy": "Tigreal",
+          "wins": 15,
+          "games": 24,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Yi Sun-Shin",
+          "wins": 64,
+          "games": 104,
+          "win_rate": 0.6154
+        },
+        {
+          "enemy": "Minotaur",
+          "wins": 24,
+          "games": 39,
+          "win_rate": 0.6154
+        }
+      ]
+    },
+    "Melissa": {
+      "games": 1109,
+      "wins": 547,
+      "win_rate": 0.4932,
+      "synergies": [
+        {
+          "partner": "Atlas",
+          "wins": 34,
+          "games": 50,
+          "win_rate": 0.68
+        },
+        {
+          "partner": "Estes",
+          "wins": 24,
+          "games": 36,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Diggie",
+          "wins": 45,
+          "games": 73,
+          "win_rate": 0.6164
+        },
+        {
+          "partner": "Karina",
+          "wins": 32,
+          "games": 54,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Kaja",
+          "wins": 57,
+          "games": 97,
+          "win_rate": 0.5876
+        },
+        {
+          "partner": "Gloo",
+          "wins": 61,
+          "games": 104,
+          "win_rate": 0.5865
+        },
+        {
+          "partner": "Kagura",
+          "wins": 18,
+          "games": 31,
+          "win_rate": 0.5806
+        },
+        {
+          "partner": "Kadita",
+          "wins": 53,
+          "games": 93,
+          "win_rate": 0.5699
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Estes",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "enemy": "Harith",
+          "wins": 19,
+          "games": 31,
+          "win_rate": 0.6129
+        },
+        {
+          "enemy": "Balmond",
+          "wins": 23,
+          "games": 38,
+          "win_rate": 0.6053
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 19,
+          "games": 32,
+          "win_rate": 0.5938
+        },
+        {
+          "enemy": "Irithel",
+          "wins": 28,
+          "games": 48,
+          "win_rate": 0.5833
+        },
+        {
+          "enemy": "Kagura",
+          "wins": 18,
+          "games": 31,
+          "win_rate": 0.5806
+        }
+      ]
+    },
+    "Minotaur": {
+      "games": 940,
+      "wins": 452,
+      "win_rate": 0.4809,
+      "synergies": [
+        {
+          "partner": "Edith",
+          "wins": 29,
+          "games": 46,
+          "win_rate": 0.6304
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 21,
+          "games": 34,
+          "win_rate": 0.6176
+        },
+        {
+          "partner": "Kadita",
+          "wins": 23,
+          "games": 38,
+          "win_rate": 0.6053
+        },
+        {
+          "partner": "Chou",
+          "wins": 55,
+          "games": 92,
+          "win_rate": 0.5978
+        },
+        {
+          "partner": "Selena",
+          "wins": 21,
+          "games": 38,
+          "win_rate": 0.5526
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Minsitthar",
+          "wins": 14,
+          "games": 20,
+          "win_rate": 0.7
+        },
+        {
+          "enemy": "Gord",
+          "wins": 22,
+          "games": 32,
+          "win_rate": 0.6875
+        },
+        {
+          "enemy": "Saber",
+          "wins": 15,
+          "games": 22,
+          "win_rate": 0.6818
+        },
+        {
+          "enemy": "Esmeralda",
+          "wins": 28,
+          "games": 43,
+          "win_rate": 0.6512
+        },
+        {
+          "enemy": "Lancelot",
+          "wins": 53,
+          "games": 87,
+          "win_rate": 0.6092
+        },
+        {
+          "enemy": "Harley",
+          "wins": 21,
+          "games": 35,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Alice",
+          "wins": 23,
+          "games": 39,
+          "win_rate": 0.5897
+        }
+      ]
+    },
+    "Minsitthar": {
+      "games": 261,
+      "wins": 115,
+      "win_rate": 0.4406,
+      "synergies": [
+        {
+          "partner": "Yve",
+          "wins": 27,
+          "games": 43,
+          "win_rate": 0.6279
+        },
+        {
+          "partner": "Fredrinn",
+          "wins": 26,
+          "games": 43,
+          "win_rate": 0.6047
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Martis",
+          "wins": 18,
+          "games": 23,
+          "win_rate": 0.7826
+        },
+        {
+          "enemy": "Lapu-Lapu",
+          "wins": 15,
+          "games": 24,
+          "win_rate": 0.625
+        }
+      ]
+    },
+    "Miya": {
+      "games": 46,
+      "wins": 24,
+      "win_rate": 0.5217,
+      "synergies": [],
+      "counters": []
+    },
+    "Moskov": {
+      "games": 369,
+      "wins": 189,
+      "win_rate": 0.5122,
+      "synergies": [
+        {
+          "partner": "Kaja",
+          "wins": 32,
+          "games": 51,
+          "win_rate": 0.6275
+        },
+        {
+          "partner": "Lancelot",
+          "wins": 21,
+          "games": 35,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Faramis",
+          "wins": 23,
+          "games": 39,
+          "win_rate": 0.5897
+        },
+        {
+          "partner": "Akai",
+          "wins": 24,
+          "games": 41,
+          "win_rate": 0.5854
+        },
+        {
+          "partner": "Lapu-Lapu",
+          "wins": 29,
+          "games": 50,
+          "win_rate": 0.58
+        },
+        {
+          "partner": "Fredrinn",
+          "wins": 43,
+          "games": 76,
+          "win_rate": 0.5658
+        },
+        {
+          "partner": "Valentina",
+          "wins": 40,
+          "games": 71,
+          "win_rate": 0.5634
+        },
+        {
+          "partner": "Pharsa",
+          "wins": 33,
+          "games": 59,
+          "win_rate": 0.5593
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Lapu-Lapu",
+          "wins": 24,
+          "games": 36,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Arlott",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "enemy": "Hayabusa",
+          "wins": 13,
+          "games": 21,
+          "win_rate": 0.619
+        },
+        {
+          "enemy": "Lylia",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Martis",
+          "wins": 27,
+          "games": 46,
+          "win_rate": 0.587
+        }
+      ]
+    },
+    "Nana": {
+      "games": 158,
+      "wins": 68,
+      "win_rate": 0.4304,
+      "synergies": [],
+      "counters": [
+        {
+          "enemy": "Uranus",
+          "wins": 20,
+          "games": 34,
+          "win_rate": 0.5882
+        }
+      ]
+    },
+    "Natalia": {
+      "games": 428,
+      "wins": 202,
+      "win_rate": 0.472,
+      "synergies": [
+        {
+          "partner": "Karrie",
+          "wins": 20,
+          "games": 31,
+          "win_rate": 0.6452
+        },
+        {
+          "partner": "Brody",
+          "wins": 18,
+          "games": 29,
+          "win_rate": 0.6207
+        },
+        {
+          "partner": "Karina",
+          "wins": 18,
+          "games": 31,
+          "win_rate": 0.5806
+        },
+        {
+          "partner": "Kagura",
+          "wins": 15,
+          "games": 26,
+          "win_rate": 0.5769
+        },
+        {
+          "partner": "Baxia",
+          "wins": 19,
+          "games": 33,
+          "win_rate": 0.5758
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Xavier",
+          "wins": 16,
+          "games": 21,
+          "win_rate": 0.7619
+        },
+        {
+          "enemy": "Valentina",
+          "wins": 18,
+          "games": 29,
+          "win_rate": 0.6207
+        },
+        {
+          "enemy": "Angela",
+          "wins": 14,
+          "games": 23,
+          "win_rate": 0.6087
+        },
+        {
+          "enemy": "Lolita",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        }
+      ]
+    },
+    "Natan": {
+      "games": 334,
+      "wins": 163,
+      "win_rate": 0.488,
+      "synergies": [
+        {
+          "partner": "Chou",
+          "wins": 29,
+          "games": 45,
+          "win_rate": 0.6444
+        },
+        {
+          "partner": "Hayabusa",
+          "wins": 18,
+          "games": 28,
+          "win_rate": 0.6429
+        },
+        {
+          "partner": "Estes",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "partner": "Barats",
+          "wins": 24,
+          "games": 39,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Paquito",
+          "wins": 40,
+          "games": 68,
+          "win_rate": 0.5882
+        },
+        {
+          "partner": "Lylia",
+          "wins": 16,
+          "games": 28,
+          "win_rate": 0.5714
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Selena",
+          "wins": 18,
+          "games": 27,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Paquito",
+          "wins": 50,
+          "games": 81,
+          "win_rate": 0.6173
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 28,
+          "games": 46,
+          "win_rate": 0.6087
+        },
+        {
+          "enemy": "Claude",
+          "wins": 17,
+          "games": 28,
+          "win_rate": 0.6071
+        },
+        {
+          "enemy": "Baxia",
+          "wins": 12,
+          "games": 20,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Jawhead",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        },
+        {
+          "enemy": "Barats",
+          "wins": 17,
+          "games": 29,
+          "win_rate": 0.5862
+        },
+        {
+          "enemy": "Roger",
+          "wins": 14,
+          "games": 24,
+          "win_rate": 0.5833
+        }
+      ]
+    },
+    "Nolan": {
+      "games": 71,
+      "wins": 40,
+      "win_rate": 0.5634,
+      "synergies": [],
+      "counters": []
+    },
+    "Novaria": {
+      "games": 1013,
+      "wins": 534,
+      "win_rate": 0.5271,
+      "synergies": [
+        {
+          "partner": "Valentina",
+          "wins": 20,
+          "games": 30,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Yve",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "partner": "Uranus",
+          "wins": 32,
+          "games": 52,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Joy",
+          "wins": 32,
+          "games": 52,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Lesley",
+          "wins": 25,
+          "games": 41,
+          "win_rate": 0.6098
+        },
+        {
+          "partner": "Karrie",
+          "wins": 42,
+          "games": 70,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Terizla",
+          "wins": 126,
+          "games": 217,
+          "win_rate": 0.5806
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 26,
+          "games": 45,
+          "win_rate": 0.5778
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Melissa",
+          "wins": 19,
+          "games": 29,
+          "win_rate": 0.6552
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 15,
+          "games": 23,
+          "win_rate": 0.6522
+        },
+        {
+          "enemy": "Lolita",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "enemy": "Karrie",
+          "wins": 48,
+          "games": 76,
+          "win_rate": 0.6316
+        },
+        {
+          "enemy": "Akai",
+          "wins": 46,
+          "games": 74,
+          "win_rate": 0.6216
+        },
+        {
+          "enemy": "Floryn",
+          "wins": 19,
+          "games": 31,
+          "win_rate": 0.6129
+        },
+        {
+          "enemy": "Esmeralda",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Lancelot",
+          "wins": 70,
+          "games": 117,
+          "win_rate": 0.5983
+        }
+      ]
+    },
+    "Odette": {
+      "games": 17,
+      "wins": 8,
+      "win_rate": 0.4706,
+      "synergies": [],
+      "counters": []
+    },
+    "Paquito": {
+      "games": 3182,
+      "wins": 1620,
+      "win_rate": 0.5091,
+      "synergies": [
+        {
+          "partner": "Aamon",
+          "wins": 21,
+          "games": 32,
+          "win_rate": 0.6562
+        },
+        {
+          "partner": "Kimmy",
+          "wins": 34,
+          "games": 53,
+          "win_rate": 0.6415
+        },
+        {
+          "partner": "Joy",
+          "wins": 24,
+          "games": 39,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Karina",
+          "wins": 51,
+          "games": 83,
+          "win_rate": 0.6145
+        },
+        {
+          "partner": "Benedetta",
+          "wins": 70,
+          "games": 114,
+          "win_rate": 0.614
+        },
+        {
+          "partner": "Hilda",
+          "wins": 33,
+          "games": 54,
+          "win_rate": 0.6111
+        },
+        {
+          "partner": "Lapu-Lapu",
+          "wins": 34,
+          "games": 56,
+          "win_rate": 0.6071
+        },
+        {
+          "partner": "Estes",
+          "wins": 55,
+          "games": 92,
+          "win_rate": 0.5978
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Lesley",
+          "wins": 32,
+          "games": 43,
+          "win_rate": 0.7442
+        },
+        {
+          "enemy": "Valir",
+          "wins": 27,
+          "games": 40,
+          "win_rate": 0.675
+        },
+        {
+          "enemy": "Natalia",
+          "wins": 30,
+          "games": 46,
+          "win_rate": 0.6522
+        },
+        {
+          "enemy": "Floryn",
+          "wins": 26,
+          "games": 40,
+          "win_rate": 0.65
+        },
+        {
+          "enemy": "Cyclops",
+          "wins": 14,
+          "games": 22,
+          "win_rate": 0.6364
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 90,
+          "games": 146,
+          "win_rate": 0.6164
+        },
+        {
+          "enemy": "Bane",
+          "wins": 49,
+          "games": 82,
+          "win_rate": 0.5976
+        },
+        {
+          "enemy": "Silvanna",
+          "wins": 19,
+          "games": 32,
+          "win_rate": 0.5938
+        }
+      ]
+    },
+    "Pharsa": {
+      "games": 3407,
+      "wins": 1666,
+      "win_rate": 0.489,
+      "synergies": [
+        {
+          "partner": "Kimmy",
+          "wins": 23,
+          "games": 36,
+          "win_rate": 0.6389
+        },
+        {
+          "partner": "Kadita",
+          "wins": 36,
+          "games": 59,
+          "win_rate": 0.6102
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 103,
+          "games": 169,
+          "win_rate": 0.6095
+        },
+        {
+          "partner": "Floryn",
+          "wins": 23,
+          "games": 39,
+          "win_rate": 0.5897
+        },
+        {
+          "partner": "Selena",
+          "wins": 39,
+          "games": 67,
+          "win_rate": 0.5821
+        },
+        {
+          "partner": "Popol And Kupa",
+          "wins": 69,
+          "games": 121,
+          "win_rate": 0.5702
+        },
+        {
+          "partner": "Yi Sun-Shin",
+          "wins": 72,
+          "games": 128,
+          "win_rate": 0.5625
+        },
+        {
+          "partner": "Moskov",
+          "wins": 33,
+          "games": 59,
+          "win_rate": 0.5593
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Vale",
+          "wins": 16,
+          "games": 23,
+          "win_rate": 0.6957
+        },
+        {
+          "enemy": "Nana",
+          "wins": 17,
+          "games": 26,
+          "win_rate": 0.6538
+        },
+        {
+          "enemy": "Valir",
+          "wins": 43,
+          "games": 70,
+          "win_rate": 0.6143
+        },
+        {
+          "enemy": "Silvanna",
+          "wins": 19,
+          "games": 31,
+          "win_rate": 0.6129
+        },
+        {
+          "enemy": "Tigreal",
+          "wins": 20,
+          "games": 33,
+          "win_rate": 0.6061
+        },
+        {
+          "enemy": "Hanzo",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Saber",
+          "wins": 14,
+          "games": 24,
+          "win_rate": 0.5833
+        }
+      ]
+    },
+    "Phoveus": {
+      "games": 675,
+      "wins": 355,
+      "win_rate": 0.5259,
+      "synergies": [
+        {
+          "partner": "Yu Zhong",
+          "wins": 19,
+          "games": 28,
+          "win_rate": 0.6786
+        },
+        {
+          "partner": "Rafaela",
+          "wins": 20,
+          "games": 30,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Akai",
+          "wins": 35,
+          "games": 54,
+          "win_rate": 0.6481
+        },
+        {
+          "partner": "Chou",
+          "wins": 49,
+          "games": 78,
+          "win_rate": 0.6282
+        },
+        {
+          "partner": "Hayabusa",
+          "wins": 37,
+          "games": 59,
+          "win_rate": 0.6271
+        },
+        {
+          "partner": "Karina",
+          "wins": 17,
+          "games": 28,
+          "win_rate": 0.6071
+        },
+        {
+          "partner": "Selena",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Faramis",
+          "wins": 26,
+          "games": 44,
+          "win_rate": 0.5909
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Ruby",
+          "wins": 63,
+          "games": 83,
+          "win_rate": 0.759
+        },
+        {
+          "enemy": "Estes",
+          "wins": 17,
+          "games": 23,
+          "win_rate": 0.7391
+        },
+        {
+          "enemy": "Natan",
+          "wins": 16,
+          "games": 24,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Karrie",
+          "wins": 13,
+          "games": 20,
+          "win_rate": 0.65
+        },
+        {
+          "enemy": "Balmond",
+          "wins": 25,
+          "games": 39,
+          "win_rate": 0.641
+        },
+        {
+          "enemy": "Fanny",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "enemy": "Thamuz",
+          "wins": 23,
+          "games": 36,
+          "win_rate": 0.6389
+        },
+        {
+          "enemy": "Jawhead",
+          "wins": 23,
+          "games": 36,
+          "win_rate": 0.6389
+        }
+      ]
+    },
+    "Popol And Kupa": {
+      "games": 1223,
+      "wins": 611,
+      "win_rate": 0.4996,
+      "synergies": [
+        {
+          "partner": "Estes",
+          "wins": 24,
+          "games": 35,
+          "win_rate": 0.6857
+        },
+        {
+          "partner": "Gloo",
+          "wins": 41,
+          "games": 64,
+          "win_rate": 0.6406
+        },
+        {
+          "partner": "Luo Yi",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        },
+        {
+          "partner": "Beatrix",
+          "wins": 26,
+          "games": 42,
+          "win_rate": 0.619
+        },
+        {
+          "partner": "Hayabusa",
+          "wins": 74,
+          "games": 124,
+          "win_rate": 0.5968
+        },
+        {
+          "partner": "Fanny",
+          "wins": 19,
+          "games": 32,
+          "win_rate": 0.5938
+        },
+        {
+          "partner": "Julian",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Rafaela",
+          "wins": 34,
+          "games": 58,
+          "win_rate": 0.5862
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Edith",
+          "wins": 15,
+          "games": 21,
+          "win_rate": 0.7143
+        },
+        {
+          "enemy": "Hayabusa",
+          "wins": 64,
+          "games": 103,
+          "win_rate": 0.6214
+        },
+        {
+          "enemy": "Angela",
+          "wins": 34,
+          "games": 57,
+          "win_rate": 0.5965
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 53,
+          "games": 91,
+          "win_rate": 0.5824
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 64,
+          "games": 110,
+          "win_rate": 0.5818
+        }
+      ]
+    },
+    "Rafaela": {
+      "games": 1180,
+      "wins": 582,
+      "win_rate": 0.4932,
+      "synergies": [
+        {
+          "partner": "Khaleed",
+          "wins": 22,
+          "games": 30,
+          "win_rate": 0.7333
+        },
+        {
+          "partner": "Phoveus",
+          "wins": 20,
+          "games": 30,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Bane",
+          "wins": 19,
+          "games": 29,
+          "win_rate": 0.6552
+        },
+        {
+          "partner": "Kimmy",
+          "wins": 24,
+          "games": 38,
+          "win_rate": 0.6316
+        },
+        {
+          "partner": "Mathilda",
+          "wins": 17,
+          "games": 27,
+          "win_rate": 0.6296
+        },
+        {
+          "partner": "Granger",
+          "wins": 53,
+          "games": 89,
+          "win_rate": 0.5955
+        },
+        {
+          "partner": "Faramis",
+          "wins": 32,
+          "games": 54,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Popol And Kupa",
+          "wins": 34,
+          "games": 58,
+          "win_rate": 0.5862
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Bane",
+          "wins": 24,
+          "games": 34,
+          "win_rate": 0.7059
+        },
+        {
+          "enemy": "Floryn",
+          "wins": 16,
+          "games": 23,
+          "win_rate": 0.6957
+        },
+        {
+          "enemy": "Harley",
+          "wins": 18,
+          "games": 28,
+          "win_rate": 0.6429
+        },
+        {
+          "enemy": "Claude",
+          "wins": 66,
+          "games": 107,
+          "win_rate": 0.6168
+        },
+        {
+          "enemy": "Alice",
+          "wins": 46,
+          "games": 75,
+          "win_rate": 0.6133
+        },
+        {
+          "enemy": "Hylos",
+          "wins": 18,
+          "games": 30,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Natan",
+          "wins": 19,
+          "games": 32,
+          "win_rate": 0.5938
+        },
+        {
+          "enemy": "Gusion",
+          "wins": 13,
+          "games": 22,
+          "win_rate": 0.5909
+        }
+      ]
+    },
+    "Roger": {
+      "games": 835,
+      "wins": 389,
+      "win_rate": 0.4659,
+      "synergies": [
+        {
+          "partner": "X.Borg",
+          "wins": 25,
+          "games": 43,
+          "win_rate": 0.5814
+        },
+        {
+          "partner": "Hilda",
+          "wins": 17,
+          "games": 30,
+          "win_rate": 0.5667
+        },
+        {
+          "partner": "Khaleed",
+          "wins": 22,
+          "games": 39,
+          "win_rate": 0.5641
+        },
+        {
+          "partner": "Lunox",
+          "wins": 63,
+          "games": 112,
+          "win_rate": 0.5625
+        },
+        {
+          "partner": "Angela",
+          "wins": 23,
+          "games": 41,
+          "win_rate": 0.561
+        },
+        {
+          "partner": "Harith",
+          "wins": 15,
+          "games": 27,
+          "win_rate": 0.5556
+        },
+        {
+          "partner": "Chou",
+          "wins": 73,
+          "games": 132,
+          "win_rate": 0.553
+        },
+        {
+          "partner": "Uranus",
+          "wins": 44,
+          "games": 80,
+          "win_rate": 0.55
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Saber",
+          "wins": 18,
+          "games": 24,
+          "win_rate": 0.75
+        },
+        {
+          "enemy": "Hilda",
+          "wins": 12,
+          "games": 20,
+          "win_rate": 0.6
+        }
+      ]
+    },
+    "Ruby": {
+      "games": 1543,
+      "wins": 695,
+      "win_rate": 0.4504,
+      "synergies": [
+        {
+          "partner": "X.Borg",
+          "wins": 24,
+          "games": 38,
+          "win_rate": 0.6316
+        },
+        {
+          "partner": "Gloo",
+          "wins": 34,
+          "games": 57,
+          "win_rate": 0.5965
+        },
+        {
+          "partner": "Bruno",
+          "wins": 22,
+          "games": 37,
+          "win_rate": 0.5946
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 36,
+          "games": 61,
+          "win_rate": 0.5902
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Minotaur",
+          "wins": 14,
+          "games": 22,
+          "win_rate": 0.6364
+        },
+        {
+          "enemy": "Gusion",
+          "wins": 12,
+          "games": 20,
+          "win_rate": 0.6
+        }
+      ]
+    },
+    "Saber": {
+      "games": 269,
+      "wins": 128,
+      "win_rate": 0.4758,
+      "synergies": [
+        {
+          "partner": "Kagura",
+          "wins": 17,
+          "games": 28,
+          "win_rate": 0.6071
+        },
+        {
+          "partner": "Harley",
+          "wins": 24,
+          "games": 43,
+          "win_rate": 0.5581
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Jawhead",
+          "wins": 22,
+          "games": 32,
+          "win_rate": 0.6875
+        },
+        {
+          "enemy": "Hylos",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "enemy": "Cyclops",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        }
+      ]
+    },
+    "Selena": {
+      "games": 1262,
+      "wins": 604,
+      "win_rate": 0.4786,
+      "synergies": [
+        {
+          "partner": "Masha",
+          "wins": 18,
+          "games": 27,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Gatotkaca",
+          "wins": 18,
+          "games": 27,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "X.Borg",
+          "wins": 49,
+          "games": 82,
+          "win_rate": 0.5976
+        },
+        {
+          "partner": "Phoveus",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Lancelot",
+          "wins": 65,
+          "games": 111,
+          "win_rate": 0.5856
+        },
+        {
+          "partner": "Pharsa",
+          "wins": 39,
+          "games": 67,
+          "win_rate": 0.5821
+        },
+        {
+          "partner": "Kimmy",
+          "wins": 40,
+          "games": 69,
+          "win_rate": 0.5797
+        },
+        {
+          "partner": "Chang'E",
+          "wins": 23,
+          "games": 40,
+          "win_rate": 0.575
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Gatotkaca",
+          "wins": 14,
+          "games": 21,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Nana",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "enemy": "Leomord",
+          "wins": 32,
+          "games": 53,
+          "win_rate": 0.6038
+        },
+        {
+          "enemy": "Aldous",
+          "wins": 12,
+          "games": 20,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Helcurt",
+          "wins": 25,
+          "games": 43,
+          "win_rate": 0.5814
+        }
+      ]
+    },
+    "Silvanna": {
+      "games": 279,
+      "wins": 135,
+      "win_rate": 0.4839,
+      "synergies": [
+        {
+          "partner": "Wanwan",
+          "wins": 18,
+          "games": 28,
+          "win_rate": 0.6429
+        },
+        {
+          "partner": "Lunox",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "partner": "Yi Sun-Shin",
+          "wins": 27,
+          "games": 47,
+          "win_rate": 0.5745
+        },
+        {
+          "partner": "Esmeralda",
+          "wins": 18,
+          "games": 32,
+          "win_rate": 0.5625
+        },
+        {
+          "partner": "Benedetta",
+          "wins": 24,
+          "games": 43,
+          "win_rate": 0.5581
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Ling",
+          "wins": 14,
+          "games": 22,
+          "win_rate": 0.6364
+        },
+        {
+          "enemy": "Lapu-Lapu",
+          "wins": 15,
+          "games": 24,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Esmeralda",
+          "wins": 32,
+          "games": 55,
+          "win_rate": 0.5818
+        }
+      ]
+    },
+    "Sun": {
+      "games": 102,
+      "wins": 56,
+      "win_rate": 0.549,
+      "synergies": [],
+      "counters": [
+        {
+          "enemy": "Hayabusa",
+          "wins": 16,
+          "games": 21,
+          "win_rate": 0.7619
+        }
+      ]
+    },
+    "Terizla": {
+      "games": 1907,
+      "wins": 994,
+      "win_rate": 0.5212,
+      "synergies": [
+        {
+          "partner": "Joy",
+          "wins": 79,
+          "games": 111,
+          "win_rate": 0.7117
+        },
+        {
+          "partner": "Helcurt",
+          "wins": 30,
+          "games": 46,
+          "win_rate": 0.6522
+        },
+        {
+          "partner": "Edith",
+          "wins": 75,
+          "games": 118,
+          "win_rate": 0.6356
+        },
+        {
+          "partner": "Lesley",
+          "wins": 31,
+          "games": 49,
+          "win_rate": 0.6327
+        },
+        {
+          "partner": "Kadita",
+          "wins": 90,
+          "games": 144,
+          "win_rate": 0.625
+        },
+        {
+          "partner": "Granger",
+          "wins": 25,
+          "games": 41,
+          "win_rate": 0.6098
+        },
+        {
+          "partner": "Harith",
+          "wins": 43,
+          "games": 71,
+          "win_rate": 0.6056
+        },
+        {
+          "partner": "Novaria",
+          "wins": 126,
+          "games": 217,
+          "win_rate": 0.5806
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Ruby",
+          "wins": 30,
+          "games": 45,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Floryn",
+          "wins": 29,
+          "games": 45,
+          "win_rate": 0.6444
+        },
+        {
+          "enemy": "Leomord",
+          "wins": 32,
+          "games": 50,
+          "win_rate": 0.64
+        },
+        {
+          "enemy": "Hayabusa",
+          "wins": 48,
+          "games": 76,
+          "win_rate": 0.6316
+        },
+        {
+          "enemy": "Lancelot",
+          "wins": 92,
+          "games": 149,
+          "win_rate": 0.6174
+        },
+        {
+          "enemy": "Xavier",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "enemy": "Khaleed",
+          "wins": 20,
+          "games": 33,
+          "win_rate": 0.6061
+        },
+        {
+          "enemy": "Alpha",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        }
+      ]
+    },
+    "Thamuz": {
+      "games": 1458,
+      "wins": 724,
+      "win_rate": 0.4966,
+      "synergies": [
+        {
+          "partner": "Karina",
+          "wins": 27,
+          "games": 42,
+          "win_rate": 0.6429
+        },
+        {
+          "partner": "Luo Yi",
+          "wins": 18,
+          "games": 28,
+          "win_rate": 0.6429
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 42,
+          "games": 68,
+          "win_rate": 0.6176
+        },
+        {
+          "partner": "Masha",
+          "wins": 21,
+          "games": 34,
+          "win_rate": 0.6176
+        },
+        {
+          "partner": "Uranus",
+          "wins": 26,
+          "games": 44,
+          "win_rate": 0.5909
+        },
+        {
+          "partner": "Khaleed",
+          "wins": 19,
+          "games": 33,
+          "win_rate": 0.5758
+        },
+        {
+          "partner": "Lolita",
+          "wins": 56,
+          "games": 98,
+          "win_rate": 0.5714
+        },
+        {
+          "partner": "Estes",
+          "wins": 20,
+          "games": 35,
+          "win_rate": 0.5714
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Nana",
+          "wins": 18,
+          "games": 26,
+          "win_rate": 0.6923
+        },
+        {
+          "enemy": "Irithel",
+          "wins": 23,
+          "games": 37,
+          "win_rate": 0.6216
+        },
+        {
+          "enemy": "Belerick",
+          "wins": 13,
+          "games": 21,
+          "win_rate": 0.619
+        },
+        {
+          "enemy": "Gatotkaca",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "enemy": "Ruby",
+          "wins": 55,
+          "games": 93,
+          "win_rate": 0.5914
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 30,
+          "games": 51,
+          "win_rate": 0.5882
+        },
+        {
+          "enemy": "Natalia",
+          "wins": 28,
+          "games": 48,
+          "win_rate": 0.5833
+        },
+        {
+          "enemy": "Valentina",
+          "wins": 32,
+          "games": 55,
+          "win_rate": 0.5818
+        }
+      ]
+    },
+    "Tigreal": {
+      "games": 197,
+      "wins": 90,
+      "win_rate": 0.4569,
+      "synergies": [],
+      "counters": []
+    },
+    "Uranus": {
+      "games": 2030,
+      "wins": 1003,
+      "win_rate": 0.4941,
+      "synergies": [
+        {
+          "partner": "Yu Zhong",
+          "wins": 18,
+          "games": 26,
+          "win_rate": 0.6923
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 74,
+          "games": 119,
+          "win_rate": 0.6218
+        },
+        {
+          "partner": "Novaria",
+          "wins": 32,
+          "games": 52,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Franco",
+          "wins": 56,
+          "games": 94,
+          "win_rate": 0.5957
+        },
+        {
+          "partner": "Thamuz",
+          "wins": 26,
+          "games": 44,
+          "win_rate": 0.5909
+        },
+        {
+          "partner": "Julian",
+          "wins": 24,
+          "games": 41,
+          "win_rate": 0.5854
+        },
+        {
+          "partner": "Mathilda",
+          "wins": 79,
+          "games": 138,
+          "win_rate": 0.5725
+        },
+        {
+          "partner": "Irithel",
+          "wins": 50,
+          "games": 88,
+          "win_rate": 0.5682
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Arlott",
+          "wins": 34,
+          "games": 55,
+          "win_rate": 0.6182
+        },
+        {
+          "enemy": "Hilda",
+          "wins": 28,
+          "games": 46,
+          "win_rate": 0.6087
+        },
+        {
+          "enemy": "Floryn",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        },
+        {
+          "enemy": "Hylos",
+          "wins": 26,
+          "games": 44,
+          "win_rate": 0.5909
+        },
+        {
+          "enemy": "Diggie",
+          "wins": 57,
+          "games": 97,
+          "win_rate": 0.5876
+        },
+        {
+          "enemy": "Phoveus",
+          "wins": 42,
+          "games": 72,
+          "win_rate": 0.5833
+        },
+        {
+          "enemy": "Balmond",
+          "wins": 46,
+          "games": 79,
+          "win_rate": 0.5823
+        },
+        {
+          "enemy": "Irithel",
+          "wins": 50,
+          "games": 86,
+          "win_rate": 0.5814
+        }
+      ]
+    },
+    "Vale": {
+      "games": 123,
+      "wins": 58,
+      "win_rate": 0.4715,
+      "synergies": [],
+      "counters": []
+    },
+    "Valentina": {
+      "games": 3318,
+      "wins": 1670,
+      "win_rate": 0.5033,
+      "synergies": [
+        {
+          "partner": "Novaria",
+          "wins": 20,
+          "games": 30,
+          "win_rate": 0.6667
+        },
+        {
+          "partner": "Lylia",
+          "wins": 21,
+          "games": 32,
+          "win_rate": 0.6562
+        },
+        {
+          "partner": "Aamon",
+          "wins": 17,
+          "games": 26,
+          "win_rate": 0.6538
+        },
+        {
+          "partner": "Khaleed",
+          "wins": 30,
+          "games": 46,
+          "win_rate": 0.6522
+        },
+        {
+          "partner": "Ixia",
+          "wins": 34,
+          "games": 55,
+          "win_rate": 0.6182
+        },
+        {
+          "partner": "Masha",
+          "wins": 48,
+          "games": 78,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Alpha",
+          "wins": 17,
+          "games": 28,
+          "win_rate": 0.6071
+        },
+        {
+          "partner": "Estes",
+          "wins": 35,
+          "games": 61,
+          "win_rate": 0.5738
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Hanzo",
+          "wins": 18,
+          "games": 22,
+          "win_rate": 0.8182
+        },
+        {
+          "enemy": "Selena",
+          "wins": 26,
+          "games": 38,
+          "win_rate": 0.6842
+        },
+        {
+          "enemy": "Lesley",
+          "wins": 59,
+          "games": 88,
+          "win_rate": 0.6705
+        },
+        {
+          "enemy": "Grock",
+          "wins": 160,
+          "games": 241,
+          "win_rate": 0.6639
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 63,
+          "games": 96,
+          "win_rate": 0.6562
+        },
+        {
+          "enemy": "Natan",
+          "wins": 13,
+          "games": 20,
+          "win_rate": 0.65
+        },
+        {
+          "enemy": "Alpha",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "enemy": "Xavier",
+          "wins": 48,
+          "games": 79,
+          "win_rate": 0.6076
+        }
+      ]
+    },
+    "Valir": {
+      "games": 574,
+      "wins": 273,
+      "win_rate": 0.4756,
+      "synergies": [
+        {
+          "partner": "Ling",
+          "wins": 35,
+          "games": 55,
+          "win_rate": 0.6364
+        },
+        {
+          "partner": "Beatrix",
+          "wins": 19,
+          "games": 31,
+          "win_rate": 0.6129
+        },
+        {
+          "partner": "Terizla",
+          "wins": 24,
+          "games": 42,
+          "win_rate": 0.5714
+        },
+        {
+          "partner": "Alice",
+          "wins": 16,
+          "games": 28,
+          "win_rate": 0.5714
+        },
+        {
+          "partner": "Khaleed",
+          "wins": 14,
+          "games": 25,
+          "win_rate": 0.56
+        },
+        {
+          "partner": "Lancelot",
+          "wins": 21,
+          "games": 38,
+          "win_rate": 0.5526
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Alice",
+          "wins": 15,
+          "games": 21,
+          "win_rate": 0.7143
+        },
+        {
+          "enemy": "Faramis",
+          "wins": 15,
+          "games": 22,
+          "win_rate": 0.6818
+        },
+        {
+          "enemy": "Khaleed",
+          "wins": 18,
+          "games": 27,
+          "win_rate": 0.6667
+        },
+        {
+          "enemy": "Martis",
+          "wins": 14,
+          "games": 22,
+          "win_rate": 0.6364
+        },
+        {
+          "enemy": "Rafaela",
+          "wins": 15,
+          "games": 24,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Kagura",
+          "wins": 20,
+          "games": 33,
+          "win_rate": 0.6061
+        },
+        {
+          "enemy": "Hilda",
+          "wins": 15,
+          "games": 25,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Esmeralda",
+          "wins": 41,
+          "games": 69,
+          "win_rate": 0.5942
+        }
+      ]
+    },
+    "Vexana": {
+      "games": 13,
+      "wins": 4,
+      "win_rate": 0.3077,
+      "synergies": [],
+      "counters": []
+    },
+    "Wanwan": {
+      "games": 1300,
+      "wins": 737,
+      "win_rate": 0.5669,
+      "synergies": [
+        {
+          "partner": "Kagura",
+          "wins": 63,
+          "games": 89,
+          "win_rate": 0.7079
+        },
+        {
+          "partner": "Hayabusa",
+          "wins": 47,
+          "games": 68,
+          "win_rate": 0.6912
+        },
+        {
+          "partner": "Franco",
+          "wins": 77,
+          "games": 112,
+          "win_rate": 0.6875
+        },
+        {
+          "partner": "Atlas",
+          "wins": 39,
+          "games": 57,
+          "win_rate": 0.6842
+        },
+        {
+          "partner": "Masha",
+          "wins": 29,
+          "games": 44,
+          "win_rate": 0.6591
+        },
+        {
+          "partner": "Kaja",
+          "wins": 66,
+          "games": 102,
+          "win_rate": 0.6471
+        },
+        {
+          "partner": "Helcurt",
+          "wins": 20,
+          "games": 31,
+          "win_rate": 0.6452
+        },
+        {
+          "partner": "Silvanna",
+          "wins": 18,
+          "games": 28,
+          "win_rate": 0.6429
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Valir",
+          "wins": 16,
+          "games": 20,
+          "win_rate": 0.8
+        },
+        {
+          "enemy": "Martis",
+          "wins": 56,
+          "games": 76,
+          "win_rate": 0.7368
+        },
+        {
+          "enemy": "Hilda",
+          "wins": 27,
+          "games": 38,
+          "win_rate": 0.7105
+        },
+        {
+          "enemy": "Roger",
+          "wins": 22,
+          "games": 31,
+          "win_rate": 0.7097
+        },
+        {
+          "enemy": "Esmeralda",
+          "wins": 104,
+          "games": 149,
+          "win_rate": 0.698
+        },
+        {
+          "enemy": "Karina",
+          "wins": 48,
+          "games": 71,
+          "win_rate": 0.6761
+        },
+        {
+          "enemy": "Bruno",
+          "wins": 43,
+          "games": 66,
+          "win_rate": 0.6515
+        },
+        {
+          "enemy": "Yve",
+          "wins": 92,
+          "games": 143,
+          "win_rate": 0.6434
+        }
+      ]
+    },
+    "X.Borg": {
+      "games": 1320,
+      "wins": 638,
+      "win_rate": 0.4833,
+      "synergies": [
+        {
+          "partner": "Kimmy",
+          "wins": 33,
+          "games": 51,
+          "win_rate": 0.6471
+        },
+        {
+          "partner": "Harley",
+          "wins": 18,
+          "games": 28,
+          "win_rate": 0.6429
+        },
+        {
+          "partner": "Ruby",
+          "wins": 24,
+          "games": 38,
+          "win_rate": 0.6316
+        },
+        {
+          "partner": "Selena",
+          "wins": 49,
+          "games": 82,
+          "win_rate": 0.5976
+        },
+        {
+          "partner": "Gusion",
+          "wins": 19,
+          "games": 32,
+          "win_rate": 0.5938
+        },
+        {
+          "partner": "Roger",
+          "wins": 25,
+          "games": 43,
+          "win_rate": 0.5814
+        },
+        {
+          "partner": "Harith",
+          "wins": 32,
+          "games": 57,
+          "win_rate": 0.5614
+        },
+        {
+          "partner": "Bruno",
+          "wins": 66,
+          "games": 118,
+          "win_rate": 0.5593
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Gusion",
+          "wins": 25,
+          "games": 38,
+          "win_rate": 0.6579
+        },
+        {
+          "enemy": "Leomord",
+          "wins": 19,
+          "games": 29,
+          "win_rate": 0.6552
+        },
+        {
+          "enemy": "Luo Yi",
+          "wins": 14,
+          "games": 23,
+          "win_rate": 0.6087
+        },
+        {
+          "enemy": "Lolita",
+          "wins": 29,
+          "games": 48,
+          "win_rate": 0.6042
+        },
+        {
+          "enemy": "Karrie",
+          "wins": 69,
+          "games": 115,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Lapu-Lapu",
+          "wins": 41,
+          "games": 69,
+          "win_rate": 0.5942
+        },
+        {
+          "enemy": "Benedetta",
+          "wins": 50,
+          "games": 85,
+          "win_rate": 0.5882
+        }
+      ]
+    },
+    "Xavier": {
+      "games": 619,
+      "wins": 293,
+      "win_rate": 0.4733,
+      "synergies": [
+        {
+          "partner": "Lolita",
+          "wins": 37,
+          "games": 59,
+          "win_rate": 0.6271
+        },
+        {
+          "partner": "Ling",
+          "wins": 29,
+          "games": 47,
+          "win_rate": 0.617
+        },
+        {
+          "partner": "Dyrroth",
+          "wins": 40,
+          "games": 67,
+          "win_rate": 0.597
+        },
+        {
+          "partner": "Clint",
+          "wins": 23,
+          "games": 39,
+          "win_rate": 0.5897
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 27,
+          "games": 46,
+          "win_rate": 0.587
+        },
+        {
+          "partner": "Masha",
+          "wins": 22,
+          "games": 38,
+          "win_rate": 0.5789
+        },
+        {
+          "partner": "Karina",
+          "wins": 37,
+          "games": 65,
+          "win_rate": 0.5692
+        },
+        {
+          "partner": "Popol And Kupa",
+          "wins": 24,
+          "games": 43,
+          "win_rate": 0.5581
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Popol And Kupa",
+          "wins": 25,
+          "games": 38,
+          "win_rate": 0.6579
+        },
+        {
+          "enemy": "Mathilda",
+          "wins": 23,
+          "games": 36,
+          "win_rate": 0.6389
+        },
+        {
+          "enemy": "Angela",
+          "wins": 22,
+          "games": 36,
+          "win_rate": 0.6111
+        },
+        {
+          "enemy": "Cecilion",
+          "wins": 55,
+          "games": 93,
+          "win_rate": 0.5914
+        },
+        {
+          "enemy": "Grock",
+          "wins": 51,
+          "games": 87,
+          "win_rate": 0.5862
+        },
+        {
+          "enemy": "Lylia",
+          "wins": 34,
+          "games": 58,
+          "win_rate": 0.5862
+        }
+      ]
+    },
+    "Yi Sun-Shin": {
+      "games": 921,
+      "wins": 509,
+      "win_rate": 0.5527,
+      "synergies": [
+        {
+          "partner": "Atlas",
+          "wins": 18,
+          "games": 25,
+          "win_rate": 0.72
+        },
+        {
+          "partner": "Baxia",
+          "wins": 44,
+          "games": 67,
+          "win_rate": 0.6567
+        },
+        {
+          "partner": "Gloo",
+          "wins": 28,
+          "games": 43,
+          "win_rate": 0.6512
+        },
+        {
+          "partner": "Luo Yi",
+          "wins": 28,
+          "games": 43,
+          "win_rate": 0.6512
+        },
+        {
+          "partner": "Hilda",
+          "wins": 23,
+          "games": 36,
+          "win_rate": 0.6389
+        },
+        {
+          "partner": "Yu Zhong",
+          "wins": 70,
+          "games": 111,
+          "win_rate": 0.6306
+        },
+        {
+          "partner": "Wanwan",
+          "wins": 21,
+          "games": 34,
+          "win_rate": 0.6176
+        },
+        {
+          "partner": "Eudora",
+          "wins": 21,
+          "games": 34,
+          "win_rate": 0.6176
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Karrie",
+          "wins": 20,
+          "games": 23,
+          "win_rate": 0.8696
+        },
+        {
+          "enemy": "Tigreal",
+          "wins": 17,
+          "games": 23,
+          "win_rate": 0.7391
+        },
+        {
+          "enemy": "Atlas",
+          "wins": 16,
+          "games": 22,
+          "win_rate": 0.7273
+        },
+        {
+          "enemy": "Balmond",
+          "wins": 23,
+          "games": 35,
+          "win_rate": 0.6571
+        },
+        {
+          "enemy": "Chang'E",
+          "wins": 41,
+          "games": 65,
+          "win_rate": 0.6308
+        },
+        {
+          "enemy": "Grock",
+          "wins": 22,
+          "games": 35,
+          "win_rate": 0.6286
+        },
+        {
+          "enemy": "Hylos",
+          "wins": 15,
+          "games": 24,
+          "win_rate": 0.625
+        },
+        {
+          "enemy": "Khufra",
+          "wins": 50,
+          "games": 81,
+          "win_rate": 0.6173
+        }
+      ]
+    },
+    "Yin": {
+      "games": 92,
+      "wins": 45,
+      "win_rate": 0.4891,
+      "synergies": [],
+      "counters": []
+    },
+    "Yu Zhong": {
+      "games": 2287,
+      "wins": 1122,
+      "win_rate": 0.4906,
+      "synergies": [
+        {
+          "partner": "Uranus",
+          "wins": 18,
+          "games": 26,
+          "win_rate": 0.6923
+        },
+        {
+          "partner": "Phoveus",
+          "wins": 19,
+          "games": 28,
+          "win_rate": 0.6786
+        },
+        {
+          "partner": "Aulus",
+          "wins": 18,
+          "games": 28,
+          "win_rate": 0.6429
+        },
+        {
+          "partner": "Yi Sun-Shin",
+          "wins": 70,
+          "games": 111,
+          "win_rate": 0.6306
+        },
+        {
+          "partner": "Ixia",
+          "wins": 16,
+          "games": 26,
+          "win_rate": 0.6154
+        },
+        {
+          "partner": "Joy",
+          "wins": 31,
+          "games": 52,
+          "win_rate": 0.5962
+        },
+        {
+          "partner": "Dyrroth",
+          "wins": 16,
+          "games": 27,
+          "win_rate": 0.5926
+        },
+        {
+          "partner": "Chou",
+          "wins": 139,
+          "games": 240,
+          "win_rate": 0.5792
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Hylos",
+          "wins": 18,
+          "games": 29,
+          "win_rate": 0.6207
+        },
+        {
+          "enemy": "Lesley",
+          "wins": 26,
+          "games": 42,
+          "win_rate": 0.619
+        },
+        {
+          "enemy": "Minsitthar",
+          "wins": 13,
+          "games": 21,
+          "win_rate": 0.619
+        },
+        {
+          "enemy": "Natan",
+          "wins": 28,
+          "games": 46,
+          "win_rate": 0.6087
+        },
+        {
+          "enemy": "Balmond",
+          "wins": 33,
+          "games": 55,
+          "win_rate": 0.6
+        },
+        {
+          "enemy": "Helcurt",
+          "wins": 22,
+          "games": 37,
+          "win_rate": 0.5946
+        },
+        {
+          "enemy": "Harley",
+          "wins": 13,
+          "games": 22,
+          "win_rate": 0.5909
+        },
+        {
+          "enemy": "Valir",
+          "wins": 25,
+          "games": 43,
+          "win_rate": 0.5814
+        }
+      ]
+    },
+    "Yve": {
+      "games": 3068,
+      "wins": 1608,
+      "win_rate": 0.5241,
+      "synergies": [
+        {
+          "partner": "Aulus",
+          "wins": 28,
+          "games": 39,
+          "win_rate": 0.7179
+        },
+        {
+          "partner": "Novaria",
+          "wins": 16,
+          "games": 25,
+          "win_rate": 0.64
+        },
+        {
+          "partner": "Lunox",
+          "wins": 44,
+          "games": 70,
+          "win_rate": 0.6286
+        },
+        {
+          "partner": "Minsitthar",
+          "wins": 27,
+          "games": 43,
+          "win_rate": 0.6279
+        },
+        {
+          "partner": "Lesley",
+          "wins": 41,
+          "games": 67,
+          "win_rate": 0.6119
+        },
+        {
+          "partner": "Franco",
+          "wins": 120,
+          "games": 197,
+          "win_rate": 0.6091
+        },
+        {
+          "partner": "Julian",
+          "wins": 20,
+          "games": 33,
+          "win_rate": 0.6061
+        },
+        {
+          "partner": "Faramis",
+          "wins": 26,
+          "games": 43,
+          "win_rate": 0.6047
+        }
+      ],
+      "counters": [
+        {
+          "enemy": "Harley",
+          "wins": 19,
+          "games": 25,
+          "win_rate": 0.76
+        },
+        {
+          "enemy": "Estes",
+          "wins": 39,
+          "games": 54,
+          "win_rate": 0.7222
+        },
+        {
+          "enemy": "Hanzo",
+          "wins": 25,
+          "games": 38,
+          "win_rate": 0.6579
+        },
+        {
+          "enemy": "Roger",
+          "wins": 37,
+          "games": 57,
+          "win_rate": 0.6491
+        },
+        {
+          "enemy": "X.Borg",
+          "wins": 46,
+          "games": 73,
+          "win_rate": 0.6301
+        },
+        {
+          "enemy": "Popol And Kupa",
+          "wins": 77,
+          "games": 124,
+          "win_rate": 0.621
+        },
+        {
+          "enemy": "Granger",
+          "wins": 52,
+          "games": 84,
+          "win_rate": 0.619
+        },
+        {
+          "enemy": "Floryn",
+          "wins": 19,
+          "games": 31,
+          "win_rate": 0.6129
+        }
+      ]
+    },
+    "Zhask": {
+      "games": 85,
+      "wins": 41,
+      "win_rate": 0.4824,
+      "synergies": [],
+      "counters": []
+    },
+    "Zilong": {
+      "games": 38,
+      "wins": 12,
+      "win_rate": 0.3158,
+      "synergies": [],
+      "counters": []
+    }
+  }
+}

@@ -31,3 +31,6 @@ Thumbs.db
 
 # Streamlit runtime
 .streamlit/secrets.toml
+
+# Large media (keeps GitHub repo size small)
+test/videos/0811.mp4
