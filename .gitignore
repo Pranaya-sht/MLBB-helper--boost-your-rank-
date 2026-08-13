@@ -34,3 +34,10 @@ Thumbs.db
 
 # Large media (keeps GitHub repo size small)
 test/videos/0811.mp4
+
+# Scraped hero/skin images (large; regenerate with scripts/scrape_hero_skins.py)
+data/vision_dataset/heroes/
+data/vision_dataset/templates/
+data/vision_dataset/yolo/classification/
+data/reference_icons/heroes/*.png
+data/reference_icons/skins/

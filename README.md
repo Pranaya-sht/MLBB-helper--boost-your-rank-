@@ -112,6 +112,10 @@ Open `http://localhost:8501`.
 
 # Roster + rank snapshot (official list + local/remote rates)
 .\.venv\Scripts\python.exe scripts\fetch_rank_meta.py
+
+# Hero/skin icons for vision (template match + YOLO classification)
+.\.venv\Scripts\python.exe scripts\scrape_hero_skins.py
+# Test first: .\.venv\Scripts\python.exe scripts\scrape_hero_skins.py --heroes-limit 5
 ```
 
 About [mobilelegends.com/rank](https://www.mobilelegends.com/rank): the site is a JS app backed by signed Moonton GMS APIs, so a fragile HTML scrape is unreliable. This project updates rank-like data via:

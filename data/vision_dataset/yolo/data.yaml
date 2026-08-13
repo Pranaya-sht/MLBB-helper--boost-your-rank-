@@ -1,0 +1,16 @@
+# Ultralytics YOLO classification / detection config
+path: C:/Users/prana/OneDrive/Desktop/mlbb helper/data/vision_dataset/yolo
+train: classification/train
+val: classification/val
+nc: 10
+names:
+  - Chip
+  - Cici
+  - Nolan
+  - Ixia
+  - Arlott
+  - Novaria
+  - Joy
+  - Fredrinn
+  - Julian
+  - Xavier

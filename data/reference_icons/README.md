@@ -1,22 +1,55 @@
 # Reference Icons Directory
 
-This directory is used by the template-matching engine in `vision/template_match.py` to identify:
-1. **Heroes** selected or shown on scoreboard panels.
-2. **Items** purchased by players on the scoreboard.
+Icons for OpenCV template matching and YOLO/classifier training.
 
-## How to Populate
+## Recommended workflow (automated)
 
-To make template matching work for a recorded game video, you should extract cropped images from scoreboard or HUD elements and place them here:
+Run the scraper to pull hero names, skin tiers, portraits, and scoreboard icons:
 
-### Directory Structure
+```powershell
+.\.venv\Scripts\python.exe scripts\scrape_hero_skins.py
+```
 
-Create subdirectories if desired:
-- `data/reference_icons/heroes/` for hero portrait templates (e.g., `tigreal.png`, `gusion.png`).
-- `data/reference_icons/items/` for item icon templates (e.g., `athenas_shield.png`, `sea_halberd.png`).
+Sources:
+- [Official hero roster](https://www.mobilelegends.com/hero) via `mapi.mobilelegends.com/hero/list`
+- [Fandom skins category](https://mobile-legends.fandom.com/wiki/Category:Skins) → per-hero `/Cosmetics` pages
 
-### Guidelines
+### Output layout
 
-1. **Resolution**: Match the resolution of the source video frame crop. Usually, scoreboard item slots are small squares (e.g., 32x32 or 48x48 pixels).
-2. **Format**: PNG format is recommended to prevent compression artifacts.
-3. **Naming**: The filename (minus extension) should match the lowercase name of the hero or item (e.g., `dominance_ice.png`, `gusion.png`).
-4. **Transparency**: Do not include alpha transparency layers unless necessary. Solid color background cropped exactly to the icon boundary is best.
+```
+data/vision_dataset/
+  catalog.json                 # hero + skin metadata, YOLO class ids
+  heroes/{slug}/skins/{skin}/  # icon.png + portrait.png per skin
+  templates/heroes/            # default icon per hero (template_match)
+  templates/skins/             # all skin icon variants
+  yolo/
+    data.yaml                  # Ultralytics config
+    classification/train|val/  # folder-per-hero for classifier training
+    detection/README.md        # how to label gameplay frames
+data/reference_icons/heroes/   # copied default icons (legacy path)
+```
+
+Images are **gitignored** (large). Commit `catalog.json` after scraping, or re-run the script locally.
+
+## Manual fallback
+
+Crop scoreboard hero slots from your replay and save as:
+
+- `data/reference_icons/heroes/gusion.png` (lowercase slug)
+- `data/reference_icons/items/athenas_shield.png`
+
+Guidelines:
+1. Match your video resolution; scoreboard icons are usually ~32–48 px.
+2. Use PNG; crop tightly to the icon boundary.
+3. Filename = lowercase hero slug.
+
+## Template matching vs YOLO
+
+| Approach | Best for | Data needed |
+|----------|----------|-------------|
+| **Template match** | Fixed HUD, default skins | `templates/heroes/*.png` |
+| **Template match (skins)** | Players using common skins | `templates/skins/*.png` |
+| **YOLO classify** | Small icon crops, many skins | `yolo/classification/` |
+| **YOLO detect** | Full scoreboard frames | Label boxes in `yolo/detection/` |
+
+For draft/scoreboard assist, train **hero-level** classes (skin-agnostic) so Miya in any skin maps to class `Miya`.

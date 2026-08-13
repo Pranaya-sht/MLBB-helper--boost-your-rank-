@@ -1,0 +1,1566 @@
+{
+  "generated_at": "2026-08-13T14:16:10.253496+00:00",
+  "sources": {
+    "official_roster": "https://mapi.mobilelegends.com/hero/list",
+    "official_hero_page": "https://www.mobilelegends.com/hero",
+    "fandom_skins_category": "https://mobile-legends.fandom.com/wiki/Category:Skins",
+    "fandom_cosmetics_pattern": "https://mobile-legends.fandom.com/wiki/{HeroName}/Cosmetics"
+  },
+  "stats": {
+    "heroes": 10,
+    "skins": 61,
+    "icons_downloaded": 61,
+    "portraits_downloaded": 59,
+    "heroes_missing_cosmetics_page": []
+  },
+  "yolo": {
+    "hero_classes": [
+      "Chip",
+      "Cici",
+      "Nolan",
+      "Ixia",
+      "Arlott",
+      "Novaria",
+      "Joy",
+      "Fredrinn",
+      "Julian",
+      "Xavier"
+    ],
+    "skin_classes": [
+      "Chip::Phase Technician",
+      "Chip::Nexus Engineer",
+      "Chip::Badlands Hiatus",
+      "Cici::Buoyant Performer",
+      "Cici::Whimsical Carnival",
+      "Cici::Circus Reverie",
+      "Cici::Circus Fantasy",
+      "Cici::Circus Glamour",
+      "Cici::Grand Premiere",
+      "Nolan::Cosmic Wayfinder",
+      "Nolan::Voidwalker",
+      "Nolan::Fashion Mogul",
+      "Nolan::The Navigator",
+      "Nolan::Fashion Tycoon",
+      "Nolan::Fashion Magnate",
+      "Nolan::Dimensional Traveler",
+      "Ixia::Archlight Outlaw",
+      "Ixia::Shifting Sand",
+      "Ixia::Dynamic Streak",
+      "Ixia::Invoker's Command",
+      "Ixia::Dynamic Flair",
+      "Ixia::Dynamic Style",
+      "Ixia::Desert's Tenacity",
+      "Arlott::Lone Lancer",
+      "Arlott::Wandering Spear",
+      "Arlott::Fury of the Deep",
+      "Arlott::Aeon of Twilight",
+      "Arlott::Scorn of the Deep",
+      "Arlott::Ire of the Deep",
+      "Arlott::Lone Ambition",
+      "Novaria::Star Rebel",
+      "Novaria::Dark Star",
+      "Novaria::Sugar Glaze",
+      "Novaria::Honey Glaze",
+      "Novaria::Aqua Glaze",
+      "Novaria::Astral Renegade",
+      "Joy::Flash of Miracle",
+      "Joy::Feline Ranger",
+      "Joy::Royal Protector",
+      "Joy::Exostar Scout",
+      "Joy::Exostar Runner",
+      "Joy::Exostar Ranger",
+      "Joy::Rhythmic Flasher",
+      "Fredrinn::Rogue Appraiser",
+      "Fredrinn::Regal Renegade",
+      "Fredrinn::Jewel Connoisseur",
+      "Fredrinn::Neobeast Fredrinn",
+      "Fredrinn::SPARKLE Fredrinn",
+      "Julian::Scarlet Raven",
+      "Julian::Silent Edge",
+      "Julian::Megumi Fushiguro",
+      "Julian::Meowkin Tracker",
+      "Julian::Kurapika",
+      "Xavier::Defier of Light",
+      "Xavier::Verdict of Light",
+      "Xavier::Satoru Gojo",
+      "Xavier::Hardlight Artificer",
+      "Xavier::Beyond the Clouds Xavier",
+      "Xavier::Lightwave Artificer",
+      "Xavier::Holotech Artificer",
+      "Xavier::Light of Defiance"
+    ],
+    "hero_class_count": 10,
+    "skin_class_count": 61,
+    "data_yaml": "yolo/data.yaml",
+    "notes": "Use yolo/classification/ for hero-level icon classifier training. For in-game detection, label scoreboard/draft crops in yolo/detection/."
+  },
+  "heroes": [
+    {
+      "name": "Chip",
+      "slug": "chip",
+      "heroid": "124",
+      "role": "Mid Laner",
+      "official_icon_url": "https://akmweb.youngjoygame.com/web/madmin/image/2daca928703774862b329074220fe7cd.png?w=200-200-23181c",
+      "official_page": "https://www.mobilelegends.com/hero",
+      "fandom_cosmetics_page": "https://mobile-legends.fandom.com/wiki/Chip/Cosmetics",
+      "yolo_hero_class_id": 0,
+      "skins": [
+        {
+          "skin_name": "Phase Technician",
+          "skin_slug": "phase_technician",
+          "skin_asset_id": "hero1241",
+          "tier": "Default",
+          "tags": [],
+          "portrait_file": "Hero1241-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/73/Hero1241-portrait.png/revision/latest?cb=20241021140835",
+          "icon_file": "Hero1241-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/94/Hero1241-icon.png/revision/latest?cb=20241021153409",
+          "is_default": true,
+          "paths": {
+            "icon": "heroes/chip/skins/phase_technician/icon.png",
+            "portrait": "heroes/chip/skins/phase_technician/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/9/94/Hero1241-icon.png/revision/latest?cb=20241021153409",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/7/73/Hero1241-portrait.png/revision/latest?cb=20241021140835",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Chip/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Nexus Engineer",
+          "skin_slug": "nexus_engineer",
+          "skin_asset_id": "hero1242",
+          "tier": "Common",
+          "tags": [],
+          "portrait_file": "Hero1242-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/78/Hero1242-portrait.png",
+          "icon_file": "Hero1242-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/18/Hero1242-icon.png/revision/latest?cb=20240321080227",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/chip/skins/nexus_engineer/icon.png",
+            "portrait": "heroes/chip/skins/nexus_engineer/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/1/18/Hero1242-icon.png/revision/latest?cb=20240321080227",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/7/78/Hero1242-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Chip/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Badlands Hiatus",
+          "skin_slug": "badlands_hiatus",
+          "skin_asset_id": "hero1243",
+          "tier": "Common",
+          "tags": [
+            "Elite"
+          ],
+          "portrait_file": "Hero1243-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/07/Hero1243-portrait.png",
+          "icon_file": "Hero1243-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f7/Hero1243-icon.png/revision/latest?cb=20240903050720",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/chip/skins/badlands_hiatus/icon.png",
+            "portrait": "heroes/chip/skins/badlands_hiatus/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/f/f7/Hero1243-icon.png/revision/latest?cb=20240903050720",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/0/07/Hero1243-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Chip/Cosmetics"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cici",
+      "slug": "cici",
+      "heroid": "123",
+      "role": "Mid Laner",
+      "official_icon_url": "https://akmweb.youngjoygame.com/web/madmin/image/bc77a45f649d36befd844b767a0b66e2.png?w=200-200-4675b1",
+      "official_page": "https://www.mobilelegends.com/hero",
+      "fandom_cosmetics_page": "https://mobile-legends.fandom.com/wiki/Cici/Cosmetics",
+      "yolo_hero_class_id": 1,
+      "skins": [
+        {
+          "skin_name": "Buoyant Performer",
+          "skin_slug": "buoyant_performer",
+          "skin_asset_id": "hero1231",
+          "tier": "Default",
+          "tags": [],
+          "portrait_file": "Hero1231-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Hero1231-portrait.png/revision/latest?cb=20241021140820",
+          "icon_file": "Hero1231-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/65/Hero1231-icon.png/revision/latest?cb=20241021153402",
+          "is_default": true,
+          "paths": {
+            "icon": "heroes/cici/skins/buoyant_performer/icon.png",
+            "portrait": "heroes/cici/skins/buoyant_performer/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/6/65/Hero1231-icon.png/revision/latest?cb=20241021153402",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Hero1231-portrait.png/revision/latest?cb=20241021140820",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Cici/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Whimsical Carnival",
+          "skin_slug": "whimsical_carnival",
+          "skin_asset_id": "hero1232",
+          "tier": "Common",
+          "tags": [],
+          "portrait_file": "Hero1232-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c6/Hero1232-portrait.png",
+          "icon_file": "Hero1232-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Hero1232-icon.png/revision/latest?cb=20231227090816",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/cici/skins/whimsical_carnival/icon.png",
+            "portrait": "heroes/cici/skins/whimsical_carnival/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Hero1232-icon.png/revision/latest?cb=20231227090816",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/c/c6/Hero1232-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Cici/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Circus Reverie",
+          "skin_slug": "circus_reverie",
+          "skin_asset_id": "hero1233",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1233-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3a/Hero1233-portrait.png",
+          "icon_file": "Hero1233-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/94/Hero1233-icon.png/revision/latest?cb=20250106155515",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/cici/skins/circus_reverie/icon.png",
+            "portrait": "heroes/cici/skins/circus_reverie/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/9/94/Hero1233-icon.png/revision/latest?cb=20250106155515",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/3/3a/Hero1233-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Cici/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Circus Fantasy",
+          "skin_slug": "circus_fantasy",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1233-color01-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e7/Hero1233-color01-portrait.png",
+          "icon_file": "Hero1233-color01-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/16/Hero1233-color01-icon.png/revision/latest?cb=20250106155512",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/cici/skins/circus_fantasy/icon.png",
+            "portrait": "heroes/cici/skins/circus_fantasy/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/1/16/Hero1233-color01-icon.png/revision/latest?cb=20250106155512",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/e/e7/Hero1233-color01-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Cici/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Circus Glamour",
+          "skin_slug": "circus_glamour",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1233-color02-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a8/Hero1233-color02-portrait.png",
+          "icon_file": "Hero1233-color02-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0e/Hero1233-color02-icon.png/revision/latest?cb=20250106155514",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/cici/skins/circus_glamour/icon.png",
+            "portrait": "heroes/cici/skins/circus_glamour/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/0/0e/Hero1233-color02-icon.png/revision/latest?cb=20250106155514",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/a/a8/Hero1233-color02-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Cici/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Grand Premiere",
+          "skin_slug": "grand_premiere",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [],
+          "portrait_file": "",
+          "portrait_url": "",
+          "icon_file": "",
+          "icon_url": null,
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/cici/skins/grand_premiere/icon.png",
+            "portrait": ""
+          },
+          "sources": {
+            "icon": "https://akmweb.youngjoygame.com/web/madmin/image/bc77a45f649d36befd844b767a0b66e2.png?w=200-200-4675b1",
+            "portrait": "",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Cici/Cosmetics"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nolan",
+      "slug": "nolan",
+      "heroid": "122",
+      "role": "Mid Laner",
+      "official_icon_url": "https://akmweb.youngjoygame.com/web/madmin/image/a00c000fd13db499e4bd43766dc56101.png?w=150-150-fffffe",
+      "official_page": "https://www.mobilelegends.com/hero",
+      "fandom_cosmetics_page": "https://mobile-legends.fandom.com/wiki/Nolan/Cosmetics",
+      "yolo_hero_class_id": 2,
+      "skins": [
+        {
+          "skin_name": "Cosmic Wayfinder",
+          "skin_slug": "cosmic_wayfinder",
+          "skin_asset_id": "hero1221",
+          "tier": "Default",
+          "tags": [],
+          "portrait_file": "Hero1221-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fc/Hero1221-portrait.png/revision/latest?cb=20241021140807",
+          "icon_file": "Hero1221-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e1/Hero1221-icon.png/revision/latest?cb=20241021153356",
+          "is_default": true,
+          "paths": {
+            "icon": "heroes/nolan/skins/cosmic_wayfinder/icon.png",
+            "portrait": "heroes/nolan/skins/cosmic_wayfinder/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/e/e1/Hero1221-icon.png/revision/latest?cb=20241021153356",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/f/fc/Hero1221-portrait.png/revision/latest?cb=20241021140807",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Nolan/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Voidwalker",
+          "skin_slug": "voidwalker",
+          "skin_asset_id": "hero1222",
+          "tier": "Common",
+          "tags": [],
+          "portrait_file": "Hero1222-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e7/Hero1222-portrait.png",
+          "icon_file": "Hero1222-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Hero1222-icon.png/revision/latest?cb=20231227083708",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/nolan/skins/voidwalker/icon.png",
+            "portrait": "heroes/nolan/skins/voidwalker/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Hero1222-icon.png/revision/latest?cb=20231227083708",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/e/e7/Hero1222-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Nolan/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Fashion Mogul",
+          "skin_slug": "fashion_mogul",
+          "skin_asset_id": "hero1223",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1223-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c0/Hero1223-portrait.png",
+          "icon_file": "Hero1223-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Hero1223-icon.png/revision/latest?cb=20240502081855",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/nolan/skins/fashion_mogul/icon.png",
+            "portrait": "heroes/nolan/skins/fashion_mogul/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Hero1223-icon.png/revision/latest?cb=20240502081855",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/c/c0/Hero1223-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Nolan/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "The Navigator",
+          "skin_slug": "the_navigator",
+          "skin_asset_id": "hero1224",
+          "tier": "Grand",
+          "tags": [
+            "Double 11 Skin Tag"
+          ],
+          "portrait_file": "Hero1224-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1c/Hero1224-portrait.png",
+          "icon_file": "Hero1224-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/ca/Hero1224-icon.png/revision/latest?cb=20241013071710",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/nolan/skins/the_navigator/icon.png",
+            "portrait": "heroes/nolan/skins/the_navigator/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/c/ca/Hero1224-icon.png/revision/latest?cb=20241013071710",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/1/1c/Hero1224-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Nolan/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Fashion Tycoon",
+          "skin_slug": "fashion_tycoon",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1223-color01-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/29/Hero1223-color01-portrait.png",
+          "icon_file": "Hero1223-color01-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Hero1223-color01-icon.png/revision/latest?cb=20240502081914",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/nolan/skins/fashion_tycoon/icon.png",
+            "portrait": "heroes/nolan/skins/fashion_tycoon/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Hero1223-color01-icon.png/revision/latest?cb=20240502081914",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/2/29/Hero1223-color01-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Nolan/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Fashion Magnate",
+          "skin_slug": "fashion_magnate",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1223-color02-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/63/Hero1223-color02-portrait.png",
+          "icon_file": "Hero1223-color02-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7d/Hero1223-color02-icon.png/revision/latest?cb=20240502081925",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/nolan/skins/fashion_magnate/icon.png",
+            "portrait": "heroes/nolan/skins/fashion_magnate/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/7/7d/Hero1223-color02-icon.png/revision/latest?cb=20240502081925",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/6/63/Hero1223-color02-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Nolan/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Dimensional Traveler",
+          "skin_slug": "dimensional_traveler",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [],
+          "portrait_file": "Tower1221-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b1/Tower1221-portrait.png",
+          "icon_file": "Tower1221-icon.png",
+          "icon_url": null,
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/nolan/skins/dimensional_traveler/icon.png",
+            "portrait": "heroes/nolan/skins/dimensional_traveler/portrait.png"
+          },
+          "sources": {
+            "icon": "https://akmweb.youngjoygame.com/web/madmin/image/a00c000fd13db499e4bd43766dc56101.png?w=150-150-fffffe",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/b/b1/Tower1221-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Nolan/Cosmetics"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ixia",
+      "slug": "ixia",
+      "heroid": "121",
+      "role": "Mid Laner",
+      "official_icon_url": "https://akmweb.youngjoygame.com/web/madmin/image/71151817eb86c12a1114508b5aaded13.jpg?w=128-128-fff3d3",
+      "official_page": "https://www.mobilelegends.com/hero",
+      "fandom_cosmetics_page": "https://mobile-legends.fandom.com/wiki/Ixia/Cosmetics",
+      "yolo_hero_class_id": 3,
+      "skins": [
+        {
+          "skin_name": "Archlight Outlaw",
+          "skin_slug": "archlight_outlaw",
+          "skin_asset_id": "hero1211",
+          "tier": "Default",
+          "tags": [],
+          "portrait_file": "Hero1211-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/24/Hero1211-portrait.png/revision/latest?cb=20241021140752",
+          "icon_file": "Hero1211-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Hero1211-icon.png/revision/latest?cb=20241021153350",
+          "is_default": true,
+          "paths": {
+            "icon": "heroes/ixia/skins/archlight_outlaw/icon.png",
+            "portrait": "heroes/ixia/skins/archlight_outlaw/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Hero1211-icon.png/revision/latest?cb=20241021153350",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/2/24/Hero1211-portrait.png/revision/latest?cb=20241021140752",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Ixia/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Shifting Sand",
+          "skin_slug": "shifting_sand",
+          "skin_asset_id": "hero1212",
+          "tier": "Common",
+          "tags": [],
+          "portrait_file": "Hero1212-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8b/Hero1212-portrait.png",
+          "icon_file": "Hero1212-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5c/Hero1212-icon.png/revision/latest?cb=20230623131011",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/ixia/skins/shifting_sand/icon.png",
+            "portrait": "heroes/ixia/skins/shifting_sand/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/5/5c/Hero1212-icon.png/revision/latest?cb=20230623131011",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/8/8b/Hero1212-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Ixia/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Dynamic Streak",
+          "skin_slug": "dynamic_streak",
+          "skin_asset_id": "hero1213",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1213-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Hero1213-portrait.png",
+          "icon_file": "Hero1213-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/16/Hero1213-icon.png/revision/latest?cb=20240411083651",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/ixia/skins/dynamic_streak/icon.png",
+            "portrait": "heroes/ixia/skins/dynamic_streak/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/1/16/Hero1213-icon.png/revision/latest?cb=20240411083651",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Hero1213-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Ixia/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Invoker's Command",
+          "skin_slug": "invokers_command",
+          "skin_asset_id": "",
+          "tier": "Grand",
+          "tags": [],
+          "portrait_file": "",
+          "portrait_url": "",
+          "icon_file": "",
+          "icon_url": null,
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/ixia/skins/invokers_command/icon.png",
+            "portrait": ""
+          },
+          "sources": {
+            "icon": "https://akmweb.youngjoygame.com/web/madmin/image/71151817eb86c12a1114508b5aaded13.jpg?w=128-128-fff3d3",
+            "portrait": "",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Ixia/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Dynamic Flair",
+          "skin_slug": "dynamic_flair",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1213-color01-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b1/Hero1213-color01-portrait.png",
+          "icon_file": "Hero1213-color01-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Hero1213-color01-icon.png/revision/latest?cb=20240411083717",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/ixia/skins/dynamic_flair/icon.png",
+            "portrait": "heroes/ixia/skins/dynamic_flair/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Hero1213-color01-icon.png/revision/latest?cb=20240411083717",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/b/b1/Hero1213-color01-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Ixia/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Dynamic Style",
+          "skin_slug": "dynamic_style",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1213-color02-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6c/Hero1213-color02-portrait.png",
+          "icon_file": "Hero1213-color02-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f3/Hero1213-color02-icon.png/revision/latest?cb=20240411083740",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/ixia/skins/dynamic_style/icon.png",
+            "portrait": "heroes/ixia/skins/dynamic_style/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/f/f3/Hero1213-color02-icon.png/revision/latest?cb=20240411083740",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/6/6c/Hero1213-color02-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Ixia/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Desert's Tenacity",
+          "skin_slug": "deserts_tenacity",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [],
+          "portrait_file": "Tower1211-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7a/Tower1211-portrait.png",
+          "icon_file": "Tower1211-icon.png",
+          "icon_url": null,
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/ixia/skins/deserts_tenacity/icon.png",
+            "portrait": "heroes/ixia/skins/deserts_tenacity/portrait.png"
+          },
+          "sources": {
+            "icon": "https://akmweb.youngjoygame.com/web/madmin/image/71151817eb86c12a1114508b5aaded13.jpg?w=128-128-fff3d3",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/7/7a/Tower1211-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Ixia/Cosmetics"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Arlott",
+      "slug": "arlott",
+      "heroid": "120",
+      "role": "Mid Laner",
+      "official_icon_url": "https://akmweb.youngjoygame.com/web/madmin/image/bd640274b1595c6713c5c360c458a740.png?w=150-150-414254",
+      "official_page": "https://www.mobilelegends.com/hero",
+      "fandom_cosmetics_page": "https://mobile-legends.fandom.com/wiki/Arlott/Cosmetics",
+      "yolo_hero_class_id": 4,
+      "skins": [
+        {
+          "skin_name": "Lone Lancer",
+          "skin_slug": "lone_lancer",
+          "skin_asset_id": "hero1201",
+          "tier": "Default",
+          "tags": [],
+          "portrait_file": "Hero1201-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/49/Hero1201-portrait.png/revision/latest?cb=20241021140737",
+          "icon_file": "Hero1201-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/22/Hero1201-icon.png/revision/latest?cb=20241021153344",
+          "is_default": true,
+          "paths": {
+            "icon": "heroes/arlott/skins/lone_lancer/icon.png",
+            "portrait": "heroes/arlott/skins/lone_lancer/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/2/22/Hero1201-icon.png/revision/latest?cb=20241021153344",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/4/49/Hero1201-portrait.png/revision/latest?cb=20241021140737",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Arlott/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Wandering Spear",
+          "skin_slug": "wandering_spear",
+          "skin_asset_id": "hero1202",
+          "tier": "Common",
+          "tags": [],
+          "portrait_file": "Hero1202-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/db/Hero1202-portrait.png",
+          "icon_file": "Hero1202-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/48/Hero1202-icon.png/revision/latest?cb=20230212040140",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/arlott/skins/wandering_spear/icon.png",
+            "portrait": "heroes/arlott/skins/wandering_spear/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/4/48/Hero1202-icon.png/revision/latest?cb=20230212040140",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/d/db/Hero1202-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Arlott/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Fury of the Deep",
+          "skin_slug": "fury_of_the_deep",
+          "skin_asset_id": "hero1203",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1203-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero1203-portrait.png",
+          "icon_file": "Hero1203-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/47/Hero1203-icon.png/revision/latest?cb=20240411083152",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/arlott/skins/fury_of_the_deep/icon.png",
+            "portrait": "heroes/arlott/skins/fury_of_the_deep/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/4/47/Hero1203-icon.png/revision/latest?cb=20240411083152",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero1203-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Arlott/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Aeon of Twilight",
+          "skin_slug": "aeon_of_twilight",
+          "skin_asset_id": "hero1204",
+          "tier": "Exquisite",
+          "tags": [
+            "Collector Skin Tag"
+          ],
+          "portrait_file": "Hero1204-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/28/Hero1204-portrait.png",
+          "icon_file": "Hero1204-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f5/Hero1204-icon.png/revision/latest?cb=20241013071707",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/arlott/skins/aeon_of_twilight/icon.png",
+            "portrait": "heroes/arlott/skins/aeon_of_twilight/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/f/f5/Hero1204-icon.png/revision/latest?cb=20241013071707",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/2/28/Hero1204-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Arlott/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Scorn of the Deep",
+          "skin_slug": "scorn_of_the_deep",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1203-color01-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Hero1203-color01-portrait.png",
+          "icon_file": "Hero1203-color01-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fa/Hero1203-color01-icon.png/revision/latest?cb=20240411083218",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/arlott/skins/scorn_of_the_deep/icon.png",
+            "portrait": "heroes/arlott/skins/scorn_of_the_deep/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/f/fa/Hero1203-color01-icon.png/revision/latest?cb=20240411083218",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Hero1203-color01-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Arlott/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Ire of the Deep",
+          "skin_slug": "ire_of_the_deep",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1203-color02-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Hero1203-color02-portrait.png",
+          "icon_file": "Hero1203-color02-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Hero1203-color02-icon.png/revision/latest?cb=20240411083230",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/arlott/skins/ire_of_the_deep/icon.png",
+            "portrait": "heroes/arlott/skins/ire_of_the_deep/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Hero1203-color02-icon.png/revision/latest?cb=20240411083230",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Hero1203-color02-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Arlott/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Lone Ambition",
+          "skin_slug": "lone_ambition",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [],
+          "portrait_file": "Tower1201-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9e/Tower1201-portrait.png",
+          "icon_file": "Tower1201-icon.png",
+          "icon_url": null,
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/arlott/skins/lone_ambition/icon.png",
+            "portrait": "heroes/arlott/skins/lone_ambition/portrait.png"
+          },
+          "sources": {
+            "icon": "https://akmweb.youngjoygame.com/web/madmin/image/bd640274b1595c6713c5c360c458a740.png?w=150-150-414254",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/9/9e/Tower1201-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Arlott/Cosmetics"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Novaria",
+      "slug": "novaria",
+      "heroid": "119",
+      "role": "Mid Laner",
+      "official_icon_url": "https://akmweb.youngjoygame.com/web/madmin/image/233e528d55a4c6083bd914c2768ac50d.png?w=150-150-704da9",
+      "official_page": "https://www.mobilelegends.com/hero",
+      "fandom_cosmetics_page": "https://mobile-legends.fandom.com/wiki/Novaria/Cosmetics",
+      "yolo_hero_class_id": 5,
+      "skins": [
+        {
+          "skin_name": "Star Rebel",
+          "skin_slug": "star_rebel",
+          "skin_asset_id": "hero1191",
+          "tier": "Default",
+          "tags": [],
+          "portrait_file": "Hero1191-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Hero1191-portrait.png/revision/latest?cb=20241021140722",
+          "icon_file": "Hero1191-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a1/Hero1191-icon.png/revision/latest?cb=20241021153339",
+          "is_default": true,
+          "paths": {
+            "icon": "heroes/novaria/skins/star_rebel/icon.png",
+            "portrait": "heroes/novaria/skins/star_rebel/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/a/a1/Hero1191-icon.png/revision/latest?cb=20241021153339",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Hero1191-portrait.png/revision/latest?cb=20241021140722",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Novaria/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Dark Star",
+          "skin_slug": "dark_star",
+          "skin_asset_id": "hero1192",
+          "tier": "Common",
+          "tags": [],
+          "portrait_file": "Hero1192-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/69/Hero1192-portrait.png",
+          "icon_file": "Hero1192-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/96/Hero1192-icon.png/revision/latest?cb=20230623131005",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/novaria/skins/dark_star/icon.png",
+            "portrait": "heroes/novaria/skins/dark_star/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/9/96/Hero1192-icon.png/revision/latest?cb=20230623131005",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/6/69/Hero1192-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Novaria/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Sugar Glaze",
+          "skin_slug": "sugar_glaze",
+          "skin_asset_id": "hero1193",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1193-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Hero1193-portrait.png",
+          "icon_file": "Hero1193-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fc/Hero1193-icon.png/revision/latest?cb=20240411082626",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/novaria/skins/sugar_glaze/icon.png",
+            "portrait": "heroes/novaria/skins/sugar_glaze/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/f/fc/Hero1193-icon.png/revision/latest?cb=20240411082626",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Hero1193-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Novaria/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Honey Glaze",
+          "skin_slug": "honey_glaze",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1193-color01-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Hero1193-color01-portrait.png",
+          "icon_file": "Hero1193-color01-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Hero1193-color01-icon.png/revision/latest?cb=20240411082818",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/novaria/skins/honey_glaze/icon.png",
+            "portrait": "heroes/novaria/skins/honey_glaze/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Hero1193-color01-icon.png/revision/latest?cb=20240411082818",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Hero1193-color01-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Novaria/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Aqua Glaze",
+          "skin_slug": "aqua_glaze",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1193-color02-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1c/Hero1193-color02-portrait.png",
+          "icon_file": "Hero1193-color02-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ef/Hero1193-color02-icon.png/revision/latest?cb=20240411082831",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/novaria/skins/aqua_glaze/icon.png",
+            "portrait": "heroes/novaria/skins/aqua_glaze/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/e/ef/Hero1193-color02-icon.png/revision/latest?cb=20240411082831",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/1/1c/Hero1193-color02-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Novaria/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Astral Renegade",
+          "skin_slug": "astral_renegade",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [],
+          "portrait_file": "Tower1191-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c0/Tower1191-portrait.png",
+          "icon_file": "Tower1191-icon.png",
+          "icon_url": null,
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/novaria/skins/astral_renegade/icon.png",
+            "portrait": "heroes/novaria/skins/astral_renegade/portrait.png"
+          },
+          "sources": {
+            "icon": "https://akmweb.youngjoygame.com/web/madmin/image/233e528d55a4c6083bd914c2768ac50d.png?w=150-150-704da9",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/c/c0/Tower1191-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Novaria/Cosmetics"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Joy",
+      "slug": "joy",
+      "heroid": "118",
+      "role": "Mid Laner",
+      "official_icon_url": "https://akmweb.youngjoygame.com/web/madmin/image/41ea7c650a26473c193f21e20fd123d6.png?w=500-499-926a2d",
+      "official_page": "https://www.mobilelegends.com/hero",
+      "fandom_cosmetics_page": "https://mobile-legends.fandom.com/wiki/Joy/Cosmetics",
+      "yolo_hero_class_id": 6,
+      "skins": [
+        {
+          "skin_name": "Flash of Miracle",
+          "skin_slug": "flash_of_miracle",
+          "skin_asset_id": "hero1181",
+          "tier": "Default",
+          "tags": [],
+          "portrait_file": "Hero1181-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fb/Hero1181-portrait.png/revision/latest?cb=20241021140707",
+          "icon_file": "Hero1181-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c1/Hero1181-icon.png/revision/latest?cb=20241021153333",
+          "is_default": true,
+          "paths": {
+            "icon": "heroes/joy/skins/flash_of_miracle/icon.png",
+            "portrait": "heroes/joy/skins/flash_of_miracle/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/c/c1/Hero1181-icon.png/revision/latest?cb=20241021153333",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/f/fb/Hero1181-portrait.png/revision/latest?cb=20241021140707",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Joy/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Feline Ranger",
+          "skin_slug": "feline_ranger",
+          "skin_asset_id": "hero1182",
+          "tier": "Common",
+          "tags": [],
+          "portrait_file": "Hero1182-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/28/Hero1182-portrait.png",
+          "icon_file": "Hero1182-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Hero1182-icon.png/revision/latest?cb=20221103135308",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/joy/skins/feline_ranger/icon.png",
+            "portrait": "heroes/joy/skins/feline_ranger/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Hero1182-icon.png/revision/latest?cb=20221103135308",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/2/28/Hero1182-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Joy/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Royal Protector",
+          "skin_slug": "royal_protector",
+          "skin_asset_id": "hero1184",
+          "tier": "Common",
+          "tags": [
+            "Elite"
+          ],
+          "portrait_file": "Hero1184-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/66/Hero1184-portrait.png",
+          "icon_file": "Hero1184-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/76/Hero1184-icon.png/revision/latest?cb=20240411082308",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/joy/skins/royal_protector/icon.png",
+            "portrait": "heroes/joy/skins/royal_protector/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/7/76/Hero1184-icon.png/revision/latest?cb=20240411082308",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/6/66/Hero1184-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Joy/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Exostar Scout",
+          "skin_slug": "exostar_scout",
+          "skin_asset_id": "hero1185",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1185-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6d/Hero1185-portrait.png",
+          "icon_file": "Hero1185-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2d/Hero1185-icon.png/revision/latest?cb=20250301113855",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/joy/skins/exostar_scout/icon.png",
+            "portrait": "heroes/joy/skins/exostar_scout/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/2/2d/Hero1185-icon.png/revision/latest?cb=20250301113855",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/6/6d/Hero1185-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Joy/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Exostar Runner",
+          "skin_slug": "exostar_runner",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1185-color01-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ad/Hero1185-color01-portrait.png",
+          "icon_file": "Hero1185-color01-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/52/Hero1185-color01-icon.png/revision/latest?cb=20250402105932",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/joy/skins/exostar_runner/icon.png",
+            "portrait": "heroes/joy/skins/exostar_runner/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/5/52/Hero1185-color01-icon.png/revision/latest?cb=20250402105932",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/a/ad/Hero1185-color01-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Joy/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Exostar Ranger",
+          "skin_slug": "exostar_ranger",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1185-color02-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dd/Hero1185-color02-portrait.png",
+          "icon_file": "Hero1185-color02-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/94/Hero1185-color02-icon.png/revision/latest?cb=20250402105858",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/joy/skins/exostar_ranger/icon.png",
+            "portrait": "heroes/joy/skins/exostar_ranger/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/9/94/Hero1185-color02-icon.png/revision/latest?cb=20250402105858",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/d/dd/Hero1185-color02-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Joy/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Rhythmic Flasher",
+          "skin_slug": "rhythmic_flasher",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [],
+          "portrait_file": "Tower1181-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b5/Tower1181-portrait.png",
+          "icon_file": "Tower1181-icon.png",
+          "icon_url": null,
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/joy/skins/rhythmic_flasher/icon.png",
+            "portrait": "heroes/joy/skins/rhythmic_flasher/portrait.png"
+          },
+          "sources": {
+            "icon": "https://akmweb.youngjoygame.com/web/madmin/image/41ea7c650a26473c193f21e20fd123d6.png?w=500-499-926a2d",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/b/b5/Tower1181-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Joy/Cosmetics"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fredrinn",
+      "slug": "fredrinn",
+      "heroid": "117",
+      "role": "Exp Laner",
+      "official_icon_url": "https://akmweb.youngjoygame.com/web/madmin/image/5157d0f32d6032a079d4437d3320dfe1.png?w=150-150-272323",
+      "official_page": "https://www.mobilelegends.com/hero",
+      "fandom_cosmetics_page": "https://mobile-legends.fandom.com/wiki/Fredrinn/Cosmetics",
+      "yolo_hero_class_id": 7,
+      "skins": [
+        {
+          "skin_name": "Rogue Appraiser",
+          "skin_slug": "rogue_appraiser",
+          "skin_asset_id": "hero1171",
+          "tier": "Default",
+          "tags": [],
+          "portrait_file": "Hero1171-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/78/Hero1171-portrait.png/revision/latest?cb=20241021140652",
+          "icon_file": "Hero1171-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f4/Hero1171-icon.png/revision/latest?cb=20241021153327",
+          "is_default": true,
+          "paths": {
+            "icon": "heroes/fredrinn/skins/rogue_appraiser/icon.png",
+            "portrait": "heroes/fredrinn/skins/rogue_appraiser/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/f/f4/Hero1171-icon.png/revision/latest?cb=20241021153327",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/7/78/Hero1171-portrait.png/revision/latest?cb=20241021140652",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Fredrinn/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Regal Renegade",
+          "skin_slug": "regal_renegade",
+          "skin_asset_id": "hero1172",
+          "tier": "Common",
+          "tags": [],
+          "portrait_file": "Hero1172-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6a/Hero1172-portrait.png",
+          "icon_file": "Hero1172-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Hero1172-icon.png/revision/latest?cb=20220805125404",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/fredrinn/skins/regal_renegade/icon.png",
+            "portrait": "heroes/fredrinn/skins/regal_renegade/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Hero1172-icon.png/revision/latest?cb=20220805125404",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/6/6a/Hero1172-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Fredrinn/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Jewel Connoisseur",
+          "skin_slug": "jewel_connoisseur",
+          "skin_asset_id": "hero1173",
+          "tier": "Common",
+          "tags": [
+            "Elite"
+          ],
+          "portrait_file": "Hero1173-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/92/Hero1173-portrait.png",
+          "icon_file": "Hero1173-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3b/Hero1173-icon.png/revision/latest?cb=20221217033858",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/fredrinn/skins/jewel_connoisseur/icon.png",
+            "portrait": "heroes/fredrinn/skins/jewel_connoisseur/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/3/3b/Hero1173-icon.png/revision/latest?cb=20221217033858",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/9/92/Hero1173-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Fredrinn/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Neobeast Fredrinn",
+          "skin_slug": "neobeast_fredrinn",
+          "skin_asset_id": "hero1174",
+          "tier": "Grand",
+          "tags": [
+            "Neobeasts Skin Tag"
+          ],
+          "portrait_file": "Hero1174-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8f/Hero1174-portrait.png",
+          "icon_file": "Hero1174-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Hero1174-icon.png/revision/latest?cb=20230805044013",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/fredrinn/skins/neobeast_fredrinn/icon.png",
+            "portrait": "heroes/fredrinn/skins/neobeast_fredrinn/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Hero1174-icon.png/revision/latest?cb=20230805044013",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/8/8f/Hero1174-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Fredrinn/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "SPARKLE Fredrinn",
+          "skin_slug": "sparkle_fredrinn",
+          "skin_asset_id": "hero1175",
+          "tier": "Deluxe",
+          "tags": [
+            "Sparkle Skin Tag"
+          ],
+          "portrait_file": "Hero1175-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0c/Hero1175-portrait.png",
+          "icon_file": "Hero1175-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/33/Hero1175-icon.png/revision/latest?cb=20240411075701",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/fredrinn/skins/sparkle_fredrinn/icon.png",
+            "portrait": "heroes/fredrinn/skins/sparkle_fredrinn/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/3/33/Hero1175-icon.png/revision/latest?cb=20240411075701",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/0/0c/Hero1175-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Fredrinn/Cosmetics"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Julian",
+      "slug": "julian",
+      "heroid": "116",
+      "role": "Exp Laner",
+      "official_icon_url": "https://akmweb.youngjoygame.com/web/madmin/image/7eb35b7780eaa94993aaada931b28adb.png?w=150-150-0d1318",
+      "official_page": "https://www.mobilelegends.com/hero",
+      "fandom_cosmetics_page": "https://mobile-legends.fandom.com/wiki/Julian/Cosmetics",
+      "yolo_hero_class_id": 8,
+      "skins": [
+        {
+          "skin_name": "Scarlet Raven",
+          "skin_slug": "scarlet_raven",
+          "skin_asset_id": "hero1161",
+          "tier": "Default",
+          "tags": [],
+          "portrait_file": "Hero1161-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0c/Hero1161-portrait.png/revision/latest?cb=20241021140636",
+          "icon_file": "Hero1161-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c2/Hero1161-icon.png/revision/latest?cb=20241021153321",
+          "is_default": true,
+          "paths": {
+            "icon": "heroes/julian/skins/scarlet_raven/icon.png",
+            "portrait": "heroes/julian/skins/scarlet_raven/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/c/c2/Hero1161-icon.png/revision/latest?cb=20241021153321",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/0/0c/Hero1161-portrait.png/revision/latest?cb=20241021140636",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Julian/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Silent Edge",
+          "skin_slug": "silent_edge",
+          "skin_asset_id": "hero1162",
+          "tier": "Common",
+          "tags": [],
+          "portrait_file": "Hero1162-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/de/Hero1162-portrait.png",
+          "icon_file": "Hero1162-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3a/Hero1162-icon.png/revision/latest?cb=20220525115601",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/julian/skins/silent_edge/icon.png",
+            "portrait": "heroes/julian/skins/silent_edge/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/3/3a/Hero1162-icon.png/revision/latest?cb=20220525115601",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/d/de/Hero1162-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Julian/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Megumi Fushiguro",
+          "skin_slug": "megumi_fushiguro",
+          "skin_asset_id": "hero1163",
+          "tier": "Grand",
+          "tags": [
+            "Jujutsu Kaisen Skin Tag"
+          ],
+          "portrait_file": "Hero1163-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/49/Hero1163-portrait.png",
+          "icon_file": "Hero1163-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/df/Hero1163-icon.png/revision/latest?cb=20230212040135",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/julian/skins/megumi_fushiguro/icon.png",
+            "portrait": "heroes/julian/skins/megumi_fushiguro/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/d/df/Hero1163-icon.png/revision/latest?cb=20230212040135",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/4/49/Hero1163-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Julian/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Meowkin Tracker",
+          "skin_slug": "meowkin_tracker",
+          "skin_asset_id": "hero1166",
+          "tier": "Deluxe",
+          "tags": [
+            "Mystic Meow Skin Tag"
+          ],
+          "portrait_file": "Hero1166-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fb/Hero1166-portrait.png",
+          "icon_file": "Hero1166-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5c/Hero1166-icon.png/revision/latest?cb=20250106155511",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/julian/skins/meowkin_tracker/icon.png",
+            "portrait": "heroes/julian/skins/meowkin_tracker/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/5/5c/Hero1166-icon.png/revision/latest?cb=20250106155511",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/f/fb/Hero1166-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Julian/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Kurapika",
+          "skin_slug": "kurapika",
+          "skin_asset_id": "hero1167",
+          "tier": "Grand",
+          "tags": [
+            "HUNTER×HUNTER Skin Tag"
+          ],
+          "portrait_file": "Hero1167-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8d/Hero1167-portrait.png",
+          "icon_file": "Hero1167-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/94/Hero1167-icon.png/revision/latest?cb=20241201053537",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/julian/skins/kurapika/icon.png",
+            "portrait": "heroes/julian/skins/kurapika/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/9/94/Hero1167-icon.png/revision/latest?cb=20241201053537",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/8/8d/Hero1167-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Julian/Cosmetics"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Xavier",
+      "slug": "xavier",
+      "heroid": "115",
+      "role": "Mid Laner",
+      "official_icon_url": "https://akmweb.youngjoygame.com/web/madmin/image/3773d63a9d3f37b16106ad6eb7d32a39.png?w=150-150-fffffe",
+      "official_page": "https://www.mobilelegends.com/hero",
+      "fandom_cosmetics_page": "https://mobile-legends.fandom.com/wiki/Xavier/Cosmetics",
+      "yolo_hero_class_id": 9,
+      "skins": [
+        {
+          "skin_name": "Defier of Light",
+          "skin_slug": "defier_of_light",
+          "skin_asset_id": "hero1151",
+          "tier": "Default",
+          "tags": [],
+          "portrait_file": "Hero1151-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero1151-portrait.png/revision/latest?cb=20241021143446",
+          "icon_file": "Hero1151-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Hero1151-icon.png/revision/latest?cb=20241021153316",
+          "is_default": true,
+          "paths": {
+            "icon": "heroes/xavier/skins/defier_of_light/icon.png",
+            "portrait": "heroes/xavier/skins/defier_of_light/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Hero1151-icon.png/revision/latest?cb=20241021153316",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero1151-portrait.png/revision/latest?cb=20241021143446",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Xavier/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Verdict of Light",
+          "skin_slug": "verdict_of_light",
+          "skin_asset_id": "hero1152",
+          "tier": "Common",
+          "tags": [],
+          "portrait_file": "Hero1152-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5f/Hero1152-portrait.png",
+          "icon_file": "Hero1152-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/34/Hero1152-icon.png/revision/latest?cb=20220401091159",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/xavier/skins/verdict_of_light/icon.png",
+            "portrait": "heroes/xavier/skins/verdict_of_light/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/3/34/Hero1152-icon.png/revision/latest?cb=20220401091159",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/5/5f/Hero1152-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Xavier/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Satoru Gojo",
+          "skin_slug": "satoru_gojo",
+          "skin_asset_id": "hero1153",
+          "tier": "Grand",
+          "tags": [
+            "Jujutsu Kaisen Skin Tag"
+          ],
+          "portrait_file": "Hero1153-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/51/Hero1153-portrait.png",
+          "icon_file": "Hero1153-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Hero1153-icon.png/revision/latest?cb=20230212040133",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/xavier/skins/satoru_gojo/icon.png",
+            "portrait": "heroes/xavier/skins/satoru_gojo/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Hero1153-icon.png/revision/latest?cb=20230212040133",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/5/51/Hero1153-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Xavier/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Hardlight Artificer",
+          "skin_slug": "hardlight_artificer",
+          "skin_asset_id": "hero1154",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1154-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7c/Hero1154-portrait.png",
+          "icon_file": "Hero1154-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/cf/Hero1154-icon.png/revision/latest?cb=20241013073226",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/xavier/skins/hardlight_artificer/icon.png",
+            "portrait": "heroes/xavier/skins/hardlight_artificer/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/c/cf/Hero1154-icon.png/revision/latest?cb=20241013073226",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/7/7c/Hero1154-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Xavier/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Beyond the Clouds Xavier",
+          "skin_slug": "beyond_the_clouds_xavier",
+          "skin_asset_id": "hero1155",
+          "tier": "Exquisite",
+          "tags": [
+            "Clouds Skin Tag"
+          ],
+          "portrait_file": "Hero1155-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero1155-portrait.png",
+          "icon_file": "Hero1155-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/bf/Hero1155-icon.png/revision/latest?cb=20230805044012",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/xavier/skins/beyond_the_clouds_xavier/icon.png",
+            "portrait": "heroes/xavier/skins/beyond_the_clouds_xavier/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/b/bf/Hero1155-icon.png/revision/latest?cb=20230805044012",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero1155-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Xavier/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Lightwave Artificer",
+          "skin_slug": "lightwave_artificer",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1154-color01-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/aa/Hero1154-color01-portrait.png",
+          "icon_file": "Hero1154-color01-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f7/Hero1154-color01-icon.png/revision/latest?cb=20241013073223",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/xavier/skins/lightwave_artificer/icon.png",
+            "portrait": "heroes/xavier/skins/lightwave_artificer/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/f/f7/Hero1154-color01-icon.png/revision/latest?cb=20241013073223",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/a/aa/Hero1154-color01-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Xavier/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Holotech Artificer",
+          "skin_slug": "holotech_artificer",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [
+            "Starlight"
+          ],
+          "portrait_file": "Hero1154-color02-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/47/Hero1154-color02-portrait.png",
+          "icon_file": "Hero1154-color02-icon.png",
+          "icon_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/35/Hero1154-color02-icon.png/revision/latest?cb=20241013073224",
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/xavier/skins/holotech_artificer/icon.png",
+            "portrait": "heroes/xavier/skins/holotech_artificer/portrait.png"
+          },
+          "sources": {
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/3/35/Hero1154-color02-icon.png/revision/latest?cb=20241013073224",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/4/47/Hero1154-color02-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Xavier/Cosmetics"
+          }
+        },
+        {
+          "skin_name": "Light of Defiance",
+          "skin_slug": "light_of_defiance",
+          "skin_asset_id": "",
+          "tier": "Exceptional",
+          "tags": [],
+          "portrait_file": "Tower1151-portrait.png",
+          "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/db/Tower1151-portrait.png",
+          "icon_file": "Tower1151-icon.png",
+          "icon_url": null,
+          "is_default": false,
+          "paths": {
+            "icon": "heroes/xavier/skins/light_of_defiance/icon.png",
+            "portrait": "heroes/xavier/skins/light_of_defiance/portrait.png"
+          },
+          "sources": {
+            "icon": "https://akmweb.youngjoygame.com/web/madmin/image/3773d63a9d3f37b16106ad6eb7d32a39.png?w=150-150-fffffe",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/d/db/Tower1151-portrait.png",
+            "fandom_cosmetics": "https://mobile-legends.fandom.com/wiki/Xavier/Cosmetics"
+          }
+        }
+      ]
+    }
+  ]
+}
